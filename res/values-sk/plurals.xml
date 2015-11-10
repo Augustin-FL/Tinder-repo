@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="common_connections_plural">
+        <item quantity="other">%d spoločných známych</item>
+        <item quantity="one">%d spoločný známy</item>
+        <item quantity="few">%d spoloční známi</item>
+    </plurals>
+    <plurals name="distance_units_away_km">
+        <item quantity="other">%d km ďaleko</item>
+        <item quantity="one">%d km ďaleko</item>
+        <item quantity="few">%d km ďaleko</item>
+    </plurals>
+    <plurals name="distance_units_away_mi">
+        <item quantity="other">%d míľ ďaleko</item>
+        <item quantity="one">%d míľu ďaleko</item>
+        <item quantity="few">%d míle ďaleko</item>
+    </plurals>
+    <plurals name="friends_for_common_connections_plural">
+        <item quantity="other">%d priateľov na nájdenie spoločných známych</item>
+        <item quantity="one">%d priateľ na nájdenie spoločných známych</item>
+        <item quantity="few">%d priatelia na nájdenie spoločných známych</item>
+    </plurals>
+    <plurals name="hours_left_plural">
+        <item quantity="other">Zostáva %d hodín</item>
+        <item quantity="one">Zostáva %d hodina</item>
+        <item quantity="few">Zostávajú %d hodiny</item>
+    </plurals>
+    <plurals name="instagram_photos_plural">
+        <item quantity="other">%d fotiek z Instagramu</item>
+        <item quantity="one">%d fotka z Instagramu</item>
+        <item quantity="few">%d fotky z Instagramu</item>
+    </plurals>
+    <plurals name="interests_plural">
+        <item quantity="other">%d záujmov</item>
+        <item quantity="one">%d záujem</item>
+        <item quantity="few">%d záujmy</item>
+    </plurals>
+    <plurals name="likes_plural">
+        <item quantity="other">%d označení „páči sa mi“</item>
+        <item quantity="one">%d označenie „páči sa mi“</item>
+        <item quantity="few">%d označenia „páči sa mi“</item>
+    </plurals>
+    <plurals name="minutes_left_plural">
+        <item quantity="other">Zostáva %d minút</item>
+        <item quantity="one">Zostáva %d minúta</item>
+        <item quantity="few">Zostávajú %d minúty</item>
+    </plurals>
+    <plurals name="num_moments">
+        <item quantity="other">%d momentiek</item>
+        <item quantity="one">%d momentka</item>
+        <item quantity="few">%d momentky</item>
+    </plurals>
+    <plurals name="photo_count_plural">
+        <item quantity="other">%d fotiek</item>
+        <item quantity="one">%d fotka</item>
+        <item quantity="few">%d fotky</item>
+    </plurals>
+    <plurals name="plus_paywall_option_text">
+        <item quantity="other">%1$s MESIACOV ZA %2$s/mes.</item>
+        <item quantity="one">%1$s MESIAC ZA %2$s/mes.</item>
+        <item quantity="few">%1$s MESIACE ZA %2$s/mes.</item>
+    </plurals>
+</resources>

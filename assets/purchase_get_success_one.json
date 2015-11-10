@@ -1,0 +1,12 @@
+{
+  "status": 200,
+  "results": [
+    {
+      "_id": "54248a6be34ec09c7b91aa71",
+      "product_id": "plus_subscription_a",
+      "product_type": "plus",
+      "purchase_type": "subscription",
+      "create_date": "2014-09-25T21:34:35.637Z"
+    }
+  ]
+}

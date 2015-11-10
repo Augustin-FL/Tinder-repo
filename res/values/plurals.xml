@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="common_connections_plural">
+        <item quantity="other">%d Common Connections</item>
+        <item quantity="one">%d Common Connection</item>
+        <item quantity="few">%d Common Connections</item>
+        <item quantity="many">%d Common Connections</item>
+    </plurals>
+    <plurals name="distance_units_away_km">
+        <item quantity="other">%d kilometers away</item>
+        <item quantity="one">%d kilometer away</item>
+        <item quantity="few">%d kilometers away</item>
+        <item quantity="many">%d kilometers away</item>
+    </plurals>
+    <plurals name="distance_units_away_mi">
+        <item quantity="other">%d miles away</item>
+        <item quantity="one">%d mile away</item>
+        <item quantity="few">%d miles away</item>
+        <item quantity="many">%d miles away</item>
+    </plurals>
+    <plurals name="friends_for_common_connections_plural">
+        <item quantity="other">%d Friends for Common Connections</item>
+        <item quantity="one">%d Friend for Common Connections</item>
+        <item quantity="few">%d Friends for Common Connections</item>
+        <item quantity="many">%d Friends for Common Connections</item>
+    </plurals>
+    <plurals name="hours_left_plural">
+        <item quantity="other">%d hours left</item>
+        <item quantity="one">%d hour left</item>
+        <item quantity="few">%d hours left</item>
+        <item quantity="many">%d hours left</item>
+    </plurals>
+    <plurals name="instagram_photos_plural">
+        <item quantity="other">%d Instagram Photos</item>
+        <item quantity="one">%d Instagram Photo</item>
+        <item quantity="few">%d Instagram Photos</item>
+        <item quantity="many">%d Instagram Photos</item>
+    </plurals>
+    <plurals name="interests_plural">
+        <item quantity="other">%d Interests</item>
+        <item quantity="one">%d Interest</item>
+        <item quantity="few">%d Interests</item>
+        <item quantity="many">%d Interests</item>
+    </plurals>
+    <plurals name="likes_plural">
+        <item quantity="other">%d likes</item>
+        <item quantity="one">%d like</item>
+        <item quantity="few">%d likes</item>
+    </plurals>
+    <plurals name="minutes_left_plural">
+        <item quantity="other">%d minutes left</item>
+        <item quantity="one">%d minute left</item>
+        <item quantity="few">%d minutes left</item>
+        <item quantity="many">%d minutes left</item>
+    </plurals>
+    <plurals name="num_moments">
+        <item quantity="other">%d Moments</item>
+        <item quantity="one">%d Moment</item>
+        <item quantity="few">%d Moments</item>
+        <item quantity="many">%d Moments</item>
+    </plurals>
+    <plurals name="photo_count_plural">
+        <item quantity="other">%d photos</item>
+        <item quantity="one">%d photo</item>
+        <item quantity="few">%d photos</item>
+        <item quantity="many">%d photos</item>
+    </plurals>
+    <plurals name="plus_paywall_option_text">
+        <item quantity="other">%1$s MONTHS FOR %2$s/mo</item>
+        <item quantity="one">%1$s MONTH FOR %2$s/mo</item>
+    </plurals>
+</resources>

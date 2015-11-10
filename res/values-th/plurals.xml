@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="common_connections_plural">
+        <item quantity="other">คนรู้จักเหมือนกัน %d คน</item>
+    </plurals>
+    <plurals name="distance_units_away_km">
+        <item quantity="other">ห่าง %d กิโลเมตร</item>
+    </plurals>
+    <plurals name="distance_units_away_mi">
+        <item quantity="other">ห่าง %d ไมล์</item>
+    </plurals>
+    <plurals name="friends_for_common_connections_plural">
+        <item quantity="other">เพื่อน %d คน ที่มีคนรู้จักเหมือนกัน</item>
+    </plurals>
+    <plurals name="hours_left_plural">
+        <item quantity="other">เหลือ %d ชั่วโมง</item>
+    </plurals>
+    <plurals name="instagram_photos_plural">
+        <item quantity="other">รูปภาพ Instagram %d ภาพ</item>
+    </plurals>
+    <plurals name="interests_plural">
+        <item quantity="other">%d ความสนใจ</item>
+    </plurals>
+    <plurals name="likes_plural">
+        <item quantity="other">ถูกใจ %d คน</item>
+    </plurals>
+    <plurals name="minutes_left_plural">
+        <item quantity="other">เหลือ %d นาที</item>
+    </plurals>
+    <plurals name="num_moments">
+        <item quantity="other">%d โมเม้นต์</item>
+    </plurals>
+    <plurals name="photo_count_plural">
+        <item quantity="other">%d รูป</item>
+    </plurals>
+    <plurals name="plus_paywall_option_text">
+        <item quantity="other">%1$s เดือน สำหรับ %2$s/เดือน</item>
+    </plurals>
+</resources>

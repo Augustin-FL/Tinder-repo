@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:id="@id/layout_frag_recs" app:background="@c1470c/white" app:clipChildren="false" app:clipToPadding="false" app:persistentDrawingCache="1" app:layout_width="-1" app:layout_height="-1">
+    <ImageView app:id="@id/discover_off_cards" app:layout_width="@dimen/view_card_width" app:layout_height="@dimen/view_card_height" app:layout_marginBottom="@dimen/margin_med" app:src="@drawable/discoverhidden_cards_icon" app:scaleType="7" app:layout_above="@id/discover_off_buttons" app:layout_centerHorizontal="true" />
+    <LinearLayout app:gravity="11" app:orientation="1" app:padding="@dimen/padding_large" app:layout_width="-2" app:layout_height="-2" app:layout_alignLeft="@id/discover_off_cards" app:layout_alignTop="@id/discover_off_cards" app:layout_alignRight="@id/discover_off_cards" app:layout_alignBottom="@id/discover_off_cards">
+        <com.tinder.views.CustomTextView app:textSize="@dimen/discover_off_hidden_text" app:textColor="@c1470c/black" app:gravity="11" app:layout_width="-2" app:layout_height="-2" app:text="@string/hidden_in_discover" app:font="0" />
+        <com.tinder.views.CustomTextView app:textSize="@dimen/discover_off_turn_on_text" app:textColor="@c1470c/black" app:gravity="11" app:layout_width="-2" app:layout_height="-2" app:text="@string/turn_on_discover_meet" app:font="0" />
+        <com.tinder.views.CustomTextView app:id="@id/view_turn_on_discover_mode" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@dimen/margin_large" app:text="@string/turn_on_discover_mode" app:drawableLeft="@drawable/discoverhidden_turnondiscover_icon" app:drawablePadding="@dimen/padding_med" app:contentDescription="@string/turn_on_discover_button" style="@style/orange_rect_button" font="regular" />
+    </LinearLayout>
+    <ImageView app:id="@id/discover_off_buttons" app:layout_width="-2" app:layout_height="-2" app:layout_marginBottom="@dimen/margin_large" app:src="@drawable/discoverhidden_buttons_icon" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true" />
+</RelativeLayout>

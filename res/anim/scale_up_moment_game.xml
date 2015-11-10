@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale android:interpolator="0x10a0008" android:duration="225" android:pivotX="50%p" android:pivotY="15%p" android:fromXScale="90%p" android:toXScale="100%p" android:fromYScale="0.0" android:toYScale="100%p" />

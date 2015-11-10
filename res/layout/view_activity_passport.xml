@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:orientation="1" app:background="@c1470c/white" app:layout_width="-1" app:layout_height="-1"
+    <RelativeLayout app:id="@id/actionbar_passport" app:background="@c1470c/white" app:layout_width="-1" app:layout_height="@dimen/actionbar_size" app:layout_alignParentTop="true">
+        <ImageButton app:id="@id/view_back_icon" app:contentDescription="actionbar_left_button" style="@style/ab_back_button" />
+        <ImageView app:id="@id/imageView_icon" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/passport_actionbar_title_normal" app:layout_toRightOf="@id/view_back_icon" app:layout_centerVertical="true" />
+        <ImageView app:id="@id/actionbar_mylocation" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="@dimen/margin_med" app:src="@drawable/passport_gps_disabled" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+        <ImageView app:id="@id/maps_search_icon" app:background="@c3374b/SmoothProgressBar_spbStyle" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@dimen/margin_small" app:src="@drawable/actionbar_search_normal" app:layout_toRightOf="@id/imageView_icon" app:layout_centerVertical="true" app:scaleX="0.9" app:scaleY="0.9" />
+        <com.tinder.views.CustomTextView app:textSize="@dimen/text_xlarge" app:textColor="@color/text_hint_color" app:background="@c3374b/SmoothProgressBar_spbStyle" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@dimen/margin_xsmall" app:singleLine="true" app:layout_toRightOf="@id/maps_search_icon" app:layout_centerVertical="true" app:font="0" />
+        <com.tinder.views.CustomEditText app:textColor="@color/text_dark" app:textColorHint="@color/text_hint_color" app:id="@id/passport_edittext_search" app:background="@c3374b/SmoothProgressBar_spbStyle" app:paddingLeft="@dimen/padding_small" app:focusableInTouchMode="false" app:layout_width="-1" app:layout_height="-1" app:layout_marginRight="@dimen/margin_small" app:hint="@string/passport_search_hint" app:cursorVisible="false" app:singleLine="true" app:layout_toLeftOf="@id/actionbar_mylocation" app:layout_toRightOf="@id/maps_search_icon" app:inputType="12001" app:imeOptions="3" app:font="0" />
+        <View app:id="@id/ab_divider" app:layout_alignParentBottom="true" style="@style/ab_divider" />
+        <View app:id="@id/maps_search_underline" app:background="@color/text_hint_color" app:layout_width="-1" app:layout_height="@dimen/edittext_underline_height" app:layout_marginLeft="@dimen/margin_small" app:layout_marginRight="@dimen/margin_small" app:layout_toLeftOf="@id/actionbar_mylocation" app:layout_toRightOf="@id/imageView_icon" app:layout_alignBottom="@id/imageView_icon" />
+    </RelativeLayout>
+    <com.tinder.views.MapFrameLayout app:id="@id/map_container_frame" app:layout_width="-1" app:layout_height="-1" app:layout_below="@id/actionbar_passport" app:isScrollContainer="true">
+        <fragment app:id="@id/fragment_map" app:layout_width="-1" app:layout_height="-1" class="com.tinder.fragments.FragmentMap" name="com.tinder.fragments.FragmentMap" />
+    </com.tinder.views.MapFrameLayout>
+    <FrameLayout app:id="@id/passport_search_layout" app:background="@c1470c/white" app:visibility="2" app:clipChildren="true" app:clipToPadding="true" app:layout_width="-1" app:layout_height="-1" app:layout_below="@id/actionbar_passport">
+        <ListView app:id="@id/passport_search_list" app:background="@c1470c/white" app:layout_width="-1" app:layout_height="-1" />
+        <ProgressBar app:layout_gravity="11" app:id="@id/passport_search_progress" app:visibility="1" app:layout_width="-2" app:layout_height="-2" app:indeterminate="true" />
+    </FrameLayout>
+</RelativeLayout>

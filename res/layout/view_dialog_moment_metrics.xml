@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:orientation="1" app:background="@c3374b/SmoothProgressBar_spbStyle" app:layout_width="-1" app:layout_height="-1">
+    <com.tinder.views.RoundedRelativeLayout app:layout_gravity="11" app:id="@id/dialog_moment_metric_rounded_layout" app:layout_width="-1" app:layout_height="-1" app:corners="@dimen/rounded_card_radius">
+        <ImageView app:id="@id/dialog_moment_metric_img" app:layout_width="-1" app:layout_height="-1" app:src="@color/gray_dark" app:scaleType="6" />
+        <View app:id="@id/dialog_moment_metric_img_copy_bg" app:background="@color/very_translucent_black" app:layout_width="-1" app:layout_height="-1" app:alpha="0.0" />
+        <ImageView app:id="@id/dialog_moment_metric_img_copy" app:layout_width="-1" app:layout_height="-1" app:alpha="0.0" />
+        <RelativeLayout app:id="@id/dialog_moment_metric_layout_ui" app:layout_width="-1" app:layout_height="-1">
+            <com.tinder.views.CustomTextView app:textSize="@dimen/text_med" app:textColor="@c1470c/white" app:gravity="11" app:id="@id/dialog_moment_metric_txt_timeLeft" app:visibility="1" app:layout_width="-2" app:layout_height="-2" app:layout_margin="@dimen/margin_med" app:drawableLeft="@drawable/mymoments_viewer_timeleft" app:drawablePadding="@dimen/padding_xxsmall" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" app:layout_centerInParent="true" app:contentDescription="@string/text_moment_timeleft" />
+            <com.tinder.views.CustomTextView app:textSize="@dimen/text_med" app:textColor="@c1470c/white" app:gravity="11" app:id="@id/dialog_moment_metric_txt_likes" app:clickable="true" app:layout_width="-2" app:layout_height="-2" app:layout_margin="@dimen/margin_med" app:drawableLeft="@drawable/mymoments_viewer_likes" app:drawablePadding="@dimen/padding_xxsmall" app:layout_alignParentLeft="true" app:layout_alignParentBottom="true" app:layout_centerInParent="true" />
+            <ImageButton app:id="@id/dialog_moment_metric_btn_save" app:background="@c3374b/SmoothProgressBar_spbStyle" app:layout_width="-2" app:layout_height="-2" app:layout_margin="@dimen/margin_med" app:src="@drawable/mymoments_viewer_download" app:layout_toRightOf="@id/dialog_moment_metric_txt_likes" app:layout_alignParentBottom="true" />
+            <ImageButton app:id="@id/dialog_moment_metric_btn_delete" app:background="@c3374b/SmoothProgressBar_spbStyle" app:layout_width="-2" app:layout_height="-2" app:layout_margin="@dimen/margin_med" app:src="@drawable/mymoments_viewer_delete" app:layout_alignParentRight="true" app:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <FrameLayout app:id="@id/frame_layout_moment_metric_progress" app:background="@color/very_translucent_black" app:visibility="2" app:layout_width="-1" app:layout_height="-1">
+            <ProgressBar app:layout_gravity="11" app:id="@id/progress_spinner" app:layout_width="-2" app:layout_height="-2" app:indeterminate="true" />
+        </FrameLayout>
+        <View app:id="@id/dialog_moment_metric_overlay" app:background="@color/moment_metric_overlay_translucent" app:layout_width="-1" app:layout_height="-1" app:alpha="0.0" />
+    </com.tinder.views.RoundedRelativeLayout>
+    <ListView app:id="@id/dialog_moment_metric_listview" app:scrollbars="0" app:layout_width="-1" app:layout_height="-1" app:divider="@color/translucent_gray_light" app:alpha="0.0" />
+</FrameLayout>

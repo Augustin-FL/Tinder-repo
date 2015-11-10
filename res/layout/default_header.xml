@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+    <FrameLayout android:id="@id/ptr_content" android:background="?unknown_attr_ref: 1010031" android:layout_width="-1" android:layout_height="48dp">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:gravity="11" android:id="@id/ptr_text" android:layout_width="-1" android:layout_height="-1" />
+    </FrameLayout>
+    <fr.castorflex.android.smoothprogressbar.SmoothProgressBar android:id="@id/ptr_progress" android:layout_width="-1" android:layout_height="-2" android:minHeight="@dimen/ptr_progress_bar_stroke_width" />
+</RelativeLayout>

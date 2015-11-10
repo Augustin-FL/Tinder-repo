@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compass_directions">
+        <item>N</item>
+        <item>NE</item>
+        <item>E</item>
+        <item>SE</item>
+        <item>S</item>
+        <item>SO</item>
+        <item>O</item>
+        <item>NO</item>
+    </string-array>
+    <string-array name="full_compass_directions">
+        <item>nord</item>
+        <item>nord-est</item>
+        <item>est</item>
+        <item>sud-est</item>
+        <item>sud</item>
+        <item>sud-ouest</item>
+        <item>ouest</item>
+        <item>nord-ouest</item>
+    </string-array>
+    <string-array name="empty_message_suggestions">
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Parlez des amis que vous avez en commun.</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Crickets…</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Allez-y!</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Tout le monde aime une personne attentionnée.</item>
+        <item>Discutez avec votre match</item>
+        <item>Envoyez un compliment et observez ce qui se passe.</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Soyez polis… dites quelques mots!</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Soyez polis… dites quelques mots!</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>En combien de langues pouvez-vous taper?</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Inclure un compliment ci-dessous.</item>
+        <item>Inclure un message amusant ci-dessous.</item>
+        <item>Inclure un gentil message ci-dessous.</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Donnez le sourire à cette personne.</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Envoyez un petit mot!</item>
+        <item>Dites quelque chose de drôle!</item>
+        <item>Dites quelque chose de sympa à propos des photos</item>
+        <item>Dites quelque chose de gentil!</item>
+        <item>Dites quelque chose de spirituel!</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Pourquoi ne lui avez-vous pas passé un petit bonjour?</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+        <item>Discutez avec votre match</item>
+    </string-array>
+    <string-array name="ordinals">
+        <item>0</item>
+        <item>1er</item>
+        <item>2d</item>
+        <item>3e</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:layout_gravity="11" app:orientation="1" app:layout_width="-1" app:layout_height="-1">
+    <com.tinder.views.CustomTextView app:textSize="@dimen/text_xlarge" app:layout_gravity="1" app:id="@id/textView" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="20dp" app:layout_marginBottom="6dp" app:text="@string/low_on_likes_title" app:font="2" style="@style/report_dialog_title" />
+    <TextView app:textSize="@dimen/text_small" app:textColor="@color/text_light" app:gravity="11" app:layout_width="-2" app:layout_height="-2" app:text="@string/low_on_likes_text" app:lineSpacingMultiplier="1.25" style="@style/report_dialog_details" />
+    <LinearLayout app:gravity="1" app:orientation="0" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="8dp" app:layout_marginBottom="20dp">
+        <TextView app:textSize="@dimen/text_small" app:gravity="15" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="10dp" app:text="@string/low_on_likes_get_unlimited_likes" style="@style/report_dialog_details" />
+        <com.tinder.views.CustomButton app:textSize="@dimen/text_xsmall" app:gravity="11" app:id="@id/txt_choice_one" app:padding="6dp" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="0dp" app:minWidth="0px" app:minHeight="0px" app:text="@string/low_on_likes_show_me" app:font="2" style="@style/grey_rect_button" />
+    </LinearLayout>
+</LinearLayout>

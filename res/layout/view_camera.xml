@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:id="@id/relative" app:layout_width="-1" app:layout_height="-1">
+    <SurfaceView app:id="@id/surface" app:layout_width="-1" app:layout_height="-1" />
+    <RelativeLayout app:gravity="11" app:background="@drawable/photogallery" app:padding="6dp" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="@dimen/margin_small" app:layout_marginBottom="@dimen/margin_xlarge" app:layout_toLeftOf="@id/btn_shoot" app:layout_alignParentBottom="true">
+        <com.tinder.views.RoundImageView app:id="@id/btn_gallery" app:layout_width="36dp" app:layout_height="36dp" app:scaleType="6" app:defaultStyle="a" />
+    </RelativeLayout>
+    <ImageView app:id="@id/btn_shoot" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@dimen/margin_small" app:layout_marginBottom="@dimen/margin_med" app:src="@drawable/shutter_icon" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true" app:contentDescription="@string/btn_shoot" />
+    <ImageView app:id="@id/btn_camera_options" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@dimen/margin_small" app:layout_marginBottom="@dimen/margin_xlarge" app:src="@drawable/settingstoggle_icon" app:layout_toRightOf="@id/btn_shoot" app:layout_alignParentBottom="true" />
+</RelativeLayout>

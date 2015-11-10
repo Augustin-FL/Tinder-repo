@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:background="@c1470c/white" app:layout_width="-1" app:layout_height="-1"
+    <RelativeLayout app:id="@id/relative" app:layout_width="-1" app:layout_height="@dimen/match_frag_header_height" app:layout_alignParentTop="true">
+        <View app:id="@id/ab_divider" app:visibility="0" app:layout_alignParentBottom="true" style="@style/ab_divider" />
+        <View app:id="@id/underline" app:background="@drawable/ab_underline_line" app:visibility="0" app:layout_width="-1" app:layout_height="@dimen/tab_underline_thickness" app:layout_alignLeft="@id/txt_messages" app:layout_alignParentBottom="true" />
+        <ImageView app:id="@id/img_back" app:layout_width="-2" app:layout_height="@dimen/ab_icon_length" app:layout_marginLeft="@dimen/margin_xsmall" app:layout_marginRight="@dimen/margin_xsmall" app:src="@drawable/selector_actionbar_back" app:layout_alignParentLeft="true" app:layout_centerVertical="true" />
+        <com.tinder.views.RoundImageView app:id="@id/img_avatar" app:layout_width="@dimen/match_frag_avatar_length" app:layout_height="@dimen/match_frag_avatar_length" app:layout_toRightOf="@id/img_back" app:layout_centerVertical="true" app:defaultStyle="32" />
+        <com.tinder.views.CustomTextView app:textSize="@dimen/match_frag_name_text_size" app:textColor="@color/ab_text_color" app:id="@id/txt_name" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@dimen/margin_small" app:layout_marginTop="@dimen/margin_xxsmall" app:layout_toRightOf="@id/img_avatar" app:layout_alignParentTop="true" app:font="2" />
+        <FrameLayout app:layout_width="-2" app:layout_height="-2" app:layout_toLeftOf="@id/img_overflow" app:layout_toRightOf="@id/txt_name" app:layout_alignTop="@id/txt_name" app:layout_alignBottom="@id/txt_name" app:layout_toStartOf="@id/img_overflow">
+            <com.tinder.views.VerifiedBadgeView app:id="@id/verified_badge" app:layout_width="-2" app:layout_height="-1" app:layout_margin="@dimen/margin_xsmall" app:adjustViewBounds="true" />
+        </FrameLayout>
+        <com.tinder.views.CustomTextView app:id="@id/txt_messages" app:layout_marginLeft="@dimen/margin_small" app:layout_marginRight="@dimen/margin_small" app:text="@string/messages" app:layout_toRightOf="@id/img_avatar" app:layout_alignParentBottom="true" app:font="2" style="@style/match_message_header_text" />
+        <com.tinder.views.CustomTextView app:id="@id/txt_about" app:text="@string/about" app:layout_toRightOf="@id/txt_messages" app:layout_alignParentBottom="true" app:font="2" style="@style/match_message_header_text" />
+        <ImageButton app:id="@id/img_overflow" app:background="@color/transparent" app:paddingLeft="@dimen/padding_med" app:paddingRight="@dimen/actionbar_paddingSide" app:layout_width="@dimen/ab_icon_length" app:layout_height="@dimen/ab_icon_length" app:src="@drawable/selector_ab_overflow" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ProgressBar app:id="@id/progress" app:layout_width="-2" app:layout_height="-2" app:layout_centerHorizontal="true" app:layout_centerVertical="true" />
+    <android.support.v4.view.ViewPager app:id="@id/pager_match" app:layout_width="-1" app:layout_height="-1" app:layout_below="@id/relative" />
+</RelativeLayout>

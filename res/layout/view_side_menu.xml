@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:background="@c1470c/white" app:layout_width="-1" app:layout_height="-1">
+    <ScrollView app:clickable="true" app:layout_width="-1" app:layout_height="-1">
+        <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1">
+            <RelativeLayout app:orientation="0" app:id="@id/relative_settings_header" app:layout_width="-1" app:layout_height="@dimen/settings_header_height">
+                <ImageView app:id="@id/img_header_background" app:layout_width="-1" app:layout_height="@dimen/settings_header_height" app:src="@color/transparent" />
+                <View app:background="@color/header_bg_overlay" app:layout_width="-1" app:layout_height="-1" />
+                <LinearLayout app:gravity="11" app:id="@id/linear_settings_avatar_holder" app:background="@drawable/rounded_white_bg" app:layout_width="@dimen/settings_avatar_holder_length" app:layout_height="@dimen/settings_avatar_holder_length" app:layout_marginLeft="@dimen/margin_large" app:layout_centerVertical="true">
+                    <com.tinder.views.RoundImageView app:layout_gravity="11" app:id="@id/img_settings_avatar" app:layout_width="@dimen/settings_avatar_length" app:layout_height="@dimen/settings_avatar_length" app:scaleType="6" app:defaultStyle="32" />
+                </LinearLayout>
+                <com.tinder.views.CustomTextView app:textSize="@dimen/nav_menu_name_text_size" app:textColor="@c1470c/white" app:id="@id/txt_settings_my_name" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@dimen/margin_med" app:layout_toRightOf="@id/linear_settings_avatar_holder" app:layout_above="@id/div" app:font="2" />
+                <View app:id="@id/div" app:layout_width="1dp" app:layout_height="1dp" app:layout_centerVertical="true" />
+                <com.tinder.views.CustomTextView app:textSize="@dimen/text_small" app:textColor="@c1470c/white" app:id="@id/txt_view_profile" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@dimen/margin_med" app:text="@string/view_profile" app:layout_toRightOf="@id/linear_settings_avatar_holder" app:layout_below="@id/div" app:font="1" />
+                <com.tinder.views.VerifiedBadgeView app:id="@id/verified_badge" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@dimen/padding_badge_view" app:adjustViewBounds="true" app:layout_toRightOf="@id/txt_view_profile" app:layout_alignTop="@id/txt_view_profile" app:layout_alignBottom="@id/txt_view_profile" />
+            </RelativeLayout>
+            <RelativeLayout app:id="@id/relative_discover_prefs" style="@style/settings_option_container">
+                <ImageView app:id="@id/img_discover_icon" app:layout_width="@dimen/settings_icon_length" app:layout_height="@dimen/settings_icon_length" app:src="@drawable/selector_nav_discovery" app:scaleType="7" app:layout_alignParentLeft="true" app:layout_centerVertical="true" />
+                <LinearLayout app:layout_toRightOf="@id/img_discover_icon" style="@style/settings_option_text_container">
+                    <com.tinder.views.CustomTextView app:id="@id/txt_discover_title" app:text="@string/discover_prefs" app:font="2" style="@style/settings_option_title_text" />
+                    <com.tinder.views.CustomTextView app:text="@string/discover_prefs_details" app:font="1" style="@style/settings_option_details_text" />
+                </LinearLayout>
+                <View app:layout_width="-1" app:layout_height="@dimen/nav_divider_height" app:layout_marginLeft="@dimen/margin_small" app:layout_toRightOf="@id/img_discover_icon" app:layout_alignParentBottom="true" style="@style/menu_divider" />
+            </RelativeLayout>
+            <RelativeLayout app:id="@id/relative_app_settings" style="@style/settings_option_container">
+                <ImageView app:id="@id/img_app_settings_icon" app:layout_width="@dimen/settings_icon_length" app:layout_height="@dimen/settings_icon_length" app:src="@drawable/selector_nav_settings" app:scaleType="7" app:layout_alignParentLeft="true" app:layout_centerVertical="true" />
+                <LinearLayout app:layout_toRightOf="@id/img_app_settings_icon" style="@style/settings_option_text_container">
+                    <com.tinder.views.CustomTextView app:id="@id/txt_settings_title" app:text="@string/app_settings" app:font="2" style="@style/settings_option_title_text" />
+                    <com.tinder.views.CustomTextView app:text="@string/app_settings_details" app:font="1" style="@style/settings_option_details_text" />
+                </LinearLayout>
+                <View app:layout_width="-1" app:layout_height="@dimen/nav_divider_height" app:layout_marginLeft="@dimen/margin_small" app:layout_toRightOf="@id/img_app_settings_icon" app:layout_alignParentBottom="true" style="@style/menu_divider" />
+            </RelativeLayout>
+            <RelativeLayout app:id="@id/relative_faq" style="@style/settings_option_container">
+                <ImageView app:id="@id/img_contact_tinder_icon" app:layout_width="@dimen/settings_icon_length" app:layout_height="@dimen/settings_icon_length" app:src="@drawable/selector_faq_menu" app:scaleType="7" app:layout_alignParentLeft="true" app:layout_centerVertical="true" />
+                <LinearLayout app:layout_toRightOf="@id/img_contact_tinder_icon" style="@style/settings_option_text_container">
+                    <com.tinder.views.CustomTextView app:id="@id/txt_contact_tinder_title" app:text="@string/main_settings_faq" app:font="2" style="@style/settings_option_title_text" />
+                    <com.tinder.views.CustomTextView app:text="@string/main_settings_faq_details" app:font="1" style="@style/settings_option_details_text" />
+                </LinearLayout>
+                <View app:layout_width="-1" app:layout_height="@dimen/nav_divider_height" app:layout_marginLeft="@dimen/margin_small" app:layout_toRightOf="@id/img_contact_tinder_icon" app:layout_alignParentBottom="true" style="@style/menu_divider" />
+            </RelativeLayout>
+            <RelativeLayout app:id="@id/relative_share_tinder" style="@style/settings_option_container">
+                <ImageView app:id="@id/img_share_tinder_icon" app:layout_width="@dimen/settings_icon_length" app:layout_height="@dimen/settings_icon_length" app:src="@drawable/selector_nav_invite" app:scaleType="7" app:layout_alignParentLeft="true" app:layout_centerVertical="true" />
+                <LinearLayout app:layout_toRightOf="@id/img_share_tinder_icon" style="@style/settings_option_text_container">
+                    <com.tinder.views.CustomTextView app:id="@id/txt_share_tinder_title" app:text="@string/share_tinder" app:font="2" style="@style/settings_option_title_text" />
+                    <com.tinder.views.CustomTextView app:text="@string/share_tinder_details" app:font="1" style="@style/settings_option_details_text" />
+                </LinearLayout>
+                <View app:layout_width="-1" app:layout_height="@dimen/nav_divider_height" app:layout_marginLeft="@dimen/margin_small" app:layout_toRightOf="@id/img_share_tinder_icon" app:layout_alignParentBottom="true" style="@style/menu_divider" />
+            </RelativeLayout>
+            <RelativeLayout app:id="@id/relative_rate_us" style="@style/settings_option_container">
+                <ImageView app:id="@id/img_rate_us_icon" app:layout_width="@dimen/settings_icon_length" app:layout_height="@dimen/settings_icon_length" app:src="@drawable/selector_rate_us" app:scaleType="7" app:layout_alignParentLeft="true" app:layout_centerVertical="true" />
+                <LinearLayout app:layout_toRightOf="@id/img_rate_us_icon" style="@style/settings_option_text_container">
+                    <com.tinder.views.CustomTextView app:id="@id/txt_rate_us_title" app:text="@string/rate_us" app:font="2" style="@style/settings_option_title_text" />
+                    <com.tinder.views.CustomTextView app:id="@id/txt_rate_us_details" app:text="@string/rate_us_details" app:font="1" style="@style/settings_option_details_text" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout app:id="@id/relative_give_feedback" style="@style/settings_option_container">
+                <ImageView app:id="@id/img_feedback_icon" app:layout_width="@dimen/settings_icon_length" app:layout_height="@dimen/settings_icon_length" app:src="@drawable/selector_rate_us" app:scaleType="7" app:layout_alignParentLeft="true" app:layout_centerVertical="true" />
+                <LinearLayout app:layout_toRightOf="@id/img_feedback_icon" style="@style/settings_option_text_container">
+                    <com.tinder.views.CustomTextView app:id="@id/txt_feedback_title" app:text="@string/give_us_feedback" app:font="2" style="@style/settings_option_title_text" />
+                    <com.tinder.views.CustomTextView app:text="@string/give_us_feedback_details" app:font="1" style="@style/settings_option_details_text" />
+                </LinearLayout>
+            </RelativeLayout>
+            <com.tinder.views.DevControls app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@dimen/margin_med" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

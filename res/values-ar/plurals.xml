@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="common_connections_plural">
+        <item quantity="other">%d معارف مشتركين</item>
+        <item quantity="zero">%d معرفة مشتركة</item>
+        <item quantity="one">%d معارف مشتركين</item>
+        <item quantity="two">%d معارف مشتركين</item>
+        <item quantity="few">%d معارف مشتركين</item>
+        <item quantity="many">%d معارف مشتركين</item>
+    </plurals>
+    <plurals name="distance_units_away_km">
+        <item quantity="other">على بُعد %d كم</item>
+        <item quantity="zero">على بُعد %d كم</item>
+        <item quantity="one">على بُعد %d كم</item>
+        <item quantity="two">على بُعد %d كم</item>
+        <item quantity="few">على بُعد %d كم</item>
+        <item quantity="many">على بُعد %d كم</item>
+    </plurals>
+    <plurals name="distance_units_away_mi">
+        <item quantity="other">على بُعد %d ميلاً</item>
+        <item quantity="zero">على بُعد %d ميلاً</item>
+        <item quantity="one">على بُعد %d ميلاً</item>
+        <item quantity="two">على بُعد %d ميلاً</item>
+        <item quantity="few">على بُعد %d ميلاً</item>
+        <item quantity="many">على بُعد %d ميلاً</item>
+    </plurals>
+    <plurals name="friends_for_common_connections_plural">
+        <item quantity="other">%d أصدقاء للمعارف المشتركين</item>
+        <item quantity="zero">%d صديق للمعارف المشتركين</item>
+        <item quantity="one">%d أصدقاء للمعارف المشتركين</item>
+        <item quantity="two">%d أصدقاء للمعارف المشتركين</item>
+        <item quantity="few">%d أصدقاء للمعارف المشتركين</item>
+        <item quantity="many">%d أصدقاء للمعارف المشتركين</item>
+    </plurals>
+    <plurals name="hours_left_plural">
+        <item quantity="other">بقيت %d ساعات</item>
+        <item quantity="zero">بقيت %d ساعة</item>
+        <item quantity="one">بقيت %d ساعات</item>
+        <item quantity="two">بقيت %d ساعات</item>
+        <item quantity="few">بقيت %d ساعات</item>
+        <item quantity="many">بقيت %d ساعات</item>
+    </plurals>
+    <plurals name="instagram_photos_plural">
+        <item quantity="other">%d صور الإنستغرام</item>
+        <item quantity="zero">%d صورة الإنستغرام</item>
+        <item quantity="one">%d صور الإنستغرام</item>
+        <item quantity="two">%d صور الإنستغرام</item>
+        <item quantity="few">%d صور الإنستغرام</item>
+        <item quantity="many">%d صور الإنستغرام</item>
+    </plurals>
+    <plurals name="interests_plural">
+        <item quantity="other">%d اهتمامات</item>
+        <item quantity="zero">%d اهتماماً</item>
+        <item quantity="one">%d اهتمامات</item>
+        <item quantity="two">%d اهتمامات</item>
+        <item quantity="few">%d اهتمامات</item>
+        <item quantity="many">%d اهتمامات</item>
+    </plurals>
+    <plurals name="likes_plural">
+        <item quantity="other">%d إعجاب</item>
+        <item quantity="zero">%d إعجاب</item>
+        <item quantity="one">%d إعجاب</item>
+        <item quantity="two">%d إعجاب</item>
+        <item quantity="few">%d إعجابات</item>
+        <item quantity="many">%d إعجاب</item>
+    </plurals>
+    <plurals name="minutes_left_plural">
+        <item quantity="other">بقيت %d دقيقة</item>
+        <item quantity="zero">بقيت %d دقيقة</item>
+        <item quantity="one">بقيت %d دقائق</item>
+        <item quantity="two">بقيت %d دقائق</item>
+        <item quantity="few">بقيت %d دقيقة</item>
+        <item quantity="many">بقيت %d دقائق</item>
+    </plurals>
+    <plurals name="num_moments">
+        <item quantity="other">%d لحظات</item>
+        <item quantity="zero">%d لحظة</item>
+        <item quantity="one">%d لحظة</item>
+        <item quantity="two">%d لحظات</item>
+        <item quantity="few">%d لحظات</item>
+        <item quantity="many">%d لحظات</item>
+    </plurals>
+    <plurals name="photo_count_plural">
+        <item quantity="other">%d صور</item>
+        <item quantity="zero">%d صورة</item>
+        <item quantity="one">%d صورة</item>
+        <item quantity="two">%d صور</item>
+        <item quantity="few">%d صور</item>
+        <item quantity="many">%d صور</item>
+    </plurals>
+    <plurals name="plus_paywall_option_text">
+        <item quantity="other">%1$s شهر لـ %2$s/ شهر</item>
+        <item quantity="zero">%1$s شهر لـ %2$s/ شهر</item>
+        <item quantity="one">%1$s شهر لـ %2$s/ شهر</item>
+        <item quantity="two">%1$s شهر لـ %2$s/ شهر</item>
+        <item quantity="few">%1$s أشهر لـ %2$s/ شهر</item>
+        <item quantity="many">%1$s شهر لـ %2$s/ شهر</item>
+    </plurals>
+</resources>

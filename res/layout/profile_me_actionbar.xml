@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:id="@id/profile_actionbar" app:background="@c1470c/white" app:layout_width="-1" app:layout_height="@dimen/actionbar_size" app:layout_alignParentTop="true">
+    <ImageButton app:id="@id/profile_btn_back" app:background="@color/transparent" app:layout_width="-2" app:layout_height="-1" app:layout_marginLeft="@dimen/margin_xsmall" app:layout_marginRight="@dimen/margin_xsmall" app:src="@drawable/selector_actionbar_back" app:layout_alignParentLeft="true" app:layout_centerVertical="true" app:contentDescription="actionbar_left_button" />
+    <ImageButton app:id="@id/profile_img_icon" app:background="@c3374b/SmoothProgressBar_spbStyle" app:layout_width="-2" app:layout_height="-1" app:src="@drawable/selector_ab_profile" app:layout_toRightOf="@id/profile_btn_back" app:layout_centerVertical="true" />
+    <com.tinder.views.CustomTextView app:id="@id/profile_txt_title" app:text="@string/my_profile" app:layout_toRightOf="@id/profile_img_icon" app:layout_centerVertical="true" app:font="1" style="@style/ab_text" />
+    <ImageButton app:id="@id/profile_btn_edit" app:background="@color/transparent" app:paddingRight="@dimen/actionbar_paddingSide" app:layout_width="-2" app:layout_height="-1" app:src="@drawable/selector_ab_btn_edit_profile" app:layout_alignParentRight="true" app:layout_centerVertical="true" app:contentDescription="actionbar_left_button" />
+    <View app:id="@id/ab_divider" app:layout_alignParentBottom="true" style="@style/ab_divider" />
+</RelativeLayout>

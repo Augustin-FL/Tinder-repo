@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="0">
+    <solid android:color="@c1470c/black" />
+    <corners android:radius="@dimen/rounded_card_radius" />
+</shape>

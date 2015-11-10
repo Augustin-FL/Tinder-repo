@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:layout_width="-1" app:layout_height="-1">
+    <uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout app:id="@id/pullToRefreshLayout_my_moments" app:layout_width="-1" app:layout_height="-1">
+        <ListView app:id="@id/listView_activity" app:layout_width="-1" app:layout_height="-1" app:divider="@c3374b/SmoothProgressBar_spbStyle" />
+    </uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout>
+    <LinearLayout app:gravity="11" app:orientation="1" app:id="@id/linearLayout_no_activity_message" app:background="@drawable/white_gradient_bg" app:paddingBottom="@dimen/margin_xxlarge" app:visibility="2" app:layout_width="-1" app:layout_height="-1" app:layout_centerInParent="true">
+        <com.tinder.views.CustomTextView app:textSize="@dimen/text_large" app:textColor="@color/moments_no_moments_title_text" app:gravity="1" app:background="@c1470c/white" app:layout_width="-1" app:layout_height="-2" app:text="@string/recent_activity" app:font="2" />
+        <com.tinder.views.CustomTextView app:textSize="@dimen/text_med" app:textColor="@color/another_freaking_grey" app:gravity="1" app:background="@c1470c/white" app:layout_width="-1" app:layout_height="-2" app:text="@string/my_moments_no_activity" app:font="2" />
+    </LinearLayout>
+</RelativeLayout>

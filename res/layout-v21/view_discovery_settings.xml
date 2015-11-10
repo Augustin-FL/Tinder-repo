@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:layout_width="-1" app:layout_height="-1" app:animateLayoutChanges="true"
+    <RelativeLayout app:id="@id/discover_prefs_actionbar_menu" app:background="@c1470c/white" app:layout_width="-1" app:layout_height="@dimen/actionbar_size" app:layout_alignParentTop="true" app:animateLayoutChanges="true">
+        <ImageButton app:id="@id/view_back_icon" app:background="@color/transparent" app:layout_width="-2" app:layout_height="-1" app:layout_marginLeft="@dimen/margin_xsmall" app:layout_marginRight="@dimen/margin_xsmall" app:src="@drawable/selector_actionbar_back" app:layout_alignParentLeft="true" app:layout_centerVertical="true" app:contentDescription="@string/discover_up" />
+        <ImageButton app:id="@id/view_ab_icon" app:background="@c3374b/SmoothProgressBar_spbStyle" app:layout_width="-2" app:layout_height="-1" app:src="@drawable/selector_ab_discover_prefs" app:layout_toRightOf="@id/view_back_icon" app:layout_centerVertical="true" />
+        <com.tinder.views.CustomTextView app:id="@id/discover_prefs_txt_title" app:text="@string/discover_prefs" app:layout_toRightOf="@id/view_ab_icon" app:font="1" style="@style/ab_text" />
+        <View app:id="@id/ab_divider" app:visibility="0" app:layout_alignParentBottom="true" style="@style/ab_divider" />
+    </RelativeLayout>
+    <ScrollView app:background="@color/gray_background_light" app:scrollbars="0" app:layout_width="-1" app:layout_height="-1" app:layout_below="@id/discover_prefs_actionbar_menu" app:animateLayoutChanges="true">
+        <LinearLayout app:orientation="1" app:paddingLeft="@dimen/suggested_screen_margins" app:paddingTop="@dimen/suggested_screen_margins" app:paddingRight="@dimen/suggested_screen_margins" app:layout_width="-1" app:layout_height="-2" app:animateLayoutChanges="true">
+            <FrameLayout app:background="@drawable/rounded_rectangle_white" app:clickable="true" app:layout_width="-1" app:layout_height="-2" app:elevation="1dp">
+                <com.tinder.views.CustomSwitch app:gravity="13" app:id="@id/checkBox_discover" app:layout_width="-1" app:layout_height="-2" app:text="@string/show_in_discover" app:contentDescription="@string/checkBox_discover" style="@style/settings_group_item" />
+            </FrameLayout>
+            <com.tinder.views.CustomTextView app:textSize="@dimen/text_xsmall" app:textColor="@color/z_profile_body_text" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@dimen/margin_xxsmall" app:layout_marginTop="@dimen/margin_xsmall" app:layout_marginRight="@dimen/margin_xxsmall" app:text="@string/show_in_discover_disclaimer" app:font="0" />
+            <RelativeLayout app:id="@id/layout_settings_passport" app:background="@drawable/selector_white_button" app:clickable="true" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@dimen/margin_large" app:animateLayoutChanges="true" app:elevation="1dp">
+                <com.tinder.views.CustomTextView app:id="@id/settings_txt_swiping_in" app:layout_width="-2" app:layout_height="-2" app:text="@string/swiping_in_settings" style="@style/settings_group_item" />
+                <com.tinder.views.CustomTextView app:textColor="@color/premium_blue" app:ellipsize="3" app:gravity="5" app:id="@id/settings_passport_location_txt" app:layout_width="-1" app:layout_height="-2" app:layout_marginRight="@dimen/padding_small" app:text="@string/my_current_location" app:maxLines="1" app:layout_toRightOf="@id/settings_txt_swiping_in" app:layout_alignParentRight="true" app:font="2" style="@style/settings_group_item" />
+                <com.tinder.views.LinearAdapterLayout app:orientation="1" app:id="@id/settings_passport_list_recents" app:background="@drawable/rounded_rectangle_white" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:layout_below="@id/settings_txt_swiping_in" />
+            </RelativeLayout>
+            <com.tinder.views.CustomTextView app:textSize="@dimen/text_xsmall" app:textColor="@color/z_profile_body_text" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@dimen/margin_xxsmall" app:layout_marginTop="@dimen/margin_xsmall" app:layout_marginRight="@dimen/margin_xxsmall" app:text="@string/swiping_in_settings_detail" app:font="0" />
+            <RelativeLayout app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@dimen/margin_large">
+                <com.tinder.views.CustomTextView app:layout_width="-2" app:layout_height="-2" app:text="@string/show_me" app:font="2" style="@style/settings_header" />
+                <com.tinder.views.CustomTextView app:id="@id/textView_show_me" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentRight="true" app:contentDescription="@string/text_show_me" app:font="2" style="@style/settings_header" />
+            </RelativeLayout>
+            <LinearLayout app:gravity="10" app:orientation="1" app:id="@id/linearLayout_sex" app:background="@drawable/rounded_rectangle_white" app:clickable="true" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@dimen/margin_xsmall" app:elevation="1dp">
+                <com.tinder.views.CustomSwitch app:gravity="13" app:id="@id/checkBox_males" app:layout_width="-1" app:layout_height="-2" app:text="@string/males" app:contentDescription="@string/checkBox_males" style="@style/settings_group_item" />
+                <View app:background="@color/gray_very_very_light" app:layout_width="-1" app:layout_height="1dp" app:layout_marginLeft="@dimen/margin_small" />
+                <com.tinder.views.CustomSwitch app:gravity="13" app:id="@id/checkBox_females" app:layout_width="-1" app:layout_height="-2" app:text="@string/females" app:contentDescription="@string/checkBox_females" app:font="0" style="@style/settings_group_item" />
+            </LinearLayout>
+            <RelativeLayout app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@dimen/margin_large">
+                <com.tinder.views.CustomTextView app:id="@id/textView_distance_label" app:layout_width="-2" app:layout_height="-2" app:text="@string/limit_search_to" app:font="2" style="@style/settings_header" />
+                <com.tinder.views.CustomTextView app:id="@id/textView_distance" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentRight="true" app:contentDescription="@string/text_distance" app:font="2" style="@style/settings_header" />
+            </RelativeLayout>
+            <RelativeLayout app:id="@id/linearLayout_distance" app:layout_width="-1" app:layout_height="@dimen/button_height_large" app:layout_marginTop="@dimen/margin_xsmall" style="@style/settings_container">
+                <SeekBar app:gravity="11" app:id="@id/seekBar_distance" app:layout_width="-1" app:layout_height="-2" app:progress="1" app:progressDrawable="@drawable/progressbar_drawable" app:thumb="@drawable/selector_thumb_slider" app:layout_centerInParent="true" app:contentDescription="@string/seekBar_distance" />
+            </RelativeLayout>
+            <RelativeLayout app:orientation="0" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@dimen/margin_large">
+                <com.tinder.views.CustomTextView app:layout_width="-2" app:layout_height="-2" app:text="@string/show_ages" app:font="2" style="@style/settings_header" />
+                <com.tinder.views.CustomTextView app:id="@id/textView_years" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@dimen/margin_xsmall" app:text="@string/yrs" app:layout_alignParentRight="true" app:contentDescription="@string/text_ages" app:font="2" style="@style/settings_header" />
+            </RelativeLayout>
+            <FrameLayout app:layout_gravity="11" app:id="@id/layout_age" app:clickable="true" app:layout_width="-1" app:layout_height="@dimen/button_height_large" app:layout_marginTop="@dimen/margin_xsmall" app:elevation="1dp" style="@style/settings_container" />
+            <com.tinder.views.CustomTextView app:textSize="@dimen/text_xsmall" app:textColor="@color/z_profile_body_text" app:gravity="800003" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@dimen/margin_xxsmall" app:layout_marginTop="@dimen/margin_xsmall" app:layout_marginRight="@dimen/margin_xxsmall" app:layout_marginBottom="@dimen/margin_small" app:text="@string/settings_disclaimer" app:font="0" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

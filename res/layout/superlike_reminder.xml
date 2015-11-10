@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:layout_width="-1" app:layout_height="-1">
+    <ImageView app:id="@id/dialog_background" app:layout_width="-1" app:layout_height="-1" app:src="@c1470c/black_semi_transparent" />
+    <com.tinder.views.RoundedLinearLayout app:gravity="11" app:orientation="1" app:id="@id/dialog_popup_card_content" app:background="@drawable/rounded_rectangle_white" app:clipChildren="true" app:layout_width="@dimen/passport_dashboard_width" app:layout_height="-2" app:layout_centerInParent="true" app:corners="@dimen/rounded_card_radius">
+        <include app:layout_width="-1" app:layout_height="-2" layout="@layout/dialog_superlike_content" />
+        <include app:layout_width="-1" app:layout_height="-2" layout="@layout/dialog_superlike_bottom" />
+    </com.tinder.views.RoundedLinearLayout>
+    <include app:id="@id/include_gamepad" app:layout_width="-1" app:layout_height="-2" app:layout_alignParentBottom="true" layout="@layout/profile_rec_gamepad_buttons" />
+</RelativeLayout>

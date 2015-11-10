@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tinder.views.RoundedLinearLayout app:orientation="1" app:background="@c1470c/white" app:layout_width="@dimen/width_dialog" app:layout_height="-2" app:layout_marginBottom="@dimen/padding_med" app:corners="@dimen/rounded_card_radius">
+    <com.tinder.views.CustomTextView app:textSize="@dimen/verification_title_size" app:textColor="@color/text_dark" app:id="@c3185b/txt_title" app:paddingLeft="@dimen/padding_large" app:paddingTop="@dimen/padding_large" app:layout_width="-2" app:layout_height="-2" app:text="@string/identify_as" app:font="2" style="@style/settings_header" />
+    <RadioGroup app:orientation="0" app:id="@id/radiogroup_gender" app:paddingBottom="@dimen/padding_large" app:layout_width="-2" app:layout_height="-2" app:layout_below="@c3185b/txt_title" app:layout_alignLeft="@c3185b/txt_title">
+        <com.tinder.views.CustomRadioButton app:textSize="@dimen/text_large" app:textColor="@color/text_dark" app:id="@id/radio_male" app:layout_width="-2" app:layout_height="-2" app:layout_margin="@dimen/margin_small" app:text="@string/male" app:font="2" />
+        <com.tinder.views.CustomRadioButton app:textSize="@dimen/text_large" app:textColor="@color/text_dark" app:id="@id/radio_female" app:layout_width="-2" app:layout_height="-2" app:layout_margin="@dimen/margin_small" app:text="@string/female" app:font="2" />
+    </RadioGroup>
+    <com.tinder.views.CustomTextView app:id="@id/btn_confirm" app:clickable="true" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@dimen/margin_xlarge" app:layout_marginRight="@dimen/margin_xlarge" app:layout_marginBottom="@dimen/margin_med" app:text="@string/confirm" app:layout_below="@id/radiogroup_gender" app:font="2" style="@style/orange_rect_button" />
+</com.tinder.views.RoundedLinearLayout>

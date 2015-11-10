@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:orientation="0" app:layout_width="-2" app:layout_height="-2" app:layout_centerInParent="true">
+    <com.tinder.views.RoundImageView app:id="@id/cell_connection_image" app:background="@drawable/common_connection_bg" app:layout_width="-2" app:layout_height="-2" app:layout_centerHorizontal="true" app:defaultStyle="32" />
+    <com.tinder.views.CustomTextView app:textSize="@dimen/connection_degree_size" app:textColor="@color/text_light" app:gravity="31" app:id="@id/cell_connection_text_degree" app:paddingLeft="@dimen/padding_small" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@dimen/connection_degree_marginTop" />
+    <com.tinder.views.CustomTextView app:textSize="@dimen/connection_name_size" app:textColor="@color/z_profile_body_text" app:ellipsize="3" app:id="@id/cell_connection_text_name" app:paddingTop="@dimen/connection_name_padding" app:layout_width="-2" app:layout_height="-2" app:singleLine="true" app:layout_below="@id/cell_connection_image" app:layout_centerHorizontal="true" />
+</RelativeLayout>

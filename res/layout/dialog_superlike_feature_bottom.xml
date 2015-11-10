@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tinder.views.CustomTextView app:textSize="@dimen/text_xlarge" app:textColor="@c1470c/white" app:gravity="1" app:background="@drawable/orange_rounded_bottom" app:padding="@dimen/padding_med" app:clickable="true" app:layout_width="-1" app:layout_height="-2" app:text="@string/superlike_first_use_positive" app:textAllCaps="true" app:font="2" />

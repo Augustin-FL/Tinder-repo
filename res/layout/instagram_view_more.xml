@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <com.tinder.views.CustomTextView android:textSize="@dimen/text_small" android:textColor="@c1470c/light_grey" android:gravity="11" android:layout_width="-2" android:layout_height="-2" android:text="@string/instagram_view_more" android:drawableTop="@drawable/view_more_instagram" android:drawablePadding="@dimen/margin_xsmall" />
+</LinearLayout>

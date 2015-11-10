@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:id="@id/gamepad_root" app:clipChildren="false" app:clipToPadding="false" app:layout_width="-1" app:layout_height="-1" app:layout_marginTop="@dimen/margin_med" app:layout_below="@id/view_card_stack" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true">
+    <ImageView app:id="@id/background" app:background="@color/transparent" app:visibility="0" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/recs_buttons_background" app:layout_alignParentBottom="false" app:layout_centerInParent="true" />
+    <RelativeLayout app:id="@id/superlike" app:visibility="2" app:clickable="true" app:layout_width="@dimen/gamepad_button_small" app:layout_height="@dimen/gamepad_button_small" app:layout_marginLeft="@dimen/gamepad_button_left_offset" app:layout_marginTop="4dp" app:layout_toRightOf="@id/like" app:layout_alignTop="@id/background">
+        <View app:background="@drawable/recs_button_white" app:layout_width="-2" app:layout_height="-2" app:layout_margin="@dimen/gamepad_button_margin" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" app:layout_alignParentRight="true" app:layout_alignParentBottom="true" />
+        <FrameLayout app:id="@id/superlike_icon_group" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" app:layout_alignParentRight="true" app:layout_alignParentBottom="true">
+            <ImageButton app:layout_gravity="11" app:id="@id/superlike_icon" app:background="@c3374b/SmoothProgressBar_spbStyle" app:visibility="0" app:clickable="false" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/selector_recs_superlike" />
+            <com.tinder.views.CustomTextView app:textSize="@dimen/text_med" app:textColor="@c1470c/white" app:layout_gravity="11" app:id="@id/superlike_counter" app:clickable="false" app:layout_width="-2" app:layout_height="-2" app:layout_marginBottom="1dp" app:text="5" app:alpha="0.0" app:font="3" />
+        </FrameLayout>
+    </RelativeLayout>
+    <FrameLayout app:id="@id/passport" app:visibility="0" app:clickable="true" app:layout_width="@dimen/gamepad_button_small" app:layout_height="@dimen/gamepad_button_small" app:layout_marginLeft="@dimen/gamepad_button_left_offset" app:layout_marginTop="4dp" app:layout_toRightOf="@id/like" app:layout_alignTop="@id/background">
+        <ImageButton app:layout_gravity="11" app:id="@id/btn_passport" app:background="@drawable/recs_passport_available" app:visibility="0" app:layout_width="-2" app:layout_height="-2" app:layout_margin="@dimen/gamepad_button_margin" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" app:layout_alignParentRight="true" app:layout_alignParentBottom="true" />
+    </FrameLayout>
+    <RelativeLayout app:id="@id/rewind" app:layout_width="@dimen/gamepad_button_small" app:layout_height="@dimen/gamepad_button_small" app:layout_marginLeft="1dp" app:layout_marginTop="4dp" app:layout_alignLeft="@id/background" app:layout_alignTop="@id/background">
+        <ImageButton app:id="@id/rewind_icon" app:background="@drawable/recs_button_white" app:layout_width="-2" app:layout_height="-2" app:layout_margin="@dimen/gamepad_button_margin" app:src="@drawable/selector_recs_undo_icon" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" app:layout_alignParentRight="true" app:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout app:id="@id/like" app:layout_width="@dimen/gamepad_button_large" app:layout_height="@dimen/gamepad_button_large" app:layout_marginLeft="@dimen/gamepad_button_left_offset" app:layout_toRightOf="@id/pass" app:layout_alignTop="@id/background">
+        <view app:id="@id/like_button" app:background="@drawable/recs_button_white" app:clickable="false" app:layout_width="-1" app:layout_height="-1" app:layout_margin="@dimen/gamepad_button_large_margin" app:layout_centerHorizontal="true" app:layout_centerVertical="true" class="com.tinder.views.LikeMeter" />
+    </RelativeLayout>
+    <RelativeLayout app:id="@id/pass" app:layout_width="@dimen/gamepad_button_large" app:layout_height="@dimen/gamepad_button_large" app:layout_marginLeft="@dimen/gamepad_button_left_offset" app:layout_toRightOf="@id/rewind" app:layout_alignTop="@id/background">
+        <ImageButton app:id="@id/pass_button" app:background="@drawable/selector_recs_pass" app:layout_width="-1" app:layout_height="-1" app:layout_margin="@dimen/gamepad_button_large_margin" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" app:layout_alignParentRight="true" app:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

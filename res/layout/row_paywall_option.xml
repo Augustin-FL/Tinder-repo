@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:orientation="1" app:paddingLeft="@dimen/padding_med" app:paddingTop="@dimen/paywall_dialog_row_padding" app:paddingRight="@dimen/padding_med" app:paddingBottom="@dimen/paywall_dialog_row_padding" app:clickable="true" app:layout_width="-1" app:layout_height="-2" app:foreground="?unknown_attr_ref: 101030e">
+    <com.tinder.views.CustomTextView app:textSize="@dimen/text_large" app:textColor="@c1470c/white" app:layout_gravity="11" app:id="@id/paywall_row_option_text" app:layout_width="-2" app:layout_height="-2" app:font="2" />
+</FrameLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:gravity="1" app:orientation="1" app:background="@color/transparent" app:clipChildren="false" app:clipToPadding="false" app:layout_width="-1" app:layout_height="-1">
+    <View app:id="@id/transparent_top_portion" app:background="@color/transparent" app:layout_width="-2" app:layout_height="50dp" />
+    <LinearLayout app:orientation="1" app:id="@id/report_container" app:paddingTop="5dp" app:clipChildren="false" app:layout_width="-1" app:layout_height="-2" app:animateLayoutChanges="true" style="@style/report_dialog_background">
+        <com.tinder.views.CircleWithImage app:id="@id/report_icon" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="-30dp" app:src="@drawable/report_dialog_header" app:backgroundColor="@c1470c/white" />
+        <com.tinder.views.CustomTextView app:id="@id/report_title" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="10dp" app:text="You've been reported." app:font="2" style="@style/report_dialog_title" />
+        <com.tinder.views.CustomTextView app:id="@id/warning_beginning" app:paddingLeft="25dp" app:paddingRight="25dp" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="5dp" app:text="You have been repeatedly reported for:" app:font="2" style="@style/report_dialog_warning" />
+        <com.tinder.views.CustomTextView app:gravity="3" app:id="@id/warning_middle" app:paddingLeft="40dp" app:paddingRight="40dp" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="10dp" app:layout_marginBottom="10dp" app:text="* this" app:font="2" style="@style/report_dialog_warning" />
+        <com.tinder.views.CustomTextView app:gravity="1" app:id="@id/warning_end" app:layout_width="-2" app:layout_height="-2" app:layout_marginBottom="20dp" app:text="@string/reported_multiple_warnings_consequences" app:font="2" style="@style/report_dialog_warning" />
+        <com.tinder.views.CustomTextView app:id="@id/report_details" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="5dp" app:layout_marginBottom="20dp" app:text="Is this person bothering you? Tell us what they did." app:font="2" style="@style/report_dialog_details" />
+        <FrameLayout app:id="@id/report_unmatch_frame" app:paddingBottom="15dp" app:visibility="0" app:clipChildren="true" app:layout_width="-1" app:layout_height="-2">
+            <include app:id="@id/report_unmatch_container" layout="@layout/report_unmatch_reasons" />
+        </FrameLayout>
+        <FrameLayout app:id="@id/report_report_frame" app:paddingBottom="15dp" app:visibility="0" app:clipChildren="false" app:layout_width="-1" app:layout_height="-2">
+            <include app:id="@id/report_types_container" layout="@layout/report_report_reasons" />
+        </FrameLayout>
+        <RelativeLayout app:id="@id/addtional_info_container" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@dimen/reporting_dialog_margins" app:layout_marginRight="@dimen/reporting_dialog_margins" app:layout_marginBottom="30dp">
+            <EditText app:textColor="@color/reporting_item" app:textColorHint="@color/reporting_item" app:id="@id/report_additional_info" app:background="@drawable/selector_reporting_edittext" app:padding="5dp" app:layout_width="-1" app:layout_height="-2" app:hint="@string/reporting_report_user_hint" app:cursorVisible="true" app:singleLine="true" />
+            <ProgressBar app:id="@id/progress_other" app:layout_alignParentRight="true" style="@style/report_dialog_progress" />
+        </RelativeLayout>
+        <CheckBox app:textColor="@color/orange" app:id="@id/report_checkbox" app:paddingLeft="10dp" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@dimen/reporting_dialog_margins" app:layout_marginRight="@dimen/reporting_dialog_margins" app:button="@drawable/selector_report_checkbox" app:text="I agree to something" />
+        <View app:id="@id/btn_divider" app:visibility="2" app:layout_marginBottom="10dp" style="@style/report_divider" />
+        <Button app:id="@id/btn_report_one" app:background="@drawable/selector_rounded_orange" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="10dp" app:layout_marginBottom="10dp" app:text="@string/report" style="@style/orange_rect_button" />
+    </LinearLayout>
+</LinearLayout>

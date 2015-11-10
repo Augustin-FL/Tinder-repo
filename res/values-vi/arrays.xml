@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compass_directions">
+        <item>B</item>
+        <item>ĐB</item>
+        <item>Đ</item>
+        <item>ĐN</item>
+        <item>N</item>
+        <item>TN</item>
+        <item>T</item>
+        <item>TB</item>
+    </string-array>
+    <string-array name="full_compass_directions">
+        <item>bắc</item>
+        <item>đông bắc</item>
+        <item>đông</item>
+        <item>đông nam</item>
+        <item>nam</item>
+        <item>tây nam</item>
+        <item>tây</item>
+        <item>tây bắc</item>
+    </string-array>
+    <string-array name="empty_message_suggestions">
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Hỏi người này về bạn bè chung của bạn.</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Dế…</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Hãy bắt đầu trò chuyện!</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Mọi người đều thích những ai ân cần chu đáo.</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Hãy nói một lời khen ngợi và xem phản ứng.</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Hãy lịch sự… nên bắt đầu nói chuyện!</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Hãy lịch sự… nên bắt đầu nói chuyện!</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Bạn có thể đánh máy được trong bao nhiêu ngôn ngữ?</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Đánh vào những lời khen ngợi ở dưới.</item>
+        <item>Đánh vào những lời khôi hài ở dưới.</item>
+        <item>Đánh vào một câu bày tỏ ân cần chu đáo vào bên dưới.</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Hãy thử làm cho đối tượng này cười.</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Hãy nói lên điều gì đó!</item>
+        <item>Hãy nói một điều khôi hài!</item>
+        <item>Hãy nói lời khen những bức ảnh</item>
+        <item>Hãy nói một điều ngọt ngào!</item>
+        <item>Hãy nói một câu dí dỏm!</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Sao bạn vẫn chưa gửi lời chào?</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+        <item>Trò chuyện với đối tượng phù hợp của bạn</item>
+    </string-array>
+    <string-array name="ordinals">
+        <item>số 0</item>
+        <item>thứ 1</item>
+        <item>thứ 2</item>
+        <item>thứ 3</item>
+    </string-array>
+</resources>

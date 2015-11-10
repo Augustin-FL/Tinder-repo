@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:clickable="true" app:clipChildren="false" app:clipToPadding="false" app:layout_width="-1" app:layout_height="-1" app:layout_marginTop="@dimen/actionbar_size_neg"
+    <RelativeLayout app:id="@id/loading_relative_avatar_and_pings" app:clipChildren="false" app:clipToPadding="false" app:layout_width="-1" app:layout_height="-2" app:layout_centerVertical="true">
+        <ImageView app:id="@id/img_circle_one" app:layout_width="@dimen/loading_img_length" app:layout_height="@dimen/loading_img_length" app:src="@drawable/transparent_ring" app:layout_centerInParent="true" />
+        <ImageView app:id="@id/img_circle_two" app:layout_width="@dimen/loading_img_length" app:layout_height="@dimen/loading_img_length" app:src="@drawable/transparent_ring" app:layout_centerInParent="true" />
+        <ImageView app:id="@id/img_circle_three" app:visibility="1" app:layout_width="@dimen/loading_img_length" app:layout_height="@dimen/loading_img_length" app:src="@drawable/transparent_ring" app:layout_centerInParent="true" />
+        <FrameLayout app:id="@id/framelayout_avatar" app:background="@drawable/rounded_white_bg" app:layout_width="@dimen/loading_img_container_length" app:layout_height="@dimen/loading_img_container_length" app:layout_centerInParent="true">
+            <com.tinder.views.RoundImageView app:layout_gravity="11" app:id="@id/roundimg_thumb" app:layout_width="@dimen/loading_img_length" app:layout_height="@dimen/loading_img_length" app:scaleType="6" app:defaultStyle="32" />
+        </FrameLayout>
+    </RelativeLayout>
+    <com.tinder.views.CustomTextView app:textSize="@dimen/text_xlarge" app:textColor="@color/text_light" app:id="@id/txt_prompt" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@dimen/margin_xlarge" app:text="@string/finding_people" app:layout_below="@id/loading_relative_avatar_and_pings" app:layout_centerHorizontal="true" app:font="1" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tinder.views.RoundedRelativeLayout app:orientation="1" app:background="@c1470c/white" app:padding="@dimen/padding_xxsmall" app:layout_width="@dimen/width_dialog" app:layout_height="-1" app:corners="@dimen/rounded_card_radius">
+    <com.tinder.views.CustomButton app:id="@id/moment_game_dialog_btn_like_message" app:layout_width="-1" app:layout_height="-2" app:text="@string/moment_dialog_send_message" app:layout_alignParentTop="true" style="@style/moment_game_dialog_text" />
+    <View app:id="@id/divider_likemsg" app:layout_width="-1" app:layout_height="@dimen/height_separator" app:layout_below="@id/moment_game_dialog_btn_like_message" style="@style/dialog_divider" />
+    <com.tinder.views.CustomButton app:id="@id/moment_game_dialog_btn_hide_moments" app:layout_width="-1" app:layout_height="-2" app:text="@string/moment_dialog_hide_moments" app:layout_below="@id/divider_likemsg" style="@style/moment_game_dialog_text" />
+    <View app:id="@id/divider_hide_moments" app:layout_width="-1" app:layout_height="@dimen/height_separator" app:layout_below="@id/moment_game_dialog_btn_hide_moments" style="@style/dialog_divider" />
+    <com.tinder.views.CustomButton app:id="@id/moment_game_dialog_btn_block" app:layout_width="-1" app:layout_height="-2" app:text="@string/block" app:layout_below="@id/divider_hide_moments" style="@style/moment_game_dialog_text" />
+    <View app:id="@id/divider_moment_block" app:layout_width="-1" app:layout_height="@dimen/height_separator" app:layout_below="@id/moment_game_dialog_btn_block" style="@style/dialog_divider" />
+    <com.tinder.views.CustomButton app:id="@id/moment_game_dialog_btn_report" app:layout_width="-1" app:layout_height="-2" app:text="@string/report" app:layout_below="@id/divider_moment_block" style="@style/moment_game_dialog_text" />
+</com.tinder.views.RoundedRelativeLayout>

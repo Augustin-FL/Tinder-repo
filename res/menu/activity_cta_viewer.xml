@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:icon="@drawable/icon_share" app:id="@id/webView_share" app:title="@string/mad_ave_share" app:showAsAction="2" />
+</menu>

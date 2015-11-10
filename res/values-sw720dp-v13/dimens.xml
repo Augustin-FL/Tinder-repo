@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="intro_heading_text_size">36.0dip</dimen>
+    <dimen name="paywall_dialog_width">470.0dip</dimen>
+    <dimen name="matched_avatar_frame_length">198.0dip</dimen>
+    <dimen name="matched_avatar_length">190.0dip</dimen>
+    <dimen name="matched_text_size">28.0dip</dimen>
+    <dimen name="width_dialog">450.0dip</dimen>
+</resources>

@@ -1,0 +1,19 @@
+{
+    "status": 200,
+    "results": {
+        "plus_subscription_a": [
+            {
+                "title": "Passport",
+                "iconUrl": "http://imageurl.com/images/2",
+                "details": ""
+            },
+            {
+                "title": "Rewind",
+                "iconUrl": "http://imageurl.com/images/1",
+                "details": "Go back and change a swipe"
+            }
+        ],
+        "plus_subscription_b": "",
+        "plus_subscription_c": ""
+    }
+}

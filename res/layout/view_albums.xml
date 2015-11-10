@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:background="@c1470c/white" app:layout_width="-1" app:layout_height="-1">
+    <com.tinder.views.CustomTextView app:textSize="@dimen/text_xlarge" app:textColor="@color/text_dark" app:gravity="11" app:id="@id/txt_no_albums" app:visibility="2" app:layout_width="-2" app:layout_height="-1" app:text="@string/no_pics_found" app:layout_centerInParent="true" app:font="2" />
+    <LinearLayout app:background="@color/transparent" app:layout_width="-1" app:layout_height="-1" app:layout_centerInParent="true" app:isScrollContainer="true">
+        <ListView app:id="@id/listview_albums" app:background="@color/transparent" app:paddingLeft="@dimen/padding_xxsmall" app:layout_width="-1" app:layout_height="-1" app:divider="@color/divider_light" app:dividerHeight="@dimen/nav_divider_height" />
+    </LinearLayout>
+    <ProgressBar app:id="@id/progress" app:layout_width="-2" app:layout_height="-2" app:layout_centerInParent="true" />
+</RelativeLayout>

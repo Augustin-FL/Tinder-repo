@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compass_directions">
+        <item>K</item>
+        <item>KD</item>
+        <item>D</item>
+        <item>GD</item>
+        <item>G</item>
+        <item>GB</item>
+        <item>B</item>
+        <item>KB</item>
+    </string-array>
+    <string-array name="full_compass_directions">
+        <item>kuzey</item>
+        <item>kuzeydoğu</item>
+        <item>doğu</item>
+        <item>güneydoğu</item>
+        <item>güney</item>
+        <item>güneybatı</item>
+        <item>batı</item>
+        <item>kuzeybatı</item>
+    </string-array>
+    <string-array name="empty_message_suggestions">
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Kişiye ortak arkadaşlarınızı sorun.</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Crickets…</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Başla!</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Herkes, düşünceli bir insandan hoşlanır.</item>
+        <item>Eşinle sohbet et</item>
+        <item>"Sıkıcı olmamak için Google'a bak."</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>"Kibar ol…'Hey' ile atlara seslenilir."</item>
+        <item>"'Merhaba' pek hatırlanabilir bir giriş değil."</item>
+        <item>Kibar ol … bir şeyler söyle!</item>
+        <item>Bir mesaj göndermeden önce ne kadar süre geçmeli sence?</item>
+        <item>"Tinder'da kaç arkadaşın oldu?"</item>
+        <item>Kaç dilde yazabilirsin?</item>
+        <item>Keşke bir sohbete giriş yapabilmenin bir yolu olsaydı. Evet, bekle biraz…</item>
+        <item>Sormazsan, yanıt her zaman hayırdır.</item>
+        <item>Sormazsan asla bilemezsin.</item>
+        <item>Umarım, şimdi araç kullanmıyorsun.</item>
+        <item>Pek çok kültürde, sessizlik kaba olarak görülür.</item>
+        <item>Aşağıya bir iltifat yaz.</item>
+        <item>Aşağıya komik bir mesaj yaz.</item>
+        <item>Aşağıya nazik bir mesaj yaz.</item>
+        <item>Sonuçta, sadece değerlendirmediğimiz fırsatlardan pişmanlık duyarız.</item>
+        <item>Eşinle sohbet et</item>
+        <item>Herşey burada başlar.</item>
+        <item>Yanlışlıkla sola çekmediğin iyi olmuş.</item>
+        <item>Mesaj gönderinceye kadar, Tinder gerçekleşmez.</item>
+        <item>Herşey burada başladı.</item>
+        <item>"Herşey Tinder'da başladı."</item>
+        <item>Hangi sloganları var, merak ediyorum.</item>
+        <item>Haydi, birşeyleri başlatalım.</item>
+        <item>Bugün ölecekmiş gibi yaşa, sonsuza dek yaşayacakmış gibi hayal et.</item>
+        <item>İlk hareket senden olsun.</item>
+        <item>Onları gülümset.</item>
+        <item>Eşinle sohbet et</item>
+        <item>Kimseyi sıkıcıları sevmez.</item>
+        <item>"Facebook arkadaşlarının %36'sından fazlası, Tinder'da."</item>
+        <item>"İltifatların %90'ı bir yanıtı hak eder."</item>
+        <item>Tinderleşmeye hazır mısın?</item>
+        <item>Birşeyler söyle!</item>
+        <item>Komik birşeyler söyle!</item>
+        <item>Fotoğraflarının biri hakkında güzel birşeyler söyle.</item>
+        <item>Bilgece birşeyler söyle!</item>
+        <item>Sağa çektiğin için teşekkür ederim de.</item>
+        <item>Komik birşeyler söyle!</item>
+        <item>Fotoğraflar hakkında güzel birşeyler söyle</item>
+        <item>Aşağıdaki kutuyu görüyor musun? Oraya kişiliğini koy.</item>
+        <item>Aşağıdaki kutuyu görüyor musun? Oraya bilgece birşeyler yaz.</item>
+        <item>Bu kutuyu görüyor musun? İşte, oraya birşeyler yaz.</item>
+        <item>Pilin bitmeden bir mesaj gönder.</item>
+        <item>Utangaç mısın?</item>
+        <item>Günü yakala.</item>
+        <item>Eşinle sohbet et</item>
+        <item>Bu ekrana bakmak bir sohbeti başlatmayacak…</item>
+        <item>Eşinle sohbet et</item>
+        <item>Sıkıcı olmayı bırak.</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>İlk mesaj gönderen kazanır.</item>
+        <item>İlk mesajı göndermek yanlış birşey değil.</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Tinder senin için yazamaz…</item>
+        <item>Tinder senin için yazamaz … en azından şimdilik.</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Neyi bekliyorsun?</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Neden merhaba demedin?</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+        <item>Eşinle sohbet et</item>
+    </string-array>
+    <string-array name="ordinals">
+        <item>0.</item>
+        <item>1.</item>
+        <item>2.</item>
+        <item>3.</item>
+    </string-array>
+</resources>

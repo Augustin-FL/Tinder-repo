@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:id="@id/linear_container" app:background="@drawable/rounded_rectangle_white" app:layout_width="@dimen/width_dialog" app:layout_height="-2"
+    <LinearLayout app:orientation="1" app:paddingLeft="@dimen/dialog_content_padding" app:paddingTop="@dimen/dialog_content_padding" app:paddingRight="@dimen/dialog_content_padding" app:layout_width="-1" app:layout_height="-2">
+        <ImageView app:layout_gravity="11" app:id="@id/img_dialog_icon" app:layout_width="@dimen/dialog_icon_length" app:layout_height="@dimen/dialog_icon_length" app:layout_marginBottom="@dimen/margin_med" />
+        <com.tinder.views.CustomTextView app:id="@id/txt_dialog_title" app:layout_width="-2" app:layout_height="-1" app:text="Title" app:font="2" style="@style/dialog_standard_title" />
+    </LinearLayout>
+    <ScrollView app:scrollbarStyle="2000000" app:id="@id/scroll_txt" app:paddingLeft="24dp" app:paddingTop="@dimen/padding_large" app:paddingRight="24dp" app:paddingBottom="24dp" app:layout_width="-1" app:layout_height="-1" app:fillViewport="true" app:overScrollMode="2">
+        <LinearLayout app:layout_width="-1" app:layout_height="-1">
+            <com.tinder.views.CustomTextView app:id="@id/txt_dialog_txt" app:layout_width="-2" app:layout_height="-1" app:text="This is content for our dialogs This is a second line." app:font="2" style="@style/dialog_standard_body" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout app:layout_gravity="5" app:orientation="0" app:id="@id/linear_binary_choices" app:paddingRight="@dimen/padding_med" app:paddingBottom="8dp" app:layout_width="-2" app:layout_height="-2">
+        <com.tinder.views.CustomTextView app:textColor="@color/text_light" app:id="@id/txt_choice_one" app:layout_width="-2" app:layout_height="-2" app:text="Button 1" app:font="2" style="@style/dialog_standard_action" />
+        <com.tinder.views.CustomTextView app:id="@id/txt_choice_two" app:layout_width="-2" app:layout_height="-2" app:text="Button 2" app:font="2" style="@style/dialog_standard_action" />
+    </LinearLayout>
+    <com.tinder.views.CustomTextView app:layout_gravity="5" app:id="@id/txt_mono_choice" app:padding="@dimen/padding_large" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:font="2" style="@style/dialog_standard_action" />
+</LinearLayout>

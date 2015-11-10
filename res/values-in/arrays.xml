@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compass_directions">
+        <item>U</item>
+        <item>TL</item>
+        <item>T</item>
+        <item>TG</item>
+        <item>S</item>
+        <item>BD</item>
+        <item>B</item>
+        <item>BL</item>
+    </string-array>
+    <string-array name="full_compass_directions">
+        <item>utara</item>
+        <item>timur laut</item>
+        <item>timur</item>
+        <item>tenggara</item>
+        <item>selatan</item>
+        <item>barat daya</item>
+        <item>barat</item>
+        <item>barat laut</item>
+    </string-array>
+    <string-array name="empty_message_suggestions">
+        <item>\#JanganNgusapSambilNyetir</item>
+        <item>\#NgobrolSamaTindermu</item>
+        <item>Pencapaian sukses!</item>
+        <item>Dan mungkin, Anda hampir mengusap ke kiri…</item>
+        <item>Lagi sibukkah Anda?</item>
+        <item>Lagi menunggu undangan?!</item>
+        <item>Tanyai mereka tentang teman yang sama.</item>
+        <item>Bersikaplah ramah.</item>
+        <item>Jutaan pesan telah dikirim di Tinder. Seperti apakah pesan Anda jadinya?</item>
+        <item>Ayo ngobrol.</item>
+        <item>Kucing atau anjing?</item>
+        <item>Percakapan tidak bin ajaib tertulis begitu saja.</item>
+        <item>Crickets…</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Kenapa jadi bungkam?</item>
+        <item>Anda tahu bahwa ucapan klise itu sia-sia?</item>
+        <item>Ayo!</item>
+        <item>Jangan biarkan kosong.</item>
+        <item>Jangan mengusap sambil menyetir.</item>
+        <item>Jangan ber-Tinder ria sambil menyetir.</item>
+        <item>Emosikon diterima.</item>
+        <item>Semua menyukai orang yang perhatian.</item>
+        <item>Lima juta pesan terkirim dalam satu jam terakhir … Anda tak dapat\u0009 mengarang satu pun?</item>
+        <item>Beri pujian dan lihat reaksinya.</item>
+        <item>Tulis pujian dan lihat apa yang terjadi.</item>
+        <item>Mari Google beberapa ucapan.</item>
+        <item>Pertanyaan bagus! Tanyakan untuk mendapatkan jawaban.</item>
+        <item>Tak usah takut, Tinder tetap ada di sisi Anda!</item>
+        <item>Sopan sedikitlah. Sapa dengan \"Halo!\"</item>
+        <item>Berlakulah sopan… katakan sesuatu!</item>
+        <item>"'Hai' itu klise."</item>
+        <item>Kurang sopan … Ayo katakan sesuatu!</item>
+        <item>Berapa lama lagi sebelum Anda mengirim pesan?</item>
+        <item>Berapa banyak teman yang Anda sudah dapatkan di Tinder?</item>
+        <item>Anda bisa menulis dalam seberapa banyak bahasa?</item>
+        <item>Anda bisa menulis dalam seberapa banyak bahasa?</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Masukkan pujian di bawah.</item>
+        <item>Masukkan pesan kocak di bawah ini.</item>
+        <item>Masukkan pesan perhatian di bawah ini.</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Buat orang ini tersenyum.</item>
+        <item>Lebih dari 90% pujian mendapatkan respons.</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Katakan sesuatu!</item>
+        <item>Katakan sesuatu yang lucu!</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Katakan sesuatu yang cerdik!</item>
+        <item>Berterima kasihlah karena telah mengusap ke kanan.</item>
+        <item>Ayo mulai merayu…</item>
+        <item>Katakan sesuatu yang baik tentang foto</item>
+        <item>Katakan sesuatu yang manis!</item>
+        <item>Katakan sesuatu yang cerdik!</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Malu-malu kucing?</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>\#KitaBerduaNgusapKeKanan</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Apa yang ditunggu?</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Mengapa Anda belum menyapa?</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Hidup cuma sekali.</item>
+        <item>Mengusap cuma sekali.</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+        <item>Ngobrol dengan jodohmu</item>
+    </string-array>
+    <string-array name="ordinals">
+        <item>0.</item>
+        <item>1.</item>
+        <item>2.</item>
+        <item>3.</item>
+    </string-array>
+</resources>

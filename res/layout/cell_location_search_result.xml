@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:orientation="1" app:layout_width="-2" app:layout_height="-2">
+    <ImageView app:id="@id/search_result_img" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@dimen/location_result_side_margin" app:layout_marginTop="@dimen/margin_large" app:layout_marginRight="@dimen/margin_med" app:layout_marginBottom="@dimen/margin_large" app:src="@drawable/recs_passport_list_pin" app:layout_centerVertical="true" />
+    <LinearLayout app:orientation="1" app:layout_width="-2" app:layout_height="-2" app:layout_toRightOf="@id/search_result_img" app:layout_centerVertical="true">
+        <com.tinder.views.CustomTextView app:textSize="@dimen/match_name_textsize" app:textColor="@color/text_dark" app:id="@id/search_result_txtView_primary" app:layout_width="-2" app:layout_height="-2" app:text="Los Angeles" app:singleLine="true" app:layout_weight="1.0" app:font="2" />
+        <com.tinder.views.CustomTextView app:textSize="@dimen/text_large" app:textColor="@color/subtext_gray" app:id="@id/search_result_txtView_secondary" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="-2dp" app:text="California" app:singleLine="true" app:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:id="@id/matched_frame_layout" app:background="@color/dialog_matched_background" app:layout_width="-1" app:layout_height="-1">
+    <RelativeLayout app:id="@id/matched_relative_layout" app:layout_width="-1" app:layout_height="-1">
+        <ImageView app:id="@id/imageView_its_a_match" app:layout_width="-2" app:layout_height="-2" app:layout_marginBottom="@dimen/margin_med" app:src="@drawable/matchscreen_headlinetext_img" app:layout_above="@id/matched_text" app:layout_centerHorizontal="true" />
+        <com.tinder.views.CustomTextView app:textSize="@dimen/text_xxlarge" app:textColor="@c1470c/white" app:gravity="1" app:id="@id/customTextView_its_a_match" app:layout_width="-2" app:layout_height="-2" app:layout_marginBottom="@dimen/margin_med" app:text="@string/its_a_match" app:layout_above="@id/matched_text" app:layout_centerHorizontal="true" app:fontFile="Mission-Script.otf" />
+        <com.tinder.views.CustomTextView app:textSize="@dimen/matched_text_size" app:textColor="@c1470c/white" app:gravity="1" app:id="@id/matched_text" app:paddingBottom="@dimen/padding_large" app:layout_width="-1" app:layout_height="-2" app:text="You and Jennifer have liked each other." app:layout_above="@id/linear_match_one" app:font="0" />
+        <RelativeLayout app:id="@id/linear_match_one" app:background="@drawable/rounded_white_bg" app:layout_width="@dimen/matched_avatar_frame_length" app:layout_height="@dimen/matched_avatar_frame_length" app:layout_marginRight="@dimen/margin_xsmall" app:layout_toLeftOf="@id/center_div" app:layout_above="@id/center_div">
+            <com.tinder.views.RoundImageView app:id="@id/img_match_one" app:layout_width="@dimen/matched_avatar_length" app:layout_height="@dimen/matched_avatar_length" app:scaleType="6" app:layout_centerInParent="true" app:defaultStyle="32" />
+            <com.tinder.views.VerifiedBadgeView app:id="@id/verified_badge1" app:layout_width="-2" app:layout_height="-2" app:layout_margin="@dimen/margin_xsmall" app:layout_alignParentRight="true" app:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <View app:id="@id/center_div" app:layout_width="1dp" app:layout_height="1dp" app:layout_centerInParent="true" />
+        <RelativeLayout app:id="@id/linear_match_two" app:background="@drawable/rounded_white_bg" app:layout_width="@dimen/matched_avatar_frame_length" app:layout_height="@dimen/matched_avatar_frame_length" app:layout_marginLeft="@dimen/margin_xsmall" app:layout_toRightOf="@id/center_div" app:layout_above="@id/center_div">
+            <com.tinder.views.RoundImageView app:id="@id/img_match_two" app:layout_width="@dimen/matched_avatar_length" app:layout_height="@dimen/matched_avatar_length" app:scaleType="6" app:layout_centerInParent="true" app:defaultStyle="32" />
+            <com.tinder.views.VerifiedBadgeView app:id="@id/verified_badge2" app:layout_width="-2" app:layout_height="-2" app:layout_margin="@dimen/margin_xsmall" app:layout_alignParentRight="true" app:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <ImageView app:id="@id/superlike_star" app:layout_width="-2" app:layout_height="-2" app:layout_marginBottom="@dimen/new_match_star_bottom_margin" app:src="@drawable/new_match_star" app:layout_above="@id/center_div" app:layout_centerHorizontal="true" />
+        <LinearLayout app:gravity="11" app:orientation="0" app:id="@id/linear_start_chatting" app:background="@drawable/selector_white_button" app:clickable="true" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@dimen/matched_button_margin_top" app:layout_above="@id/linear_find_more_matches" app:layout_alignLeft="@id/linear_match_one" app:layout_alignRight="@id/linear_match_two">
+            <ImageView app:layout_gravity="10" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/itsamatch_sendmessage_icon" app:scaleType="1" />
+            <com.tinder.views.CustomTextView app:textSize="@dimen/matched_text_size" app:id="@id/btn_start_chatting" app:layout_width="-2" app:layout_height="-2" app:text="@string/send_msg" app:font="0" style="@style/button_rounded_text" />
+        </LinearLayout>
+        <LinearLayout app:gravity="11" app:orientation="0" app:id="@id/linear_find_more_matches" app:background="@drawable/selector_white_button" app:clickable="true" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@dimen/margin_med" app:layout_above="@id/text_matched_share" app:layout_alignLeft="@id/linear_match_one" app:layout_alignRight="@id/linear_match_two">
+            <ImageView app:layout_gravity="10" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/itsamatch_keepswiping_icon" app:scaleType="1" />
+            <com.tinder.views.CustomTextView app:textSize="@dimen/matched_text_size" app:id="@id/btn_find_more_matches" app:layout_width="-2" app:layout_height="-2" app:text="@string/keep_swiping" app:font="0" style="@style/button_rounded_text" />
+        </LinearLayout>
+        <com.tinder.views.CustomTextView app:textSize="@dimen/matched_text_size" app:textColor="@c1470c/white" app:gravity="11" app:id="@id/text_matched_share" app:paddingBottom="@dimen/padding_med" app:clickable="true" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@dimen/matched_share_marginTop" app:text="@string/share_matched" app:drawablePadding="@dimen/padding_med" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true" app:drawableStart="@drawable/icon_share" app:font="0" />
+        <ProgressBar app:id="@id/progressBar" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_centerInParent="true" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="-1" android:layout_height="-1">
+    <View android:id="@id/moment_game_bg" android:background="@c1470c/black" android:layout_width="-1" android:layout_height="-1" />
+    <com.tinder.views.SkippableViewPager android:id="@id/moment_game_viewpager" android:background="@color/transparent" android:layout_width="-1" android:layout_height="-1" />
+</merge>

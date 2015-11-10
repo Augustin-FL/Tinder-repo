@@ -1,0 +1,163 @@
+{
+	"status": 200,
+	"notifications": [],
+
+	"notifications" : [
+    {
+        "type" : "warning",
+        "meta" : {
+            "tier" : 1,
+            "reasons" : [1,2]
+        }
+
+    }],
+	"groups": [],
+	"rating": {
+		"likes_remaining": 100
+	},
+	"travel": {
+		"is_traveling": false
+	},
+	"purchases": [{
+		"product_type": "plus",
+		"purchase_type": "subscription",
+		"product_id": "plus_subscription_test"
+	}],
+	"versions": {
+		"active_text": "0.0.0",
+		"age_filter": "2.1.0",
+		"matchmaker": "2.1.0",
+		"trending": "10.0.0",
+		"trending_active_text": "10.0.0"
+	},
+	"globals": {
+		"invite_type": "client",
+		"recs_interval": 20000,
+		"updates_interval": 2000,
+		"recs_size": 40,
+		"matchmaker_default_message": "I want you to meet someone. I introduced you on Tinder www.gotinder.com/app",
+		"share_default_text": "<style>body{color:#fff;text-align:center;font-family:HelveticaNeue;text-shadow:0 1px 1px rgba(0,0,0,0.63);}h1{font-size:24px;line-height:24px;margin:0;}p{font-size:16px;margin:8px;}</style><h1>Get a Boost</h1><p><strong>Invite friends</strong> to show up <br/><strong>even higher</strong> in recommendations.</p>",
+		"boost_decay": 180,
+		"boost_up": 7,
+		"boost_down": 8,
+		"sparks": false,
+		"kontagent": false,
+		"sparks_enabled": false,
+		"kontagent_enabled": false,
+		"mqtt": false,
+		"tinder_sparks": true,
+		"moments_interval": 30000,
+		"ad_swipe_interval": 5,
+		"plus": true
+	},
+	"user": {
+		"_id": "53e1408b69aa7d8e40a64750",
+		"active_time": "2014-08-05T20:37:31.265Z",
+		"age_filter_max": 24,
+		"age_filter_min": 18,
+		"api_token": "6fab2c76-0388-45e6-bb51-eb5086660aa7",
+		"bio": "I enjoy playing tennis and relaxing on the beach. I've been known to play guitar but my favorite instrument is the violin. I enjoy watching movies and my favorite TV show is The Walking Dead. I am an Android developer. If you're using an Android device, I'm pretty confident that you've used an app I've worked on. I'm originally from St. Louis, MO.",
+		"birth_date": "1981-01-16T00:00:00.000Z",
+		"create_date": "2014-08-05T20:37:31.265Z",
+		"discoverable": true,
+		"distance_filter": 50,
+		"full_name": "Louis Tang",
+		"gender": 0,
+		"gender_filter": 1,
+		"name": "Louis",
+		"photos": [{
+			"id": "278a3fec-517e-4faf-9b25-877385952cea",
+			"url": "http://images.gotinder.com/53e1408b69aa7d8e40a64750/278a3fec-517e-4faf-9b25-877385952cea.jpg",
+			"fileName": "278a3fec-517e-4faf-9b25-877385952cea.jpg",
+			"fbId": "10102283973570484",
+			"extension": "jpg",
+			"processedFiles": [{
+				"url": "http://images.gotinder.com/53e1408b69aa7d8e40a64750/640x640_278a3fec-517e-4faf-9b25-877385952cea.jpg",
+				"height": 640,
+				"width": 640
+			}, {
+				"url": "http://images.gotinder.com/53e1408b69aa7d8e40a64750/320x320_278a3fec-517e-4faf-9b25-877385952cea.jpg",
+				"height": 320,
+				"width": 320
+			}, {
+				"url": "http://images.gotinder.com/53e1408b69aa7d8e40a64750/172x172_278a3fec-517e-4faf-9b25-877385952cea.jpg",
+				"height": 172,
+				"width": 172
+			}, {
+				"url": "http://images.gotinder.com/53e1408b69aa7d8e40a64750/84x84_278a3fec-517e-4faf-9b25-877385952cea.jpg",
+				"height": 84,
+				"width": 84
+			}]
+		}, {
+			"id": "276bfc20-9b97-44a3-a440-4a4cb1f808d8",
+			"url": "http://images.gotinder.com/53e1408b69aa7d8e40a64750/276bfc20-9b97-44a3-a440-4a4cb1f808d8.jpg",
+			"fileName": "276bfc20-9b97-44a3-a440-4a4cb1f808d8.jpg",
+			"fbId": "10100214701668650",
+			"extension": "jpg",
+			"processedFiles": [{
+				"url": "http://images.gotinder.com/53e1408b69aa7d8e40a64750/640x640_276bfc20-9b97-44a3-a440-4a4cb1f808d8.jpg",
+				"height": 640,
+				"width": 640
+			}, {
+				"url": "http://images.gotinder.com/53e1408b69aa7d8e40a64750/320x320_276bfc20-9b97-44a3-a440-4a4cb1f808d8.jpg",
+				"height": 320,
+				"width": 320
+			}, {
+				"url": "http://images.gotinder.com/53e1408b69aa7d8e40a64750/172x172_276bfc20-9b97-44a3-a440-4a4cb1f808d8.jpg",
+				"height": 172,
+				"width": 172
+			}, {
+				"url": "http://images.gotinder.com/53e1408b69aa7d8e40a64750/84x84_276bfc20-9b97-44a3-a440-4a4cb1f808d8.jpg",
+				"height": 84,
+				"width": 84
+			}]
+		}, {
+			"id": "7c021d61-283d-4bb1-8c7c-36c432e27087",
+			"url": "http://images.gotinder.com/53e1408b69aa7d8e40a64750/7c021d61-283d-4bb1-8c7c-36c432e27087.jpg",
+			"fileName": "7c021d61-283d-4bb1-8c7c-36c432e27087.jpg",
+			"fbId": "10152466782927922",
+			"extension": "jpg",
+			"processedFiles": [{
+				"url": "http://images.gotinder.com/53e1408b69aa7d8e40a64750/640x640_7c021d61-283d-4bb1-8c7c-36c432e27087.jpg",
+				"height": 640,
+				"width": 640
+			}, {
+				"url": "http://images.gotinder.com/53e1408b69aa7d8e40a64750/320x320_7c021d61-283d-4bb1-8c7c-36c432e27087.jpg",
+				"height": 320,
+				"width": 320
+			}, {
+				"url": "http://images.gotinder.com/53e1408b69aa7d8e40a64750/172x172_7c021d61-283d-4bb1-8c7c-36c432e27087.jpg",
+				"height": 172,
+				"width": 172
+			}, {
+				"url": "http://images.gotinder.com/53e1408b69aa7d8e40a64750/84x84_7c021d61-283d-4bb1-8c7c-36c432e27087.jpg",
+				"height": 84,
+				"width": 84
+			}]
+		}, {
+			"id": "05e11702-7d65-4a8e-876e-92601175c2fa",
+			"url": "http://images.gotinder.com/53e1408b69aa7d8e40a64750/05e11702-7d65-4a8e-876e-92601175c2fa.jpg",
+			"fileName": "05e11702-7d65-4a8e-876e-92601175c2fa.jpg",
+			"fbId": "10100247041753860",
+			"extension": "jpg",
+			"processedFiles": [{
+				"url": "http://images.gotinder.com/53e1408b69aa7d8e40a64750/640x640_05e11702-7d65-4a8e-876e-92601175c2fa.jpg",
+				"height": 640,
+				"width": 640
+			}, {
+				"url": "http://images.gotinder.com/53e1408b69aa7d8e40a64750/320x320_05e11702-7d65-4a8e-876e-92601175c2fa.jpg",
+				"height": 320,
+				"width": 320
+			}, {
+				"url": "http://images.gotinder.com/53e1408b69aa7d8e40a64750/172x172_05e11702-7d65-4a8e-876e-92601175c2fa.jpg",
+				"height": 172,
+				"width": 172
+			}, {
+				"url": "http://images.gotinder.com/53e1408b69aa7d8e40a64750/84x84_05e11702-7d65-4a8e-876e-92601175c2fa.jpg",
+				"height": 84,
+				"width": 84
+			}]
+		}],
+		"ping_time": "2015-02-02T23:51:44.792Z"
+	}
+}

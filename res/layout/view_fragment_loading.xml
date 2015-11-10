@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:background="@c1470c/white" android:layout_width="-1" android:layout_height="-1">
+    <com.tinder.views.LoadingView android:layout_gravity="11" android:id="@id/frag_loading_loadingview" android:paddingTop="@dimen/actionbar_size" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>

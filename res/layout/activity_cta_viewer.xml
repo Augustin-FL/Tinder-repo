@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <WebView android:id="@id/webView" android:layout_width="-1" android:layout_height="-1" />
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@id/progress_bg" android:layout_width="-1" android:layout_height="-1" android:src="@c1470c/white" />
+        <ProgressBar android:id="@id/progress" android:layout_width="-2" android:layout_height="-2" android:indeterminate="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

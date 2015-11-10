@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge app:id="@id/photo_container" app:layout_width="-1" app:layout_height="-1">
+    <View app:id="@id/photo_background" app:background="@c1470c/black" app:layout_width="-1" app:layout_height="-1" />
+    <android.support.v4.view.ViewPager app:id="@id/photo_viewpager" app:layout_width="-1" app:layout_height="-2" />
+    <RelativeLayout app:id="@id/row_photo_details" app:layout_width="-1" app:layout_height="-2">
+        <com.tinder.views.RoundImageView app:id="@id/profile_thumb" app:layout_width="@dimen/instagram_view_avatar_size" app:layout_height="@dimen/instagram_view_avatar_size" app:layout_marginLeft="10dp" app:layout_above="@id/photo_viewpager" app:layout_alignParentLeft="true" app:layout_centerVertical="true" app:defaultStyle="32" />
+        <com.tinder.views.CustomTextView app:textSize="@dimen/instagram_view_textSize" app:textColor="@c1470c/white" app:id="@id/username" app:clickable="true" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="10dp" app:text="Lindsey_XO" app:layout_toRightOf="@id/profile_thumb" app:layout_above="@id/photo_viewpager" app:layout_centerVertical="true" app:font="2" />
+        <FrameLayout app:id="@id/time_container" app:layout_width="-2" app:layout_height="-2" app:layout_above="@id/photo_viewpager" app:layout_alignParentRight="true" app:layout_centerVertical="true" app:animateLayoutChanges="true">
+            <com.tinder.views.CustomTextView app:textSize="@dimen/instagram_view_textSize" app:textColor="@c1470c/white" app:id="@c3185b/time" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="@dimen/timestamp_margin" app:drawableLeft="@drawable/instagram_clock" app:drawablePadding="@dimen/padding_small" app:layout_above="@id/photo_viewpager" app:layout_alignParentRight="true" app:layout_centerVertical="true" app:font="2" />
+            <com.tinder.views.CustomTextView app:textSize="@dimen/instagram_view_textSize" app:textColor="@c1470c/white" app:id="@id/nexttime" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="@dimen/timestamp_margin" app:drawableLeft="@drawable/instagram_clock" app:drawablePadding="@dimen/padding_small" app:layout_above="@id/photo_viewpager" app:layout_alignParentRight="true" app:layout_centerVertical="true" app:font="2" />
+        </FrameLayout>
+    </RelativeLayout>
+    <ImageView app:id="@id/photo_scale" app:layout_width="-1" app:layout_height="-1" />
+</merge>

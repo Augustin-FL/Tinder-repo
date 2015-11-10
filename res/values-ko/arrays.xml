@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compass_directions">
+        <item>북</item>
+        <item>북동</item>
+        <item>동</item>
+        <item>동남</item>
+        <item>남</item>
+        <item>남서</item>
+        <item>서</item>
+        <item>북서</item>
+    </string-array>
+    <string-array name="full_compass_directions">
+        <item>북쪽</item>
+        <item>북동쪽</item>
+        <item>동쪽</item>
+        <item>남동쪽</item>
+        <item>남쪽</item>
+        <item>남서쪽</item>
+        <item>서쪽</item>
+        <item>북서쪽</item>
+    </string-array>
+    <string-array name="empty_message_suggestions">
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>이 사람과 공통의 친구가 있는지 물어보세요.</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>Crickets…</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>지금 시작하세요!</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>누구나 생각이 깊은 사람을 좋아해요.</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>칭찬을 하고 무슨일이 일어나는지 보세요.</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>예의를 지켜주세요… 무언가 말을 건네세요!</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>예의를 지켜주세요… 무언가 말을 건네세요!</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>몇가지 언어를 쓸수있나요?</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>칭찬내용을 아래 적어주세요.</item>
+        <item>재미있는 메시지를 아래 입력하세요.</item>
+        <item>사려깊은 메시지를 아래에 남겨주세요.</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>이 사람을 웃게 해보세요.</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>무언가 말해보세요!</item>
+        <item>무언가 재미있는것을 말해보세요!</item>
+        <item>사진에 대해 좋은 말을 남겨보세요</item>
+        <item>듣기좋은 말을 남겨보세요!</item>
+        <item>위트있는 말을 남겨보세요!</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>아직도 인사안하셨어요?</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+        <item>귀하의 매치와 채팅하기</item>
+    </string-array>
+    <string-array name="ordinals">
+        <item>0촌</item>
+        <item>1촌</item>
+        <item>2촌</item>
+        <item>3촌</item>
+    </string-array>
+</resources>

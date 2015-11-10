@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:id="@id/matchesTop" app:layout_width="-1" app:layout_height="-1">
+    <uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout app:id="@id/ptr_layout_no_matches" app:visibility="2" app:layout_width="-1" app:layout_height="-1">
+        <ScrollView app:layout_width="-1" app:layout_height="-1">
+            <LinearLayout app:orientation="1" app:id="@id/no_matches" app:paddingTop="@dimen/padding_large" app:layout_width="-1" app:layout_height="-1"
+                <LinearLayout app:gravity="11" app:orientation="1" app:layout_width="-1" app:layout_height="-1" app:layout_marginTop="@dimen/margin_xxlarge" app:layout_marginBottom="@dimen/no_matches_margin_from_buttons">
+                    <ImageView app:layout_width="-2" app:layout_height="-2" app:src="@drawable/nomatches_youhavenomatches_icon" app:contentDescription="@string/you_have_no_matches" />
+                    <com.tinder.views.CustomTextView app:textSize="@dimen/you_have_no_matches" app:textColor="@color/text_light" app:gravity="11" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@dimen/margin_large" app:text="@string/you_have_no_matches" />
+                </LinearLayout>
+                <LinearLayout app:gravity="11" app:orientation="0" app:id="@id/discover_new_people" app:clickable="true" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@dimen/margin_xlarge" app:layout_marginRight="@dimen/margin_xlarge" app:layout_marginBottom="@dimen/margin_med" style="@style/orange_rect_button">
+                    <ImageView app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="@dimen/margin_small" app:src="@drawable/nomatches_discovernewpeople_icon" />
+                    <com.tinder.views.CustomTextView app:textSize="@dimen/text_large" app:textColor="@c1470c/white" app:layout_width="-2" app:layout_height="-2" app:text="@string/discover_new_people" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout>
+    <uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout app:id="@id/ptr_layout" app:visibility="2" app:layout_width="-1" app:layout_height="-1">
+        <ListView app:id="@id/match_list" style="@style/match_list" />
+    </uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout>
+    <ListView app:id="@id/search_match_list" app:visibility="2" style="@style/match_list" />
+    <com.tinder.views.MomentsStack app:id="@id/moment_stack" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:layout_alignParentTop="true" />
+    <LinearLayout app:gravity="11" app:orientation="1" app:id="@id/matches_loading_progress_container" app:focusableInTouchMode="false" app:layout_width="-1" app:layout_height="-1">
+        <ProgressBar app:id="@id/spinner" app:layout_width="-2" app:layout_height="-2" app:indeterminate="true" />
+        <com.tinder.views.CustomTextView app:textSize="@dimen/text_xlarge" app:textColor="@color/text_light" app:id="@id/txt_loading_matches" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@dimen/margin_large" app:text="@string/loading_matches" app:font="1" />
+    </LinearLayout>
+</RelativeLayout>

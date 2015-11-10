@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="0" android:background="0x106000c" android:layout_width="-1" android:layout_height="-1">
+    <view android:id="@c3185b/image" android:background="0x106000c" android:layout_width="-1" android:layout_height="-1" android:layout_above="@c3185b/linear_buttons" class="eu.janmuller.android.simplecropimage.CropImageView" />
+    <LinearLayout android:orientation="0" android:id="@c3185b/linear_buttons" android:layout_width="-1" android:layout_height="61dp" android:layout_alignParentBottom="true">
+        <Button android:textSize="20dp" android:textColor="0x106000b" android:gravity="11" android:id="@c3185b/discard" android:background="@c3184a/selector_crop_buttons" android:layout_width="-1" android:layout_height="60dp" android:layout_weight="1.0" android:layout_alignParentLeft="true" android:textAllCaps="true" />
+        <Button android:textSize="20dp" android:textColor="0x106000b" android:gravity="11" android:id="@c3185b/save" android:background="@c3184a/selector_crop_buttons" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.0" android:layout_toRightOf="@c3185b/discard" android:textAllCaps="true" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="0">
+    <solid android:color="0x106000d" />
+    <size android:height="@dimen/avatar_length_my_moments_activity" android:width="@dimen/avatar_length_my_moments_activity" />
+    <stroke android:width="@dimen/empty_outline_thickness" android:color="@color/another_freaking_grey" />
+</shape>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_enabled="true" android:state_pressed="true" android:drawable="@c1987b/com_mixpanel_android_arrowleft_faded" />
+    <item android:state_enabled="false" android:drawable="@c1987b/com_mixpanel_android_arrowleft_faded" />
+    <item android:drawable="@c1987b/com_mixpanel_android_arrowleft" />
+</selector>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="API_MY_LOCATION_ACCURACY">"موقعي 
+على مسافة {0} من الأمتار"</string>
+    <string name="API_OUTDATED_WARNING">يستخدم هذا التطبيق إصدارًا قديمًا من الخرائط. قد لا يعمل بشكل صحيح.</string>
+    <string name="BACK_TO_LIST">الرجوع إلى القائمة</string>
+    <string name="CLOSE_SOFTKEY">إغلاق</string>
+    <string name="COMPASS_ALT_TEXT">البوصلة</string>
+    <string name="MY_LOCATION_ALT_TEXT">موقعي</string>
+    <string name="ZOOM_IN_ALT_TEXT">تكبير</string>
+    <string name="ZOOM_OUT_ALT_TEXT">تصغير</string>
+    <string name="dav_map_copyrights_full">©%1$d Google - صور ©%2$d%3$s، بيانات الخريطة ©%4$d%5$s</string>
+    <string name="dav_map_copyrights_google_only">©%1$d Google</string>
+    <string name="dav_map_copyrights_imagery_only">©%1$d Google - صور ©%2$d%3$s</string>
+    <string name="dav_map_copyrights_map_data_only">©%1$d Google - بيانات الخريطة ©%2$d%3$s</string>
+    <string name="invalid_panorama_data">بيانات بانوراما غير صالحة.</string>
+    <string name="network_unavailable">يتطلب هذا البرنامج اتصالاً بالبيانات، وسيعيد محاولة الاتصال تلقائيًا. الرجاء التحقق من قوة الإشارة. هل تم تشغيل وضع الطائرة؟ هل تم تعطيل بيانات التجوال؟</string>
+    <string name="no_panorama_data">لم يتم تعيين بيانات بانوراما.</string>
+    <string name="panorama_disabled">الصورة غير متوفرة</string>
+    <string name="service_unavailable">خدمة التجوّل الافتراضي غير متوفرة.</string>
+    <string name="street_range_name_format">%1$s %2$s</string>
+    <string name="waiting_for_network">تم فقد اتصال البيانات، وجارٍ إعادة المحاولة…</string>
+</resources>

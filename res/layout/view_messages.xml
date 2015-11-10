@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:orientation="1" app:clickable="true" app:layout_width="-1" app:layout_height="-1">
+    <LinearLayout app:gravity="11" app:orientation="1" app:id="@id/view_empty_convo" app:clickable="true" app:layout_width="-1" app:layout_height="-2" app:layout_above="@id/divider_edit_text" app:layout_alignParentTop="true">
+        <com.tinder.views.CustomTextView app:textSize="@dimen/text_xlarge" app:textColor="@color/text_dark" app:id="@id/txt_matched_statement" app:layout_width="-2" app:layout_height="-2" app:text="You matched with Meow" />
+        <com.tinder.views.CustomTextView app:textSize="@dimen/text_xsmall" app:textColor="@color/text_light" app:gravity="11" app:id="@id/txt_matched_ago" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@dimen/margin_xxsmall" app:text="2 hours ago" />
+        <RelativeLayout app:id="@id/linear_img_container" app:background="@drawable/selector_ring" app:clickable="true" app:layout_width="@dimen/size_avatar_empty_convo_container" app:layout_height="@dimen/size_avatar_empty_convo_container" app:layout_marginTop="@dimen/margin_med">
+            <com.tinder.views.RoundImageView app:id="@id/img_empty_convo" app:clickable="true" app:layout_width="@dimen/size_avatar_empty_convo" app:layout_height="@dimen/size_avatar_empty_convo" app:layout_centerInParent="true" app:defaultStyle="32" />
+        </RelativeLayout>
+        <com.tinder.views.CustomTextView app:textSize="@dimen/text_med" app:textColor="@color/text_dark" app:gravity="11" app:id="@id/txt_empty_message" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@dimen/margin_xlarge" app:layout_marginTop="@dimen/margin_med" app:layout_marginRight="@dimen/margin_xlarge" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView app:id="@id/recyclerView_messages" app:fadingEdge="0" app:clipToPadding="false" app:layout_width="-1" app:layout_height="-2" app:transcriptMode="2" app:layout_above="@id/divider_edit_text" app:layout_below="@id/matched_details" />
+    <com.tinder.views.CustomTextView app:textColor="@c1470c/light_text_grey" app:gravity="1" app:id="@id/matched_details" app:padding="@dimen/padding_med" app:layout_width="-1" app:layout_height="-2" app:layout_below="@id/moment_stack" app:layout_alignWithParentIfMissing="true" app:textAllCaps="true" />
+    <LinearLayout app:orientation="1" app:id="@id/moment_stack" app:layout_width="-1" app:layout_height="-2" app:layout_alignParentTop="true">
+        <RelativeLayout app:background="@color/gameview_gray" app:layout_width="-1" app:layout_height="@dimen/msgs_moment_stack_height">
+            <com.tinder.views.RoundImageView app:id="@id/img_moment" app:layout_width="@dimen/msgs_moment_stack_img_width" app:layout_height="@dimen/msgs_moment_stack_img_height" app:layout_marginLeft="@dimen/margin_med" app:layout_alignParentLeft="true" app:layout_centerVertical="true" app:defaultStyle="a" />
+            <com.tinder.views.CustomTextView app:textSize="@dimen/msgs_moment_stack_main_text" app:textColor="@color/moments_no_moments_title_text" app:id="@id/txt_num_moments" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@dimen/margin_med" app:layout_toRightOf="@id/img_moment" app:layout_centerVertical="true" app:font="2" />
+            <com.tinder.views.CustomTextView app:textSize="@dimen/msgs_moment_stack_sub_text" app:textColor="@color/frag_match_gray" app:id="@id/txt_time_ago" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="@dimen/margin_large" app:layout_alignParentRight="true" app:layout_centerVertical="true" app:font="2" />
+        </RelativeLayout>
+        <View app:visibility="0" app:layout_alignParentBottom="true" style="@style/ab_divider" />
+    </LinearLayout>
+    <View app:id="@id/divider_edit_text" app:background="@color/divider_messages_enter_text" app:layout_width="-1" app:layout_height="3dp" app:layout_above="@id/relativeLayout_enter_text" />
+    <RelativeLayout app:id="@id/relativeLayout_enter_text" app:layout_width="-1" app:layout_height="-2" app:layout_alignParentBottom="true">
+        <com.tinder.views.CustomEditText app:textColor="@color/gray_very_dark" app:textColorHint="@color/text_hint_color" app:id="@id/editText_enter_text" app:background="@drawable/edit_text_holo_gray" app:padding="@dimen/margin_med" app:layout_width="-1" app:layout_height="-2" app:hint="@string/messages_prompt" app:singleLine="false" app:layout_toLeftOf="@id/button_send" app:layout_centerVertical="true" app:inputType="24041" app:textCursorDrawable="@c3374b/SmoothProgressBar_spbStyle" app:font="2" />
+        <ImageView app:id="@id/button_send" app:padding="@dimen/padding_small" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="@dimen/margin_xsmall" app:src="@drawable/selector_button_send" app:layout_alignTop="@id/editText_enter_text" app:layout_alignBottom="@id/editText_enter_text" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compass_directions">
+        <item>N</item>
+        <item>NE</item>
+        <item>E</item>
+        <item>SE</item>
+        <item>S</item>
+        <item>SO</item>
+        <item>O</item>
+        <item>NO</item>
+    </string-array>
+    <string-array name="full_compass_directions">
+        <item>norte</item>
+        <item>nordeste</item>
+        <item>leste</item>
+        <item>sudeste</item>
+        <item>sul</item>
+        <item>sudoeste</item>
+        <item>oeste</item>
+        <item>noroeste</item>
+    </string-array>
+    <string-array name="empty_message_suggestions">
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Pergunte-lhe sobre os amigos em comum.</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Crickets…</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Força!</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Toda a gente gosta de pessoas atenciosas.</item>
+        <item>Conversar com correspondência</item>
+        <item>Faça um elogio para ver o que acontece.</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Seja educado(a)… diga alguma coisa!</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Seja educado(a)… diga alguma coisa!</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Em quantas línguas sabe escrever?</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Insira uma frase abaixo.</item>
+        <item>Insira uma piadinha abaixo.</item>
+        <item>Insira uma piadinha abaixo.</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Faça alguém sorrir.</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Diga alguma coisa!</item>
+        <item>Diga alguma coisa engraçada!</item>
+        <item>Diga alguma coisa boa sobre as fotos</item>
+        <item>Diga algo carinhoso!</item>
+        <item>Diga algo inteligente!</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Porque é que ainda não disse um olá?</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+        <item>Conversar com correspondência</item>
+    </string-array>
+    <string-array name="ordinals">
+        <item>0º</item>
+        <item>1º</item>
+        <item>2º</item>
+        <item>3º</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="invalid_panorama_data">Panorámica non válida.</string>
+    <string name="network_unavailable">Este programa require unha conexión de datos e volverá tentalo automaticamente. Comproba a forza do sinal. Está activado o modo avión? Está deshabilitado o roaming?</string>
+    <string name="no_panorama_data">Sen conxunto de datos panorámicos.</string>
+    <string name="panorama_disabled">A imaxe xa non está dispoñible</string>
+    <string name="service_unavailable">Servizo de vista de rúa non dispoñible.</string>
+    <string name="street_range_name_format">%1$s %2$s</string>
+    <string name="waiting_for_network">Conexión de datos perdida, volvendo tentar…</string>
+</resources>

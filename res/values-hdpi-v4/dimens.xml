@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="game_text_size">14.0sp</dimen>
+    <dimen name="intro_heading_text_size">18.0sp</dimen>
+    <dimen name="match_request_subtitle_text_size">15.0sp</dimen>
+    <dimen name="paywall_dialog_width">270.0dip</dimen>
+    <dimen name="photo_container_sides">50.0dip</dimen>
+    <dimen name="text_large">16.0sp</dimen>
+    <dimen name="text_med">14.0sp</dimen>
+    <dimen name="text_xlarge">18.0sp</dimen>
+    <dimen name="text_xsmall">10.0sp</dimen>
+    <dimen name="text_xxlarge">30.0sp</dimen>
+    <dimen name="paywall_dialog_row_padding">15.0dip</dimen>
+    <dimen name="paywall_pager_height">175.0dip</dimen>
+</resources>

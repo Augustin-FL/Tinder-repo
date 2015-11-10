@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>>
+<ListView android:layout_gravity="10" android:id="@id/recs_passport_options_listview" android:fadingEdge="0" android:clipChildren="true" android:clipToPadding="true" android:layout_width="-1" android:layout_height="@dimen/passport_dashboard_list_max_height" />

@@ -1,0 +1,173 @@
+{
+  "status": 200,
+  "results": [
+    {
+      "lat": 34.05223,
+      "lon": -118.24368,
+      "population": 3792621,
+      "timezone_offset": -8.0,
+      "name": "Los Angeles",
+      "country": "United States"
+    },
+    {
+      "lat": 51.5084300,
+      "lon": -0.1257400,
+      "population": 8416535,
+      "timezone_offset": 0.0,
+      "name": "London",
+      "country": "England"
+    },
+    {
+      "lat": -37.813611,
+      "lon": 144.963056,
+      "population": 4347955,
+      "timezone_offset": 10.0,
+      "name": "Melbourne",
+      "country": "Australia"
+    },
+    {
+      "lat": 40.7127,
+      "lon": -74.0059,
+      "population": 8405837,
+      "timezone_offset": -5.0,
+      "name": "New York City",
+      "country": "United States"
+    },
+    {
+      "lat": 52.366667,
+      "lon": 4.9,
+      "population": 813562,
+      "timezone_offset": 1.0,
+      "name": "Amsterdam",
+      "country": "The Netherlands"
+    },
+    {
+      "lat": -33.859972,
+      "lon": 151.209444,
+      "population": 4757083,
+      "timezone_offset": 10.0,
+      "name": "Sydney",
+      "country": "Australia"
+    },
+    {
+      "lat": 32.066667,
+      "lon": 34.783333,
+      "population": 414600,
+      "timezone_offset": 3.0,
+      "name": "Tel Aviv",
+      "country": "Israel"
+    },
+    {
+      "lat": 24.95,
+      "lon": 55.333333,
+      "population": 2106177,
+      "timezone_offset": 4.0,
+      "name": "Dubai",
+      "country": "United Arab Emirates"
+    },
+    {
+      "lat": 48.8567,
+      "lon": 2.3508,
+      "population": 2249975,
+      "timezone_offset": 1.0,
+      "name": "Paris",
+      "country": "France"
+    },
+    {
+      "lat": -22.908333,
+      "lon": -43.196389,
+      "population": 6429923,
+      "timezone_offset": -3.0,
+      "name": "Rio de Janeiro",
+      "country": "Brazil"
+    },
+    {
+      "lat": 41.383333,
+      "lon": 2.183333,
+      "population": 1620943,
+      "timezone_offset": 1.0,
+      "name": "Barcelona",
+      "country": "Spain"
+    },
+    {
+      "lat": 41.9,
+      "lon": 12.5,
+      "population": 2863322,
+      "timezone_offset": 1.0,
+      "name": "Rome",
+      "country": "Italy"
+    },
+    {
+      "lat": -36.840417,
+      "lon": 174.739869,
+      "population": 1418000,
+      "timezone_offset": 12.0,
+      "name": "Auckland",
+      "country": "New Zealand"
+    },
+    {
+      "lat": -34.603333,
+      "lon": -58.381667,
+      "population": 2890151,
+      "timezone_offset": -3.0,
+      "name": "Buenos Aires",
+      "country": "Argentina"
+    },
+    {
+      "lat": -33.925278,
+      "lon": 18.423889,
+      "population": 3740026,
+      "timezone_offset": 2.0,
+      "name": "Cape Town",
+      "country": "South Africa"
+    },
+    {
+      "lat": 52.516667,
+      "lon": 13.383333,
+      "population": 3419623,
+      "timezone_offset": 1.0,
+      "name": "Berlin",
+      "country": "Germany"
+    },
+    {
+      "lat": 53.347778,
+      "lon": -6.259722,
+      "population": 527612,
+      "timezone_offset": 0.0,
+      "name": "Dublin",
+      "country": "Ireland"
+    },
+    {
+      "lat": 59.329444,
+      "lon": 18.068611,
+      "population": 905184,
+      "timezone_offset": 1.0,
+      "name": "Stockholm",
+      "country": "Sweden"
+    },
+    {
+      "lat": 55.676111,
+      "lon": 12.568333,
+      "population": 569557,
+      "timezone_offset": 1.0,
+      "name": "Copenhagen",
+      "country": "Denmark"
+    },
+    {
+      "lat": 25.787778,
+      "lon": -80.224167,
+      "population": 419777,
+      "timezone_offset": -5.0,
+      "name": "Miami",
+      "country": "United States"
+    },
+    {
+      "lat": 41.013611,
+      "lon": 28.955,
+      "population": 14160467,
+      "timezone_offset": 2.0,
+      "name": "Istanbul",
+      "country": "Turkey"
+    }
+  ]
+}

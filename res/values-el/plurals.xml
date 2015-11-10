@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="common_connections_plural">
+        <item quantity="other">%d κοινές επαφές</item>
+        <item quantity="one">%d κοινή επαφή</item>
+    </plurals>
+    <plurals name="distance_units_away_km">
+        <item quantity="other">%d χιλιόμετρα μακριά</item>
+        <item quantity="one">%d χιλιόμετρο μακριά</item>
+    </plurals>
+    <plurals name="distance_units_away_mi">
+        <item quantity="other">%d μίλια μακριά</item>
+        <item quantity="one">%d μίλι μακριά</item>
+    </plurals>
+    <plurals name="friends_for_common_connections_plural">
+        <item quantity="other">%d φίλοι για κοινές επαφές</item>
+        <item quantity="one">%d φίλος για κοινές επαφές</item>
+    </plurals>
+    <plurals name="hours_left_plural">
+        <item quantity="other">%d ώρες ακόμη</item>
+        <item quantity="one">%d ώρα ακόμη</item>
+    </plurals>
+    <plurals name="instagram_photos_plural">
+        <item quantity="other">%d φωτογραφίες Instagram</item>
+        <item quantity="one">%d φωτογραφία Instagram</item>
+    </plurals>
+    <plurals name="interests_plural">
+        <item quantity="other">%d ενδιαφέροντα</item>
+        <item quantity="one">%d ενδιαφέρον</item>
+    </plurals>
+    <plurals name="likes_plural">
+        <item quantity="other">%d «μου αρέσει»</item>
+        <item quantity="one">%d «μου αρέσει»</item>
+    </plurals>
+    <plurals name="minutes_left_plural">
+        <item quantity="other">%d λεπτά ακόμη</item>
+        <item quantity="one">%d λεπτό ακόμη</item>
+    </plurals>
+    <plurals name="num_moments">
+        <item quantity="other">%d στιγμές</item>
+        <item quantity="one">%d στιγμή</item>
+    </plurals>
+    <plurals name="photo_count_plural">
+        <item quantity="other">%d φωτογραφίες</item>
+        <item quantity="one">%d φωτογραφία</item>
+    </plurals>
+    <plurals name="plus_paywall_option_text">
+        <item quantity="other">%1$s ΜΗΝΕΣ ΓΙΑ %2$s/μήνα</item>
+        <item quantity="one">%1$s ΜΗΝΑ ΓΙΑ %2$s/μήνα</item>
+    </plurals>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textColor="@color/orange" android:gravity="11" android:id="@id/text_header" android:background="@c1470c/white" android:layout_width="-1" android:layout_height="@dimen/actionbar_ptr_label_height" android:text="@string/pull_to_refresh_label" />
+</LinearLayout>

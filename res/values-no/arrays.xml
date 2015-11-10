@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compass_directions">
+        <item>N</item>
+        <item>NØ</item>
+        <item>Ø</item>
+        <item>SØ</item>
+        <item>S</item>
+        <item>SV</item>
+        <item>V</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="full_compass_directions">
+        <item>nord</item>
+        <item>nordøst</item>
+        <item>øst</item>
+        <item>sørøst</item>
+        <item>sør</item>
+        <item>sørvest</item>
+        <item>vest</item>
+        <item>nordvest</item>
+    </string-array>
+    <string-array name="empty_message_suggestions">
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Spør personen om deres felles venner.</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Crickets…</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Gjør det!</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Alle liker en omtenksom person.</item>
+        <item>Chatt med matchen din</item>
+        <item>Skriv en kompliment og se hva som skjer.</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Vær høflig… og si noe!</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Vær høflig… og si noe!</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Hvor mange språk kan du skrive på?</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Sett inn kompliment nedenfor.</item>
+        <item>Sett inn morsom melding nedenfor.</item>
+        <item>Sett inn omtenksom melding nedenfor.</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Få denne personen til å smile.</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Si noe!</item>
+        <item>Si noe morsomt!</item>
+        <item>Si noe fint om bildene</item>
+        <item>Si noe søtt!</item>
+        <item>Si noe gøyalt!</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Hvorfor har du ikke sagt hei?</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+        <item>Chatt med matchen din</item>
+    </string-array>
+    <string-array name="ordinals">
+        <item>0.</item>
+        <item>1.</item>
+        <item>2.</item>
+        <item>3.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:id="@id/relativeLayout_container" app:paddingTop="@dimen/padding_small" app:paddingBottom="@dimen/padding_small" app:layout_width="-2" app:layout_height="-2">
+    <com.tinder.views.RoundImageView app:id="@id/imageView_image" app:layout_width="@dimen/avatar_length_messages" app:layout_height="@dimen/avatar_length_messages" app:layout_marginLeft="@dimen/avatar_msg_spacing" app:layout_marginTop="@dimen/msg_avatar_top_margin" app:layout_marginRight="-2dp" app:layout_alignBottom="@id/relativeLayout_message" app:layout_alignParentLeft="true" app:defaultStyle="32" />
+    <RelativeLayout app:gravity="30" app:id="@id/relativeLayout_message" app:paddingLeft="@dimen/padding_large" app:paddingTop="@dimen/margin_small" app:paddingRight="@dimen/margin_small" app:paddingBottom="@dimen/margin_small" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="@dimen/msg_margin_from_right_side_of_screen" app:layout_toRightOf="@id/imageView_image">
+        <com.tinder.views.CustomTextView app:gravity="10" app:autoLink="1" app:linksClickable="true" app:id="@id/textView_message" app:layout_width="-2" app:layout_height="-2" app:font="2" style="@style/match_message_body_text" />
+        <com.tinder.views.CustomTextView app:textSize="@dimen/match_message_time" app:textColor="@color/messages_time" app:id="@id/textView_day" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="@dimen/margin_xsmall" app:layout_below="@id/textView_message" app:font="2" />
+        <com.tinder.views.CustomTextView app:textSize="@dimen/match_message_time" app:textColor="@color/messages_time" app:id="@id/textView_time" app:layout_width="-2" app:layout_height="-2" app:layout_toRightOf="@id/textView_day" app:layout_below="@id/textView_message" app:font="2" />
+    </RelativeLayout>
+    <LinearLayout app:orientation="1" app:id="@id/linear_likes" app:layout_width="-1" app:layout_height="-2" app:layout_below="@id/relativeLayout_message" />
+</RelativeLayout>

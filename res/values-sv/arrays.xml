@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compass_directions">
+        <item>N</item>
+        <item>NO</item>
+        <item>O</item>
+        <item>SO</item>
+        <item>S</item>
+        <item>SV</item>
+        <item>V</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="full_compass_directions">
+        <item>nord</item>
+        <item>nordost</item>
+        <item>ost</item>
+        <item>sydost</item>
+        <item>syd</item>
+        <item>sydväst</item>
+        <item>väst</item>
+        <item>nordväst</item>
+    </string-array>
+    <string-array name="empty_message_suggestions">
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Fråga personen om era gemensamma vänner.</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Crickets…</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Gör det!</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Alla gillar en omtänksam person.</item>
+        <item>Chatta med din matchning</item>
+        <item>Skriv en komplimang och se vad som händer.</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Var artig… säg någonting!</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Var artig… säg någonting!</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Hur många språk kan du skriva på?</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Ange komplimang nedan.</item>
+        <item>Ange roligt meddelande nedan.</item>
+        <item>Ange omtänksamt meddelande nedan.</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Få denna person att le.</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Säg något!</item>
+        <item>Säg något roligt!</item>
+        <item>Säg något trevligt om fotona</item>
+        <item>Säg något sött!</item>
+        <item>Säg något vitsigt!</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Varför har du inte sagt hej?</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+        <item>Chatta med din matchning</item>
+    </string-array>
+    <string-array name="ordinals">
+        <item>nollte</item>
+        <item>1:a</item>
+        <item>2:a</item>
+        <item>3:e</item>
+    </string-array>
+</resources>

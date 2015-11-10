@@ -1,0 +1,439 @@
+<html>
+<head>
+        <meta name="viewport"
+              content="width=750, height=750, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+        <style>
+                body, html {
+                        margin: 0;
+                        border: none;
+                        padding: 0;
+                        background-color: white;
+                        width: 750px;
+                        height: 750px;
+                }
+
+                .content.playing .animation {
+                        display: inline-block;
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        margin: 50px 30px 30px 30px;
+                        -webkit-transform: scale(1.5);
+                }
+
+                .content.playing {
+                        top: 0;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        z-index: 8;
+                        position: absolute;
+                }
+
+                .bar-c {
+                        overflow: hidden;
+                        height: 30px;
+                        width: 48px;
+                        margin: 0 auto;
+                        position: relative;
+                        cursor: pointer;
+                }
+
+                .bar {
+                        border-radius: 3px;
+                        border: 1px solid rgba(0, 0, 0, .125);
+                        height: 2px;
+                        width: 6px;
+                        display: inline-block;
+                        background-color: white;
+                        bottom: 0;
+                        position: absolute;
+                        -webkit-animation-duration: 250ms;
+                        -webkit-animation-play-state: running;
+                        -webkit-animation-direction: alternate;
+                        -webkit-animation-timing-function: ease-out;
+                        -webkit-animation-iteration-count: infinite;
+                }
+
+                .bar#bar-1 {
+                        left: 0;
+                        -webkit-animation-name: danceHeight1;
+                        -webkit-animation-delay: 0ms;
+                }
+
+                .bar#bar-2 {
+                        left: 9px;
+                        -webkit-animation-name: danceHeight2;
+                        -webkit-animation-delay: 250ms;
+                }
+
+                .bar#bar-3 {
+                        left: 18px;
+                        -webkit-animation-name: danceHeight3;
+                        -webkit-animation-delay: 400ms;
+                }
+
+                .bar#bar-4 {
+                        left: 27px;
+                        -webkit-animation-name: danceHeight4;
+                        -webkit-animation-delay: 550ms;
+                }
+
+                .bar#bar-5 {
+                        left: 48px;
+                        -webkit-animation-name: danceHeight5;
+                        -webkit-animation-delay: 700ms;
+                }
+
+                .bar#bar-6 {
+                        left: 60px;
+                        -webkit-animation-name: danceHeight6;
+                        -webkit-animation-delay: 850ms;
+                }
+
+                .bar.clamped-down {
+                        -webkit-animation-name: danceHeightClamped !important;
+                }
+
+                .bar.clamped-up {
+                        -webkit-animation-play-state: paused;
+                }
+
+                @-webkit-keyframes danceHeightClamped {
+                        from {
+                                height: 1px;
+                        }
+                        to {
+                                height: 1px;
+                        }
+                }
+
+                @-webkit-keyframes danceHeight1 {
+                        from {
+                                height: 1px;
+                        }
+                        to {
+                                height: 22px;
+                        }
+                }
+
+                @-webkit-keyframes danceHeight2 {
+                        from {
+                                height: 1px;
+                        }
+                        to {
+                                height: 15px;
+                        }
+                }
+
+                @-webkit-keyframes danceHeight3 {
+                        from {
+                                height: 1px;
+                        }
+                        to {
+                                height: 30px;
+                        }
+                }
+
+                @-webkit-keyframes danceHeight4 {
+                        from {
+                                height: 1px;
+                        }
+                        to {
+                                height: 20px;
+                        }
+                }
+
+                @-webkit-keyframes danceHeight5 {
+                        from {
+                                height: 1px;
+                        }
+                        to {
+                                height: 15px;
+                        }
+                }
+
+                @-webkit-keyframes danceHeight6 {
+                        from {
+                                height: 1px;
+                        }
+                        to {
+                                height: 15px;
+                        }
+                }
+
+                video {
+                        background-color: black;
+                }
+
+                @font-face {
+                        font-family: 'SemiBold';
+                        src: url('file:///android_asset/fonts/proximanovasoft-semibold.otf');
+                }
+
+                body {
+                        font-family: 'SemiBold';
+                }
+
+                .content.paused {
+                        position: absolute;
+                        color: white;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background-color: rgba(0, 0, 0, .5);
+                        z-index: 9;
+                }
+
+                .top {
+                        display: table;
+                        width: 100%;
+                }
+
+                .content.paused #cta-title-wrapper {
+                        display: table-cell;
+                        vertical-align: top;
+                        font-size: 40px;
+                        padding-top: 25px;
+                        padding-left: 25px;
+                }
+
+                .content.paused #cta-trigger-wrapper {
+                        display: table-cell;
+                        vertical-align: middle;
+                        overflow: hidden;
+                        padding-top: 25px;
+                        padding-right: 25px;
+                }
+
+                .content.paused #cta-title {
+                        font-size: 40px;
+                        min-width: 450px;
+                }
+
+                .content.paused #cta-trigger {
+                        padding: .5em 0.65em;
+                        background-color: white;
+                        border: 0;
+                        font-size: 40px;
+                        font-family: 'SemiBold';
+                        max-width: 280px;
+                        color: #666;
+                        border-radius: 20px;
+                        vertical-align: middle;
+                        float: right;
+                }
+
+                .state-icon {
+                        position: absolute;
+                        height: 150px;
+                        width: 150px;
+                        top: 325px;
+                        left: 315px;
+                }
+
+                .content {
+                }
+
+                .content.playing, .content.paused, video, .cover {
+                        border-top-left-radius: 20px;
+                        border-top-right-radius: 20px;
+                }
+
+                .cover {
+                        background-color: black;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        bottom: 0;
+                        right: 0;
+                        z-index: 99;
+                }
+
+        </style>
+        <script src="assets/jquery-2.1.3.js"></script>
+        <script>
+                var video;
+                var body;
+                var ctaTriggerButton;
+                var ctaTitleText;
+                var contentPaused;
+                var contentPlaying;
+                var playButton;
+                var equalizer;
+                var bar1, bar2, bar3, bar4;
+                var ended = false;
+                var impression = false;
+
+                var swapVisibility = function (oldE, newE) {
+                        $(oldE).animate({opacity: 0}, {
+                                duration: 125, queue: false, complete: function () {
+                                        $(oldE).css('display', 'none');
+                                        $(oldE).css('opacity', 1);
+                                        $(newE).css('display', 'block');
+                                        $(newE).css('opacity', 0);
+                                        $(newE).animate({opacity: 1}, {
+                                                duration: 125, queue: false, complete: function () {
+                                                }
+                                        });
+                                }
+                        });
+                };
+                var setup = function () {
+                        equalizer = document.querySelector('.animation');
+                        bar1 = document.querySelector('.bar-c .bar#bar-1');
+                        bar2 = document.querySelector('.bar-c .bar#bar-2');
+                        bar3 = document.querySelector('.bar-c .bar#bar-3');
+                        bar4 = document.querySelector('.bar-c .bar#bar-4');
+                        playButton = document.querySelector('.state-icon');
+                        contentPaused = document.querySelector('.content.paused');
+                        contentPlaying = document.querySelector('.content.playing');
+                        body = document.getElementsByTagName('body')[0];
+                        video = document.getElementById('video');
+                        video.addEventListener('pause', function () {
+                                swapVisibility(contentPlaying, contentPaused);
+                                TinderAds.onPaused();
+                        });
+                        video.addEventListener('play', function () {
+                                if (!impression) {
+                                        impression = true;
+                                        TinderAds.onImpression();
+                                } else {
+                                        if (!ended) {
+                                                TinderAds.onResumed();
+                                        }
+                                        else {
+                                                playButton.src = 'assets/vid_play_button.png';
+                                                ended = false;
+                                                TinderAds.onReplay();
+                                        }
+                                }
+                                swapVisibility(contentPaused, contentPlaying);
+                        });
+                        video.addEventListener('ended', function () {
+                                ended = true;
+                                TinderAds.onVideoEnded();
+                                playButton.src = 'assets/vid_replay_button.png';
+                                video.muted = false;
+                        });
+                        video.addEventListener('volumechange', function () {
+                                TinderAds.onMuted(!!video.muted);
+                        });
+                        video.addEventListener('timeupdate', function () {
+                                TinderAds.onTimeChanged(video.currentTime);
+                        });
+                        video.addEventListener('loaddeddata', function () {
+                                TinderAds.onLoadComplete();
+                        });
+                        ctaTriggerButton = document.getElementById('cta-trigger');
+                        ctaTitleText = document.getElementById('cta-title');
+                        ctaTitleText.innerText = TinderAds.getTitle();
+                        ctaTriggerButton.innerText = TinderAds.getActionButtonTitle();
+                        var source = document.createElement('source');
+                        source.setAttribute('src', TinderAds.getVideoUrl());
+                        source.setAttribute('type', 'video/webm');
+                        video.appendChild(source);
+                        video.load();
+
+                        contentPlaying.onclick = function () {
+                                console.log('Clicked contentPlaying');
+                                video.pause();
+                        };
+
+                        contentPaused.onclick = function () {
+                                console.log('Clicked contentPaused');
+                                video.play();
+                                if (ended) {
+                                        toggleEq(true);
+                                }
+                        };
+
+                        ctaTriggerButton.onclick = function (e) {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                TinderAds.launchCallToAction();
+                        };
+
+                        equalizer.onclick = function (e) {
+                                // TODO: fix clamping
+                                e.preventDefault();
+                                e.stopPropagation();
+                                console.log('Got click on equalizer');
+                                video.muted = !video.muted;
+                                toggleEq(!video.muted);
+                        };
+                };
+                var toggleEq = function (isEnabled) {
+                        console.log('Toggling EQ, enabled: ' + isEnabled);
+                        if (isEnabled) {
+                                video.muted = false;
+                                $(bar1).removeClass('clamped-up');
+                                $(bar2).removeClass('clamped-down');
+                                $(bar3).removeClass('clamped-down');
+                                $(bar4).removeClass('clamped-up');
+                        }
+                        else {
+                                video.muted = true;
+                                $(bar1).addClass('clamped-up');
+                                $(bar2).addClass('clamped-down');
+                                $(bar3).addClass('clamped-down');
+                                $(bar4).addClass('clamped-up');
+                        }
+                };
+
+                var load = function () {
+                        var coverElement = document.querySelector('.cover');
+                        $(coverElement).animate({opacity: 0}, {
+                                duration: 125, queue: false, complete: function () {
+                                        $(coverElement).css('display', 'none');
+                                        $(coverElement).css('opacity', 1);
+                                }
+                        });
+                        video.play();
+                };
+                var pause = function () {
+                        video.pause();
+                };
+                var unload = function () {
+                        video.pause();
+                        TinderAds.onClosed();
+                };
+                var click = function (x, y) {
+                        console.log('Simulating a click at (' + x + ', ' + y + ')');
+                        jQuery(document.elementFromPoint(x, y)).click();
+                };
+
+
+        </script>
+</head>
+<body>
+<div class="cover"></div>
+<div class="content-wrapper">
+        <div class="content playing">
+                <div class="animation">
+                        <div class="bar-c">
+                                <div id="bar-1" class="bar"></div>
+                                <div id="bar-2" class="bar"></div>
+                                <div id="bar-3" class="bar"></div>
+                                <div id="bar-4" class="bar"></div>
+                        </div>
+                </div>
+        </div>
+        <div class="content paused">
+                <div class="top flex">
+                        <div id="cta-title-wrapper">
+                                <div id="cta-title"></div>
+                        </div>
+                        <div id="cta-trigger-wrapper">
+                                <button id="cta-trigger"></button>
+                        </div>
+                </div>
+                <img class="state-icon margin" src="assets/vid_play_button.png">
+        </div>
+        <video id="video" width="750" height="750"
+               poster="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAMSURBVBhXY2BgYAAAAAQAAVzN/2kAAAAASUVORK5CYII=">
+        </video>
+</div>
+</body>
+</html>

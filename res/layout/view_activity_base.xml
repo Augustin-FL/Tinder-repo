@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/frameLayout_activity_base" android:layout_width="-1" android:layout_height="-1" />

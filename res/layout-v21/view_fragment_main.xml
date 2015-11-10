@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tinder.views.FadingLayout app:layout_width="-1" app:layout_height="-1">
+    <RelativeLayout app:layout_width="-1" app:layout_height="-1"
+        <RelativeLayout app:id="@id/ab_container" app:layout_width="-1" app:layout_height="@dimen/actionbar_size" app:layout_alignParentTop="true">
+            <ImageButton app:id="@id/btn_main_logo" app:background="@c3374b/SmoothProgressBar_spbStyle" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/actionbar_recs_active_withoutflame" app:layout_toRightOf="@id/main_menu_divider" app:layout_centerVertical="true" />
+            <FrameLayout app:id="@id/btn_flame_layout" app:layout_width="-2" app:layout_height="-2" app:layout_toRightOf="@id/main_menu_divider" app:layout_centerVertical="true">
+                <ImageButton app:layout_gravity="11" app:id="@id/btn_bg_main_flame" app:background="@c3374b/SmoothProgressBar_spbStyle" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/actionbar_recs_active" />
+                <ImageButton app:layout_gravity="11" app:id="@id/btn_main_flame" app:background="@c3374b/SmoothProgressBar_spbStyle" app:layout_width="-2" app:layout_height="-1" app:src="@drawable/selector_gray_recs" app:alpha="0.0" />
+            </FrameLayout>
+            <RelativeLayout app:id="@id/btn_matches_layout" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@dimen/margin_med" app:layout_marginTop="@dimen/ab_top_margin" app:layout_toRightOf="@id/btn_main_logo" app:layout_centerVertical="true">
+                <ImageButton app:id="@id/btn_bg_main_matches" app:background="@c3374b/SmoothProgressBar_spbStyle" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/actionbar_matches_active" app:scaleType="3" app:layout_centerInParent="true" />
+                <ImageButton app:id="@id/btn_main_matches" app:background="@c3374b/SmoothProgressBar_spbStyle" app:layout_width="-2" app:layout_height="-1" app:layout_marginRight="@dimen/nav_button_right_margin" app:src="@drawable/selector_actionbar_matches" app:scaleType="3" app:layout_centerInParent="true" />
+                <ImageView app:id="@id/img_matches_unread_indicator" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@dimen/matches_unread_indicator_top_margin" app:layout_marginRight="@dimen/matches_unread_indicator_right_margin" app:src="@drawable/matches_newmatch_icon" app:scaleType="5" app:layout_alignTop="@id/btn_main_matches" app:layout_alignRight="@id/btn_main_matches" />
+            </RelativeLayout>
+            <RelativeLayout app:id="@id/btn_moments_layout" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@dimen/margin_med" app:layout_toRightOf="@id/btn_matches_layout" app:layout_centerVertical="true">
+                <ImageButton app:id="@id/btn_bg_moments" app:background="@c3374b/SmoothProgressBar_spbStyle" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/actionbar_moments_active" app:scaleType="3" app:layout_centerInParent="true" />
+                <ImageButton app:id="@id/btn_main_moments" app:background="@c3374b/SmoothProgressBar_spbStyle" app:layout_width="-2" app:layout_height="-1" app:layout_marginRight="@dimen/nav_button_right_margin" app:src="@drawable/selector_my_moments" app:scaleType="3" app:layout_centerInParent="true" app:contentDescription="@string/btn_main_moments" />
+                <ImageView app:id="@id/img_moments_activity_unread_indicator" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@dimen/matches_unread_indicator_top_margin" app:layout_marginRight="@dimen/matches_unread_indicator_right_margin" app:src="@drawable/matches_newmatch_icon" app:scaleType="5" app:layout_alignTop="@id/btn_main_moments" app:layout_alignRight="@id/btn_main_moments" />
+            </RelativeLayout>
+            <View app:id="@id/view_menu_bg" app:layout_width="-2" app:layout_height="-2" app:layout_alignRight="@id/main_menu_divider" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" app:layout_alignParentBottom="true" />
+            <View app:id="@id/main_menu_divider" app:background="@color/gray_very_light" app:layout_width="@dimen/view_card_divider_width" app:layout_height="-2" app:layout_margin="@dimen/margin_med" app:layout_toRightOf="@id/btn_main_menu" />
+            <ImageButton app:id="@id/btn_main_menu" app:background="@c3374b/SmoothProgressBar_spbStyle" app:layout_width="-2" app:layout_height="-1" app:src="@drawable/selector_actionbar_menu" app:layout_centerVertical="true" app:contentDescription="@string/btn_main_menu" />
+            <View app:id="@id/search_bg" app:visibility="2" app:layout_width="-1" app:layout_height="-1" />
+            <ImageButton app:id="@id/btn_search_matches" app:background="@c3374b/SmoothProgressBar_spbStyle" app:visibility="1" app:layout_width="-2" app:layout_height="-1" app:layout_marginTop="@dimen/ab_top_margin" app:layout_marginRight="@dimen/margin_med" app:src="@drawable/selector_search_icon" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+            <ImageView app:id="@id/search_back" app:visibility="2" app:layout_width="-2" app:layout_height="-1" app:layout_marginLeft="@dimen/margin_xsmall" app:src="@drawable/selector_actionbar_back" app:layout_alignParentLeft="true" app:layout_centerVertical="true" />
+            <com.tinder.views.CustomEditText app:textColor="@color/text_dark" app:textColorHint="@color/text_light" app:id="@id/edit_search_input" app:background="@c3374b/SmoothProgressBar_spbStyle" app:paddingLeft="@dimen/padding_med" app:paddingRight="@dimen/padding_med" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@dimen/search_input_left_offset" app:hint="@string/search_n_matches" app:singleLine="true" app:layout_centerVertical="true" app:imeOptions="3" app:textCursorDrawable="@color/orange" app:font="2" />
+            <RelativeLayout app:id="@id/superlike_star_container" app:visibility="1" app:clipChildren="false" app:clipToPadding="false" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="10dp" app:layout_alignParentRight="true" app:layout_centerVertical="true">
+                <ImageView app:id="@id/superlike_star" app:visibility="1" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="10dp" app:src="@drawable/swiped_up_star" />
+                <ImageView app:id="@id/superlike_star_legs" app:visibility="1" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/swiped_up_star_legs" app:layout_below="@id/superlike_star" app:layout_alignLeft="@id/superlike_star" app:layout_alignRight="@id/superlike_star" />
+            </RelativeLayout>
+            <View app:id="@id/ab_divider" app:visibility="0" app:layout_alignParentBottom="true" style="@style/ab_divider" />
+            <com.tinder.views.ScalableLine app:id="@id/scalable" app:layout_width="-2" app:layout_height="@dimen/tab_underline_thickness" app:layout_alignParentLeft="true" app:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <com.tinder.views.SkippableViewPager app:id="@id/viewpager_fragment_main" app:layout_width="-1" app:layout_height="-1" app:layout_below="@id/ab_container" />
+        <RelativeLayout app:id="@id/view_moments_bar" app:background="@drawable/moments_footer_bg" app:visibility="2" app:layout_width="-1" app:layout_height="@dimen/moments_controls_footer_height" app:layout_alignParentBottom="true">
+            <ImageButton app:id="@id/view_camera" app:background="@c3374b/SmoothProgressBar_spbStyle" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/mymoments_camera" app:layout_centerInParent="true" app:contentDescription="@string/view_camera" app:elevation="1dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</com.tinder.views.FadingLayout>

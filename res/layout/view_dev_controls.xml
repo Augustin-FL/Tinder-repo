@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:id="@id/relative_dev_settings" app:layout_width="-1" app:layout_height="-2">
+    <RadioGroup app:orientation="0" app:id="@id/dev_radiogroup" app:layout_width="-1" app:layout_height="-2">
+        <com.tinder.views.CustomRadioButton app:textColor="@drawable/selector_nav_menu_option_details_text" app:id="@id/dev_radio_prod" app:layout_width="-2" app:layout_height="-2" app:text="Prod" app:layout_weight="1.0" app:font="3" />
+        <com.tinder.views.CustomRadioButton app:textColor="@drawable/selector_nav_menu_option_details_text" app:id="@id/dev_radio_prodtest" app:layout_width="-2" app:layout_height="-2" app:text="ProdTest" app:layout_weight="1.0" app:font="3" />
+        <com.tinder.views.CustomRadioButton app:textColor="@drawable/selector_nav_menu_option_details_text" app:id="@id/dev_radio_dev" app:layout_width="-2" app:layout_height="-2" app:text="Dev" app:layout_weight="1.0" app:font="3" />
+    </RadioGroup>
+    <com.tinder.views.CustomCheckBox app:textColor="@drawable/selector_nav_menu_option_details_text" app:id="@id/dev_checkbox_logging" app:layout_width="-2" app:layout_height="-2" app:text="Logging" app:layout_below="@id/dev_radiogroup" app:font="3" />
+    <com.tinder.views.CustomCheckBox app:textColor="@drawable/selector_nav_menu_option_details_text" app:id="@id/dev_checkbox_fb_web_sso" app:layout_width="-2" app:layout_height="-2" app:text="FB App Login" app:layout_toRightOf="@id/dev_checkbox_logging" app:layout_below="@id/dev_radiogroup" app:font="3" />
+    <ListView app:scrollbarAlwaysDrawHorizontalTrack="true" app:scrollbarAlwaysDrawVerticalTrack="true" app:id="@id/dev_controls_status_list" app:layout_width="-1" app:layout_height="-1" app:layout_below="@id/dev_checkbox_logging" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:gravity="1" app:background="@color/transparent" app:layout_width="@dimen/width_dialog" app:layout_height="-1">
+    <ImageView app:id="@id/crescent" app:background="@drawable/modal_half_circle" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentTop="true" app:layout_centerHorizontal="true" />
+    <LinearLayout app:orientation="1" app:id="@id/linear" app:background="@drawable/rounded_rectangle_white" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="-2dp" app:layout_below="@id/crescent">
+        <com.tinder.views.CustomTextView app:textSize="25dp" app:textColor="@color/text_dark" app:layout_gravity="1" app:id="@c3185b/txt_title" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@dimen/padding_xxlarge" app:text="@string/youre_out_of_likes" app:font="2" style="@style/report_dialog_title" />
+        <com.tinder.views.CustomTextView app:textSize="@dimen/text_large" app:textColor="@color/text_light" app:layout_gravity="1" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@dimen/margin_xsmall" app:text="@string/get_more_likes_in" />
+        <com.tinder.views.CustomTextView app:textSize="@dimen/coutndown_textsize" app:textColor="@color/text_light" app:layout_gravity="1" app:id="@id/swipe_limit_txt_countdown" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@dimen/paywall_multiline_spacing" app:text="12:32:59" app:font="2" />
+        <View app:background="@color/divider_light" app:layout_width="-1" app:layout_height="@dimen/nav_divider_height" app:layout_marginTop="@dimen/margin_xlarge" />
+        <LinearLayout app:id="@id/linear_get_plus" app:clickable="true" app:layout_width="-1" app:layout_height="-2" app:layout_margin="@dimen/swipe_limit_get_plus_margins" style="@style/orange_rect_button">
+            <com.tinder.views.CustomTextView app:textSize="@dimen/swipe_limit_get_plus_textsize" app:textColor="@c1470c/white" app:gravity="11" app:id="@id/txt_get_plus" app:layout_width="-2" app:layout_height="-2" app:lineSpacingExtra="@dimen/swipe_limit_get_plus_multiline_spacing" app:font="2" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.tinder.views.LikeMeter app:layout_gravity="1" app:id="@id/like_meter" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="26dp" app:layout_alignParentTop="true" app:layout_centerHorizontal="true" />
+</RelativeLayout>

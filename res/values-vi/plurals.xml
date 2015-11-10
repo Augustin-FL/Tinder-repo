@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="common_connections_plural">
+        <item quantity="other">%d Kết nối Chung</item>
+    </plurals>
+    <plurals name="distance_units_away_km">
+        <item quantity="other">Cách xa %d kilômét</item>
+    </plurals>
+    <plurals name="distance_units_away_mi">
+        <item quantity="other">Cách xa %d dặm</item>
+    </plurals>
+    <plurals name="friends_for_common_connections_plural">
+        <item quantity="other">%d Bạn bè cho Kết nối Chung</item>
+    </plurals>
+    <plurals name="hours_left_plural">
+        <item quantity="other">Còn lại %d tiếng</item>
+    </plurals>
+    <plurals name="instagram_photos_plural">
+        <item quantity="other">%d ảnh Instagram</item>
+    </plurals>
+    <plurals name="interests_plural">
+        <item quantity="other">%d sở thích</item>
+    </plurals>
+    <plurals name="likes_plural">
+        <item quantity="other">%d lượt thích</item>
+    </plurals>
+    <plurals name="minutes_left_plural">
+        <item quantity="other">Còn lại %d phút</item>
+    </plurals>
+    <plurals name="num_moments">
+        <item quantity="other">%d Ảnh khoảnh khắc</item>
+    </plurals>
+    <plurals name="photo_count_plural">
+        <item quantity="other">%d ảnh</item>
+    </plurals>
+    <plurals name="plus_paywall_option_text">
+        <item quantity="other">%1$s THÁNG VỚI %2$s/tháng</item>
+    </plurals>
+</resources>

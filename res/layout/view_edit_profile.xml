@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:layout_width="-1" app:layout_height="-1"
+    <RelativeLayout app:id="@id/actionbar_menu" app:background="@c1470c/white" app:layout_width="-1" app:layout_height="@dimen/actionbar_size" app:layout_alignParentTop="true">
+        <ImageButton app:id="@id/view_back_icon" app:background="@color/transparent" app:layout_width="-2" app:layout_height="-1" app:layout_marginLeft="@dimen/margin_xsmall" app:layout_marginRight="@dimen/margin_xsmall" app:src="@drawable/selector_actionbar_back" app:layout_alignParentLeft="true" app:layout_centerVertical="true" app:contentDescription="actionbar_left_button" />
+        <ImageButton app:id="@id/view_ab_icon" app:background="@c3374b/SmoothProgressBar_spbStyle" app:layout_width="-2" app:layout_height="-1" app:src="@drawable/selector_ab_edit_profile" app:layout_toRightOf="@id/view_back_icon" app:layout_centerVertical="true" />
+        <com.tinder.views.CustomTextView app:id="@id/view_back_title" app:text="@string/edit_profile" app:layout_toRightOf="@id/view_ab_icon" app:layout_centerVertical="true" app:font="1" style="@style/ab_text" />
+        <ImageButton app:id="@id/view_ab_icon_one" app:background="@color/transparent" app:paddingRight="@dimen/actionbar_paddingSide_xlarge" app:layout_width="-2" app:layout_height="-1" app:src="@drawable/selector_ab_make_profile" app:layout_toLeftOf="@id/view_ab_icon_two" app:layout_centerVertical="true" app:contentDescription="actionbar_left_button" />
+        <ImageButton app:id="@id/view_ab_icon_two" app:background="@color/transparent" app:paddingRight="@dimen/actionbar_paddingSide_xlarge" app:layout_width="-2" app:layout_height="-1" app:src="@drawable/selector_ab_make_profile" app:layout_toLeftOf="@id/view_ab_icon_three" app:layout_centerVertical="true" app:contentDescription="actionbar_left_button" />
+        <ImageButton app:id="@id/view_ab_icon_three" app:background="@color/transparent" app:paddingRight="@dimen/actionbar_paddingSide" app:layout_width="-2" app:layout_height="-1" app:src="@drawable/selector_ab_delete" app:layout_alignParentRight="true" app:layout_centerVertical="true" app:contentDescription="actionbar_left_button" />
+        <View app:id="@id/ab_divider" app:visibility="0" app:layout_alignParentBottom="true" style="@style/ab_divider" />
+    </RelativeLayout>
+    <ScrollView app:id="@c3185b/scrollView" app:background="@color/gray_background_light" app:layout_width="-1" app:layout_height="-1" app:layout_below="@id/actionbar_menu">
+        <LinearLayout app:orientation="1" app:id="@id/linearLayout_edit_profile" app:background="@color/gray_background_light" app:paddingBottom="@dimen/padding_med" app:focusableInTouchMode="true" app:descendantFocusability="0" app:layout_width="-1" app:layout_height="-2">
+            <android.support.v7.widget.GridLayout grid:id="@id/gridLayout_pics" grid:visibility="1" grid:clipChildren="false" grid:layout_width="-1" grid:layout_height="-2" grid:layout_marginTop="@dimen/margin_med" grid:orientation="0" grid:rowCount="3" grid:columnCount="3">
+                <RelativeLayout grid:layout_width="-2" grid:layout_height="-2" grid:layout_rowSpan="2" grid:layout_columnSpan="2" grid:layout_gravity="33" style="@style/container_image">
+                    <ImageView grid:id="@id/imageViewMain" grid:layout_width="-1" grid:layout_height="-1" grid:contentDescription="profile_imageview_main" style="@style/imageView_edit_profile" />
+                    <ProgressBar grid:id="@id/progressSpinner1" grid:visibility="2" grid:layout_width="-2" grid:layout_height="-2" grid:layout_centerInParent="true" />
+                    <ImageView grid:id="@id/imageView_selector_overlay_main" grid:layout_width="-1" grid:layout_height="-1" grid:contentDescription="profile_imageview_main_overlay" style="@style/selector_overlay" />
+                </RelativeLayout>
+                <RelativeLayout grid:layout_width="-2" grid:layout_height="-2" grid:layout_rowSpan="1" grid:layout_columnSpan="1" grid:layout_gravity="33" style="@style/container_image">
+                    <ImageView grid:id="@id/imageView2" grid:layout_width="-1" grid:layout_height="-1" grid:contentDescription="profile_imageview_2" style="@style/imageView_edit_profile" />
+                    <ProgressBar grid:id="@id/progressSpinner2" grid:visibility="2" grid:layout_width="-2" grid:layout_height="-2" grid:layout_centerInParent="true" />
+                    <ImageView grid:id="@id/imageView_selector_overlay2" grid:layout_width="-1" grid:layout_height="-1" grid:contentDescription="profile_imageview_overlay_2" style="@style/selector_overlay" />
+                </RelativeLayout>
+                <RelativeLayout grid:layout_width="-2" grid:layout_height="-2" grid:layout_rowSpan="1" grid:layout_columnSpan="1" grid:layout_gravity="33" style="@style/container_image">
+                    <ImageView grid:id="@id/imageView3" grid:layout_width="-1" grid:layout_height="-1" grid:contentDescription="profile_imageview_3" style="@style/imageView_edit_profile" />
+                    <ProgressBar grid:id="@id/progressSpinner3" grid:visibility="2" grid:layout_width="-2" grid:layout_height="-2" grid:layout_centerInParent="true" />
+                    <ImageView grid:id="@id/imageView_selector_overlay3" grid:layout_width="-1" grid:layout_height="-1" grid:contentDescription="profile_imageview_overlay_3" style="@style/selector_overlay" />
+                </RelativeLayout>
+                <RelativeLayout grid:layout_width="-2" grid:layout_height="-2" grid:layout_rowSpan="1" grid:layout_columnSpan="1" grid:layout_gravity="33" style="@style/container_image">
+                    <ImageView grid:id="@id/imageView6" grid:layout_width="-1" grid:layout_height="-1" grid:contentDescription="profile_imageview_6" style="@style/imageView_edit_profile" />
+                    <ProgressBar grid:id="@id/progressSpinner6" grid:visibility="2" grid:layout_width="-2" grid:layout_height="-2" grid:layout_centerInParent="true" />
+                    <ImageView grid:id="@id/imageView_selector_overlay6" grid:layout_width="-1" grid:layout_height="-1" grid:contentDescription="profile_imageview_overlay_6" style="@style/selector_overlay" />
+                </RelativeLayout>
+                <RelativeLayout grid:layout_width="-2" grid:layout_height="-2" grid:layout_rowSpan="1" grid:layout_columnSpan="1" grid:layout_gravity="33" style="@style/container_image">
+                    <ImageView grid:id="@id/imageView5" grid:layout_width="-1" grid:layout_height="-1" grid:contentDescription="profile_imageview_5" style="@style/imageView_edit_profile" />
+                    <ProgressBar grid:id="@id/progressSpinner5" grid:visibility="2" grid:layout_width="-2" grid:layout_height="-2" grid:layout_centerInParent="true" />
+                    <ImageView grid:id="@id/imageView_selector_overlay5" grid:layout_width="-1" grid:layout_height="-1" grid:contentDescription="profile_imageview_overlay_5" style="@style/selector_overlay" />
+                </RelativeLayout>
+                <RelativeLayout grid:layout_width="-2" grid:layout_height="-2" grid:layout_rowSpan="1" grid:layout_columnSpan="1" grid:layout_gravity="33" style="@style/container_image">
+                    <ImageView grid:id="@id/imageView4" grid:clickable="true" grid:layout_width="-1" grid:layout_height="-1" grid:contentDescription="profile_imageview_4" style="@style/imageView_edit_profile" />
+                    <ProgressBar grid:id="@id/progressSpinner4" grid:visibility="2" grid:layout_width="-2" grid:layout_height="-2" grid:layout_centerInParent="true" />
+                    <ImageView grid:id="@id/imageView_selector_overlay4" grid:layout_width="-1" grid:layout_height="-1" grid:contentDescription="profile_imageview_overlay_4" style="@style/selector_overlay" />
+                </RelativeLayout>
+            </android.support.v7.widget.GridLayout>
+            <LinearLayout android:orientation="1" android:id="@id/linearLayout_bio" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="@dimen/item_indent_left">
+                <com.tinder.views.CustomTextView android:textSize="@dimen/text_large" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/item_indent_left" android:text="@string/about_you" android:textAllCaps="false" android:font="2" style="@style/profile_header" />
+                <RelativeLayout android:paddingTop="@dimen/padding_med" android:layout_width="-1" android:layout_height="0dp" android:layout_marginTop="@dimen/margin_xsmall" android:layout_weight="1.0" style="@style/edit_profile_selection">
+                    <com.tinder.views.CustomEditText android:textSize="@dimen/text_large" android:textColor="@color/z_profile_body_text" android:gravity="10" android:layout_gravity="1" android:id="@id/editText_bio" android:background="@color/transparent" android:layout_width="-1" android:layout_height="-2" android:hint="@string/about_you" android:layout_alignParentTop="true" android:inputType="24001" />
+                    <com.tinder.views.CustomTextView android:textSize="@dimen/text_small" android:textColor="@color/text_light" android:gravity="5" android:id="@id/textView_chars_remaining" android:paddingBottom="@dimen/padding_small" android:layout_width="-1" android:layout_height="-2" android:text="11" android:layout_below="@id/editText_bio" android:layout_alignParentBottom="true" android:contentDescription="profile_edit_bio_chars_remaining_text" android:font="2" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/margin_xxsmall">
+                <com.tinder.views.CustomTextView android:textSize="@dimen/text_large" android:id="@id/instagram_title" android:paddingLeft="@dimen/item_indent_left" android:paddingTop="@dimen/item_indent_left" android:layout_width="-2" android:layout_height="-2" android:text="@string/instagram_auth_title" android:textAllCaps="false" android:font="2" style="@style/profile_header" />
+                <RelativeLayout android:id="@id/instagram_container" android:background="@drawable/selector_edit_profile" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/margin_xxsmall" style="@style/edit_profile_selection">
+                    <com.tinder.views.CustomTextView android:textSize="@dimen/text_large" android:textColor="@color/orange" android:id="@id/button_instagram_auth" android:layout_width="-2" android:layout_height="-2" android:text="@string/instagram_login" android:layout_toLeftOf="@id/disconnect_button" android:layout_alignParentLeft="true" android:font="2" />
+                    <com.tinder.views.CustomTextView android:textSize="@dimen/text_large" android:textColor="@color/instagram_disconnect" android:id="@id/disconnect_button" android:layout_width="-2" android:layout_height="-2" android:text="@string/instagram_logout" android:layout_alignParentRight="true" />
+                    <ProgressBar android:id="@id/progress_web" android:layout_width="@dimen/progress_inline_size" android:layout_height="@dimen/progress_inline_size" android:layout_marginRight="@dimen/margin_large" android:indeterminateDrawable="@drawable/progress_reporting" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

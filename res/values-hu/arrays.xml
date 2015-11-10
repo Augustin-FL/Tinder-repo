@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compass_directions">
+        <item>É</item>
+        <item>ÉK</item>
+        <item>K</item>
+        <item>DK</item>
+        <item>D</item>
+        <item>DNY</item>
+        <item>NY</item>
+        <item>ÉNY</item>
+    </string-array>
+    <string-array name="full_compass_directions">
+        <item>észak</item>
+        <item>északkelet</item>
+        <item>kelet</item>
+        <item>délkelet</item>
+        <item>dél</item>
+        <item>délnyugat</item>
+        <item>nyugat</item>
+        <item>északnyugat</item>
+    </string-array>
+    <string-array name="empty_message_suggestions">
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Kérdezd meg az illetőt, hogy kik a közös ismerőseitek.</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Crickets…</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csináld!</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Mindenki szereti a megfontolt embereket.</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csak írj egy bókot, és figyeld mi történik.</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Légy udvarias … mondj valamit!</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Légy udvarias … mondj valamit!</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Hány nyelven tudsz írni?</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Helyezz el bókot lentebb.</item>
+        <item>Helyezz el egy vicces üzenetet lentebb.</item>
+        <item>Helyezz el egy megfontolt üzenetet lentebb.</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Vidítsd fel.</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Mondj valamit!</item>
+        <item>Csábíts el…</item>
+        <item>Mondj valami kedveset a fotóról</item>
+        <item>Mondj valami kellemest!</item>
+        <item>Mondj valamit szellemes!</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Miért nem köszöntél?</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+        <item>Csevegj a pároddal</item>
+    </string-array>
+    <string-array name="ordinals">
+        <item>nulladik</item>
+        <item>1.</item>
+        <item>2.</item>
+        <item>3.</item>
+    </string-array>
+</resources>

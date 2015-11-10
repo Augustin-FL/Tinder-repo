@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/actionbar_menu" android:background="@c1470c/white" android:layout_width="-1" android:layout_height="@dimen/actionbar_size" android:layout_alignParentTop="true">
+    <ImageButton android:id="@id/view_back_icon" android:contentDescription="actionbar_left_button" style="@style/ab_back_button" />
+    <ImageView android:id="@id/imageView_icon" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="@id/view_back_icon" android:layout_centerVertical="true" />
+    <com.tinder.views.CustomTextView android:id="@id/view_back_title" android:layout_toRightOf="@id/imageView_icon" style="@style/ab_text" />
+    <View android:id="@id/ab_divider" android:layout_alignParentBottom="true" style="@style/ab_divider" />
+</RelativeLayout>

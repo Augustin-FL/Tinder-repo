@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <WebView android:id="@id/webView" android:layout_width="-1" android:layout_height="-1" />
+    <ProgressBar android:layout_gravity="11" android:id="@id/progress_web" android:layout_marginRight="0dp" style="@style/report_dialog_progress" />
+</merge>

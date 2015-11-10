@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:gravity="10" app:layout_width="-1" app:layout_height="-1">
+    <ImageView app:id="@id/paywall_perk_image" app:layout_width="-1" app:layout_height="-1" app:layout_marginLeft="@dimen/margin_large" app:layout_marginRight="@dimen/margin_large" app:scaleType="3" app:layout_above="@id/paywall_perk_text_container" app:layout_centerHorizontal="true" />
+    <LinearLayout app:orientation="1" app:id="@id/paywall_perk_text_container" app:paddingLeft="@dimen/padding_med" app:paddingRight="@dimen/padding_med" app:layout_width="-1" app:layout_height="-2" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true">
+        <com.tinder.views.CustomTextView app:textSize="@dimen/text_xlarge" app:textColor="@color/text_dark" app:gravity="11" app:id="@id/paywall_perk_title" app:layout_width="-1" app:layout_height="-2" app:font="3" />
+        <com.tinder.views.CustomTextView app:textSize="@dimen/text_large" app:textColor="@color/z_profile_body_text" app:gravity="11" app:id="@id/paywall_perk_byline" app:layout_width="-1" app:layout_height="-2" app:font="0" />
+    </LinearLayout>
+</RelativeLayout>

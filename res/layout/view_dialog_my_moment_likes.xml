@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="1" android:orientation="1" android:id="@id/linear_container" android:background="@color/translucent_black" android:layout_width="-1" android:layout_height="-1">
+    <ListView android:id="@id/listView_my_moment_likes" android:layout_width="-1" android:layout_height="-2" android:divider="@c3374b/SmoothProgressBar_spbStyle" />
+</LinearLayout>

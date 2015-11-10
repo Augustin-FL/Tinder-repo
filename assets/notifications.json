@@ -1,0 +1,11 @@
+{
+    "notifications" : [{
+        "type" : "warning",
+        "meta": {
+                "tier": 0,
+                "reasons": [
+                    2
+                ]
+            }
+    }]
+}

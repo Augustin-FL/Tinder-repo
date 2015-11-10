@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:gravity="50" app:orientation="0" app:id="@id/profile_buttons_container" app:background="@drawable/moments_footer_bg" app:paddingTop="10dp" app:paddingBottom="10dp" app:clipChildren="false" app:clipToPadding="false" app:layout_width="-1" app:layout_height="-2" app:weightSum="3.0">
+    <FrameLayout app:layout_width="0dp" app:layout_height="-2" app:layout_weight="1.0">
+        <ImageButton app:layout_gravity="11" app:id="@id/profile_btn_pass" app:background="@c3374b/SmoothProgressBar_spbStyle" app:visibility="1" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/profile_btn_pass" />
+    </FrameLayout>
+    <FrameLayout app:layout_width="0dp" app:layout_height="-2" app:layout_weight="1.0">
+        <ImageButton app:layout_gravity="11" app:id="@id/profile_btn_superlike" app:background="@c3374b/SmoothProgressBar_spbStyle" app:visibility="1" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/profile_btn_superlike" />
+    </FrameLayout>
+    <FrameLayout app:layout_width="0dp" app:layout_height="-2" app:layout_weight="1.0">
+        <ImageButton app:layout_gravity="11" app:id="@id/profile_btn_like" app:background="@c3374b/SmoothProgressBar_spbStyle" app:visibility="1" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/profile_btn_like" />
+    </FrameLayout>
+</LinearLayout>

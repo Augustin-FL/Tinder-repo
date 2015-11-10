@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:background="@color/transparent" app:paddingLeft="@dimen/padding_large" app:paddingTop="@dimen/padding_med" app:paddingRight="@dimen/padding_large" app:paddingBottom="@dimen/padding_med" app:layout_width="-1" app:layout_height="-2">
+    <com.tinder.views.CustomTextView app:textSize="@dimen/text_xlarge" app:textColor="@color/text_dark" app:ellipsize="3" app:gravity="11" app:id="@id/textView_country" app:layout_width="-2" app:layout_height="-2" app:text="Spain" app:layout_alignParentLeft="true" app:layout_centerVertical="true" app:font="2" />
+    <com.tinder.views.CustomTextView app:textSize="@dimen/text_xlarge" app:textColor="@color/text_dark" app:gravity="5" app:id="@id/textView_code" app:layout_width="-2" app:layout_height="-2" app:text="+34" app:layout_toRightOf="@id/textView_country" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+</RelativeLayout>

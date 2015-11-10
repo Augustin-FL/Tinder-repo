@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="common_connections_plural">
+        <item quantity="other">%d gemeinsame Verbindungen</item>
+        <item quantity="one">%d gemeinsame Verbindung</item>
+    </plurals>
+    <plurals name="distance_units_away_km">
+        <item quantity="other">%d Kilometer entfernt</item>
+        <item quantity="one">%d Kilometer entfernt</item>
+    </plurals>
+    <plurals name="distance_units_away_mi">
+        <item quantity="other">%d Meilen entfernt</item>
+        <item quantity="one">%d Meile entfernt</item>
+    </plurals>
+    <plurals name="friends_for_common_connections_plural">
+        <item quantity="other">%d Freunde für gemeinsame Verbindungen</item>
+        <item quantity="one">%d Freund für gemeinsame Verbindungen</item>
+    </plurals>
+    <plurals name="hours_left_plural">
+        <item quantity="other">noch %d Stunden</item>
+        <item quantity="one">noch %d Stunde</item>
+    </plurals>
+    <plurals name="instagram_photos_plural">
+        <item quantity="other">%d Instagram-Fotos</item>
+        <item quantity="one">%d Instagram-Foto</item>
+    </plurals>
+    <plurals name="interests_plural">
+        <item quantity="other">%d Interessen</item>
+        <item quantity="one">%d Interesse</item>
+    </plurals>
+    <plurals name="likes_plural">
+        <item quantity="other">%d Likes</item>
+        <item quantity="one">%d Like</item>
+    </plurals>
+    <plurals name="minutes_left_plural">
+        <item quantity="other">noch %d Minuten</item>
+        <item quantity="one">noch %d Minute</item>
+    </plurals>
+    <plurals name="num_moments">
+        <item quantity="other">%d Momente</item>
+        <item quantity="one">%d Moment</item>
+    </plurals>
+    <plurals name="photo_count_plural">
+        <item quantity="other">%d Fotos</item>
+        <item quantity="one">%d Foto</item>
+    </plurals>
+    <plurals name="plus_paywall_option_text">
+        <item quantity="other">%1$s MONATE FÜR %2$s/Monat</item>
+        <item quantity="one">%1$s MONAT FÜR %2$s/Monat</item>
+    </plurals>
+</resources>

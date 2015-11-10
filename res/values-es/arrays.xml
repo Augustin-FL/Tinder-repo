@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compass_directions">
+        <item>N</item>
+        <item>NE</item>
+        <item>E</item>
+        <item>SE</item>
+        <item>S</item>
+        <item>SO</item>
+        <item>O</item>
+        <item>NO</item>
+    </string-array>
+    <string-array name="full_compass_directions">
+        <item>norte</item>
+        <item>noreste</item>
+        <item>este</item>
+        <item>sureste</item>
+        <item>sur</item>
+        <item>suroeste</item>
+        <item>oeste</item>
+        <item>noroeste</item>
+    </string-array>
+    <string-array name="empty_message_suggestions">
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Pregunta a esta persona acerca de sus amigos mutuos.</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Crickets…</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>¡Hazlo!</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>No lo dejes en blanco.</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>A todo el mundo le gusta una persona amable.</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Escribe un cumplido y a ver qué pasa.</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Se educado… ¡di algo!</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Se educado… ¡di algo!</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>¿En cuántos idiomas puedes escribir?</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Añade un cumplido a continuación.</item>
+        <item>Añade un mensaje divertido a continuación.</item>
+        <item>Añade un mensaje amable a continuación.</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Haz sonreír a esta persona.</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>¡Di algo!</item>
+        <item>¡Di algo divertido!</item>
+        <item>Di algo agradable sobre las fotos</item>
+        <item>¡Di algo cariñoso!</item>
+        <item>¡Di algo ingenioso!</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>¿Por qué no le hablaste?</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+        <item>Habla con tu pareja recomendada</item>
+    </string-array>
+    <string-array name="ordinals">
+        <item>cero</item>
+        <item>1º</item>
+        <item>2º</item>
+        <item>3º</item>
+    </string-array>
+</resources>

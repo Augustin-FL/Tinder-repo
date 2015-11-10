@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView app:layout_width="-1" app:layout_height="160dp">
+    <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1">
+        <View app:id="@id/unmatch_line_one" style="@style/report_divider" />
+        <RelativeLayout app:layout_width="-1" app:layout_height="-2">
+            <com.tinder.views.CustomCheckBox app:id="@id/unmatch_type_noreason" app:layout_width="-1" app:layout_height="-2" app:button="0x106000d" app:text="@string/report_type_no_reason" app:drawableLeft="@drawable/chat_overflow_unmatch" app:layout_toLeftOf="@id/checkmark_noreason" app:layout_alignParentLeft="true" app:font="2" style="@style/report_unmatch_reason" />
+            <ImageView app:id="@id/checkmark_noreason" app:paddingRight="@dimen/margin_large" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/checkmark" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View app:id="@id/unmatch_line_two" style="@style/report_divider" />
+        <RelativeLayout app:layout_width="-1" app:layout_height="-2">
+            <com.tinder.views.CustomCheckBox app:id="@id/unmatch_type_offensive" app:layout_width="-1" app:layout_height="-2" app:button="0x106000d" app:text="@string/report_type_offensive_messages" app:drawableLeft="@drawable/report_dialog_messages" app:layout_toLeftOf="@id/checkmark_offensive" app:layout_alignParentLeft="true" app:font="2" style="@style/report_unmatch_reason" />
+            <ImageView app:id="@id/checkmark_offensive" app:paddingRight="@dimen/margin_large" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/checkmark" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View app:id="@id/unmatch_line_three" style="@style/report_divider" />
+        <RelativeLayout app:layout_width="-1" app:layout_height="-2">
+            <com.tinder.views.CustomCheckBox app:id="@id/unmatch_type_inappropriate_photos" app:layout_width="-1" app:layout_height="-2" app:button="0x106000d" app:text="@string/report_type_inappropriate_photos" app:drawableLeft="@drawable/report_dialog_photos" app:layout_toLeftOf="@id/checkmark_inappropriate_photos" app:layout_alignParentLeft="true" app:font="2" style="@style/report_unmatch_reason" />
+            <ImageView app:id="@id/checkmark_inappropriate_photos" app:paddingRight="@dimen/margin_large" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/checkmark" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View app:id="@id/unmatch_line_four" style="@style/report_divider" />
+        <RelativeLayout app:layout_width="-1" app:layout_height="-2">
+            <com.tinder.views.CustomCheckBox app:id="@id/unmatch_type_bad_offline_behavior" app:layout_width="-1" app:layout_height="-2" app:button="0x106000d" app:text="@string/report_type_bad_offline_behavior" app:drawableLeft="@drawable/report_dialog_offlinebehavior" app:layout_alignParentLeft="true" app:font="2" style="@style/report_unmatch_reason" />
+            <ImageView app:id="@id/checkmark_bad_offline_behavior" app:paddingRight="@dimen/margin_large" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/checkmark" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View app:id="@id/unmatch_line_five" style="@style/report_divider" />
+        <RelativeLayout app:layout_width="-1" app:layout_height="-2">
+            <com.tinder.views.CustomCheckBox app:id="@id/unmatch_type_spam" app:layout_width="-1" app:layout_height="-2" app:button="0x106000d" app:text="@string/report_type_spam" app:drawableLeft="@drawable/report_dialog_spam" app:layout_alignParentLeft="true" app:font="2" style="@style/report_unmatch_reason" />
+            <ImageView app:id="@id/checkmark_spam" app:paddingRight="@dimen/margin_large" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/checkmark" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View app:id="@id/unmatch_line_six" style="@style/report_divider" />
+        <RelativeLayout app:layout_width="-1" app:layout_height="-2">
+            <com.tinder.views.CustomCheckBox app:id="@id/unmatch_type_other" app:layout_width="-1" app:layout_height="-2" app:button="0x106000d" app:text="@string/report_type_other" app:drawableLeft="@drawable/report_dialog_other" app:layout_alignParentLeft="true" app:font="2" style="@style/report_unmatch_reason" />
+            <ImageView app:id="@id/checkmark_other" app:paddingRight="@dimen/margin_large" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/checkmark" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View app:id="@id/unmatch_line_seven" style="@style/report_divider" />
+    </LinearLayout>
+</ScrollView>

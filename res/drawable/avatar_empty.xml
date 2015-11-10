@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="3" android:useLevel="false" android:innerRadius="@dimen/radius_empty_avatar" android:thickness="@dimen/empty_outline_thickness">
+    <solid android:color="@color/gray_very_light" />
+    <size android:height="@dimen/avatar_length_my_moments_activity" android:width="@dimen/avatar_length_my_moments_activity" />
+</shape>

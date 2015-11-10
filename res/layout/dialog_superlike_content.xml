@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:padding="@dimen/padding_large" app:layout_width="-1" app:layout_height="-2">
+    <com.tinder.views.CustomTextView app:gravity="1" app:id="@id/content_title" app:layout_width="-1" app:layout_height="-2" app:layout_marginBottom="@dimen/margin_small" app:font="2" style="@style/dialog_standard_title" />
+    <ImageView app:layout_gravity="1" app:id="@id/content_image" app:layout_width="-2" app:layout_height="-2" app:layout_marginBottom="@dimen/padding_large" app:src="@drawable/constellation" />
+    <com.tinder.views.CustomTextView app:gravity="1" app:id="@id/content_text" app:layout_width="-2" app:layout_height="-2" style="@style/dialog_standard_body" />
+</LinearLayout>

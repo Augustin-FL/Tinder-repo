@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:gravity="1" app:orientation="1" app:background="@color/transparent" app:clipChildren="false" app:clipToPadding="false" app:layout_width="-1" app:layout_height="-1">
+    <FrameLayout app:clipChildren="false" app:clipToPadding="false" app:layout_width="-1" app:layout_height="215dp" app:layout_marginBottom="-20dp">
+        <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2" app:weightSum="2.0">
+            <View app:layout_width="-1" app:layout_height="0dp" app:layout_weight="1.0" />
+            <View app:background="@drawable/superlike_dialog_container" app:layout_width="-1" app:layout_height="0dp" app:layout_weight="1.0" app:rotation="180.0" />
+        </LinearLayout>
+        <com.tinder.views.CircleWithImage app:layout_gravity="11" app:id="@id/rec_photo" app:layout_width="-2" app:layout_height="-2" app:backgroundColor="@c1470c/white" app:padding="@dimen/superlike_drained_photo_paddings" />
+    </FrameLayout>
+    <LinearLayout app:gravity="1" app:orientation="1" app:id="@id/content_container" app:background="@drawable/superlike_dialog_container" app:paddingTop="5dp" app:clipChildren="false" app:clipToPadding="false" app:layout_width="-1" app:layout_height="-2" app:animateLayoutChanges="true">
+        <ImageView app:id="@id/superlike_icon" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="-35dp" app:src="@drawable/drained_superlike_icon" />
+        <com.tinder.views.CustomTextView app:textSize="@dimen/superlike_drained_title_size" app:id="@id/report_title" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@dimen/margin_large" app:layout_marginTop="10dp" app:layout_marginRight="@dimen/margin_large" app:text="@string/superlike_out_title" app:font="2" style="@style/report_dialog_title" />
+        <com.tinder.views.CustomTextView app:textSize="@dimen/superlike_drained_title_size" app:id="@id/superlike_countdown" app:paddingLeft="25dp" app:paddingRight="25dp" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="5dp" app:text="12:58" style="@style/report_dialog_warning" />
+        <com.tinder.views.CustomTextView app:textSize="14sp" app:gravity="1" app:id="@id/superlike_countdown_details" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@dimen/margin_large" app:layout_marginRight="@dimen/margin_large" app:layout_marginBottom="20dp" app:text="@string/superlike_out_countdown_details" style="@style/report_dialog_warning" />
+        <com.tinder.views.CustomTextView app:id="@id/superlike_details" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@dimen/margin_large" app:layout_marginTop="5dp" app:layout_marginRight="@dimen/margin_large" app:layout_marginBottom="20dp" app:text="@string/superlike_out_body_has_plus" style="@style/report_dialog_details" />
+        <View app:id="@id/btn_divider" app:visibility="2" app:layout_marginBottom="10dp" style="@style/report_divider" />
+        <LinearLayout app:gravity="5" app:layout_gravity="5" app:orientation="0" app:id="@id/button_layout_no_plus" app:paddingRight="@dimen/padding_med" app:paddingBottom="8dp" app:layout_width="-1" app:layout_height="-2">
+            <com.tinder.views.CustomButton app:textColor="@color/text_light" app:id="@id/btn_cancel" app:background="@c3374b/SmoothProgressBar_spbStyle" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="10dp" app:text="@string/superlike_out_negative" app:font="2" style="@style/dialog_standard_action" />
+            <com.tinder.views.CustomButton app:id="@id/btn_getplus" app:background="@c3374b/SmoothProgressBar_spbStyle" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="10dp" app:text="@string/superlike_out_positive" app:font="2" style="@style/dialog_standard_action" />
+        </LinearLayout>
+        <com.tinder.views.CustomButton app:id="@id/btn_okay" app:visibility="2" app:layout_width="-1" app:layout_height="0dp" app:layout_marginTop="10dp" app:text="@string/okay" app:layout_weight="1.0" app:font="2" style="@style/superlike_dialog_button" />
+    </LinearLayout>
+</LinearLayout>

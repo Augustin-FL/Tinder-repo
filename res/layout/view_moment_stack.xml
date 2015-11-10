@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:layout_width="-1" app:layout_height="@dimen/moment_stack_height">
+    <View app:id="@id/view_mock_card" app:background="@drawable/moment_stack_card_bg" app:layout_width="-1" app:layout_height="@dimen/moments_stack_dummy_card_height" app:layout_marginLeft="@dimen/moment_stack_dummy_card_side_margin" app:layout_marginRight="@dimen/moment_stack_dummy_card_side_margin" app:layout_alignTop="@id/relative_moment_card" />
+    <com.tinder.views.RoundedRelativeLayout app:id="@id/relative_moment_card" app:background="@drawable/moment_stack_card_bg" app:layout_width="-1" app:layout_height="@dimen/moments_stack_card_height" app:layout_marginLeft="@dimen/moment_stack_top_card_side_margin" app:layout_marginRight="@dimen/moment_stack_top_card_side_margin" app:layout_centerInParent="true" app:corners="@dimen/rounded_card_radius">
+        <ImageView app:id="@id/img_top_card" app:layout_width="-1" app:layout_height="@dimen/moments_stack_card_height" app:scaleType="5" app:layout_alignParentTop="true" />
+        <RelativeLayout app:background="@c1470c/white" app:layout_width="-1" app:layout_height="@dimen/moment_stack_card_details_height" app:layout_alignParentBottom="true">
+            <com.tinder.views.CustomTextView app:textSize="@dimen/moment_stack_text_size" app:textColor="@color/moments_no_moments_title_text" app:id="@id/txt_num_new_moments" app:paddingLeft="@dimen/padding_med" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentLeft="true" app:layout_centerVertical="true" app:font="2" />
+            <com.tinder.views.CustomTextView app:textSize="@dimen/moment_stack_smaller_text_size" app:textColor="@color/moment_card_time_left_text" app:id="@id/txt_time_ago" app:paddingRight="@dimen/padding_med" app:layout_width="-2" app:layout_height="-2" app:text="12 min ago" app:layout_alignParentRight="true" app:layout_centerVertical="true" app:font="2" />
+        </RelativeLayout>
+        <View app:background="@drawable/moment_stack_card_overlay_gray_stroke" app:layout_width="-1" app:layout_height="-1" />
+    </com.tinder.views.RoundedRelativeLayout>
+    <View app:background="@drawable/moment_stack_card_drop_shadow_bg" app:layout_width="-1" app:layout_height="@dimen/moment_stack_fake_drop_shadow_height" app:layout_below="@id/relative_moment_card" app:layout_alignLeft="@id/view_mock_card" app:layout_alignRight="@id/view_mock_card" />
+    <View app:background="@drawable/moment_stack_card_drop_shadow_bg" app:layout_width="-1" app:layout_height="@dimen/moment_stack_fake_drop_shadow_height" app:layout_below="@id/view_mock_card" app:layout_alignLeft="@id/view_mock_card" app:layout_alignRight="@id/view_mock_card" />
+</RelativeLayout>

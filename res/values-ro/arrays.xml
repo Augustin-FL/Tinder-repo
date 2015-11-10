@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compass_directions">
+        <item>N</item>
+        <item>N-E</item>
+        <item>E</item>
+        <item>S-E</item>
+        <item>S</item>
+        <item>S-V</item>
+        <item>V</item>
+        <item>N-V</item>
+    </string-array>
+    <string-array name="full_compass_directions">
+        <item>nord</item>
+        <item>nord-est</item>
+        <item>est</item>
+        <item>sud-est</item>
+        <item>sud</item>
+        <item>sud-vest</item>
+        <item>vest</item>
+        <item>nord-vest</item>
+    </string-array>
+    <string-array name="empty_message_suggestions">
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Întreabă persoana dacă aveţi prieteni comuni.</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Crickets…</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>"Hai, dă-i drumu'!"</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Toată lumea îndrăgeşte persoanele considerate.</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Scrie un compliment şi vezi ce se întâmplă.</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Fii politicos… spune ceva!</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Fii politicos… spune ceva!</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>În câte limbi poţi tasta?</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Introdu complimentul mai jos.</item>
+        <item>Introdu mesajul amuzant mai jos.</item>
+        <item>Introdu un mesaj considerat mai jos.</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Adu zâmbetul pe buzele acestei persoane.</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Scrie ceva!</item>
+        <item>Scrie ceva amuzant!</item>
+        <item>Scrie ceva frumos despre fotografii</item>
+        <item>Scrie ceva dulce!</item>
+        <item>Scrie ceva inteligent!</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>De ce nu ai trimis un salut?</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+        <item>Chat cu persoana compatibilă</item>
+    </string-array>
+    <string-array name="ordinals">
+        <item>0.</item>
+        <item>1.</item>
+        <item>2.</item>
+        <item>3.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_selected="true" android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/overlay_selected" />
+        </shape>
+    </item>
+    <item android:state_selected="false" android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/overlay_pressed" />
+        </shape>
+    </item>
+    <item android:state_selected="true" android:state_pressed="false">
+        <shape>
+            <solid android:color="@color/overlay_selected" />
+        </shape>
+    </item>
+    <item android:state_selected="false" android:state_pressed="false">
+        <shape>
+            <solid android:color="@color/transparent" />
+        </shape>
+    </item>
+</selector>

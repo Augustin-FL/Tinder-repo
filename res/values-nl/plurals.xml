@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="common_connections_plural">
+        <item quantity="other">%d gemeenschappelijke connecties</item>
+        <item quantity="one">%d gemeenschappelijke connectie</item>
+    </plurals>
+    <plurals name="distance_units_away_km">
+        <item quantity="other">%d kilometer uit de buurt</item>
+        <item quantity="one">%d kilometer uit de buurt</item>
+    </plurals>
+    <plurals name="distance_units_away_mi">
+        <item quantity="other">%d mijl uit de buurt</item>
+        <item quantity="one">%d mijl uit de buurt</item>
+    </plurals>
+    <plurals name="friends_for_common_connections_plural">
+        <item quantity="other">%d vrienden voor gemeenschappelijke connecties</item>
+        <item quantity="one">%d vriend voor gemeenschappelijke connecties</item>
+    </plurals>
+    <plurals name="hours_left_plural">
+        <item quantity="other">Nog %d uur</item>
+        <item quantity="one">Nog %d uur</item>
+    </plurals>
+    <plurals name="instagram_photos_plural">
+        <item quantity="other">"%d Instagram-foto's"</item>
+        <item quantity="one">%d Instagram-foto</item>
+    </plurals>
+    <plurals name="interests_plural">
+        <item quantity="other">%d interesses</item>
+        <item quantity="one">%d interesse</item>
+    </plurals>
+    <plurals name="likes_plural">
+        <item quantity="other">%d vind-ik-leuks</item>
+        <item quantity="one">%d vind-ik-leuk</item>
+    </plurals>
+    <plurals name="minutes_left_plural">
+        <item quantity="other">Nog %d minuten</item>
+        <item quantity="one">Nog %d minuut</item>
+    </plurals>
+    <plurals name="num_moments">
+        <item quantity="other">%d momenten</item>
+        <item quantity="one">%d moment</item>
+    </plurals>
+    <plurals name="photo_count_plural">
+        <item quantity="other">"%d foto's"</item>
+        <item quantity="one">%d foto</item>
+    </plurals>
+    <plurals name="plus_paywall_option_text">
+        <item quantity="other">%1$s MAANDEN VOOR %2$s/maand</item>
+        <item quantity="one">%1$s MAAND VOOR %2$s/maand</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:layout_width="-1" app:layout_height="-1">
+    <LinearLayout app:orientation="0" app:id="@id/linear_tabs" app:layout_width="-1" app:layout_height="-2" app:weightSum="2.0" app:layout_alignParentTop="true">
+        <com.tinder.views.CustomTextView app:textSize="@dimen/text_xlarge" app:gravity="11" app:id="@id/text_tab_activity" app:paddingTop="@dimen/padding_med" app:paddingBottom="@dimen/padding_med" app:layout_width="0px" app:layout_height="-2" app:text="@string/activity" app:layout_weight="1.0" app:contentDescription="@string/text_tab_activity" app:font="2" />
+        <View app:background="@color/moments_tab_divider" app:layout_width="@dimen/default_divider_stroke_width" app:layout_height="-1" app:layout_marginTop="@dimen/margin_med" app:layout_marginBottom="@dimen/margin_med" />
+        <com.tinder.views.CustomTextView app:textSize="@dimen/text_xlarge" app:gravity="11" app:id="@id/text_tab_my_moments" app:paddingTop="@dimen/padding_med" app:paddingBottom="@dimen/padding_med" app:layout_width="0px" app:layout_height="-2" app:text="@string/my_moments" app:layout_weight="1.0" app:contentDescription="@string/text_tab_my_moments" app:font="2" />
+    </LinearLayout>
+    <View app:id="@id/divider" app:background="@color/moments_tab_divider" app:layout_width="-1" app:layout_height="@dimen/default_divider_stroke_width" app:layout_below="@id/linear_tabs" />
+    <com.tinder.views.SkippableViewPager app:id="@id/pager_my_moments" app:layout_width="-1" app:layout_height="-1" app:layout_below="@id/divider" />
+</RelativeLayout>

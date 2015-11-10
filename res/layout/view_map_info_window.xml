@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="0" android:paddingBottom="@dimen/padding_small" android:layout_width="-2" android:layout_height="-2"
+    <RelativeLayout android:id="@id/map_pin_content_relative" android:background="@drawable/rounded_rectangle_passport_marker" android:layout_width="-2" android:layout_height="-2">
+        <ImageView android:id="@id/map_pin_airplane" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/passport_map_pin_icon" android:layout_alignParentLeft="true" />
+        <LinearLayout android:orientation="1" android:id="@id/map_pin_text_layout" android:paddingRight="@dimen/margin_med" android:paddingBottom="@dimen/padding_xxsmall" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/margin_small" android:layout_toRightOf="@id/map_pin_airplane" android:layout_centerVertical="true">
+            <com.tinder.views.CustomTextView android:textSize="@dimen/text_large" android:textColor="@c1470c/white" android:ellipsize="3" android:id="@id/map_info_window_text_first" android:layout_width="-2" android:layout_height="-2" android:maxWidth="@dimen/marker_text_max_width" android:singleLine="true" android:layout_weight="1.0" />
+            <com.tinder.views.CustomTextView android:textSize="@dimen/text_large" android:textColor="@c1470c/white" android:ellipsize="3" android:id="@id/map_info_window_text_second" android:layout_width="-2" android:layout_height="-2" android:maxWidth="@dimen/marker_text_max_width" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+        <ImageView android:id="@id/map_info_chevron" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@dimen/marker_text_chevron_margin" android:src="@drawable/passport_chevron" android:layout_toRightOf="@id/map_pin_text_layout" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/marker_triangle_neg_margin" android:src="@drawable/passport_map_pin_bottomtriangle" android:layout_below="@id/map_pin_content_relative" android:layout_centerHorizontal="true" />
+</RelativeLayout>

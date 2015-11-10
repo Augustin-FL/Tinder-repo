@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compass_directions">
+        <item>S</item>
+        <item>SV</item>
+        <item>V</item>
+        <item>JV</item>
+        <item>J</item>
+        <item>JZ</item>
+        <item>Z</item>
+        <item>SZ</item>
+    </string-array>
+    <string-array name="full_compass_directions">
+        <item>sever</item>
+        <item>severovýchod</item>
+        <item>východ</item>
+        <item>juhovýchod</item>
+        <item>juh</item>
+        <item>juhozápad</item>
+        <item>západ</item>
+        <item>severozápad</item>
+    </string-array>
+    <string-array name="empty_message_suggestions">
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Opýtajte sa na spoločných priateľov.</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Crickets…</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Do toho!</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Každý má rád človeka, ktorého myšlienky majú hĺbku.</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Napíšte kompliment a sledujte, čo sa bude diať.</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Buďte zdvorilí… Povedzte niečo!</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Buďte zdvorilí… Povedzte niečo!</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>V koľkých jazykoch viete písať?</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Napíšte nižšie kompliment.</item>
+        <item>Napíšte nižšie niečo zábavné.</item>
+        <item>Podeľte sa nižšie so svojimi myšlienkami.</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Skúste tohto človeka rozosmiať.</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Povedzte niečo!</item>
+        <item>Povedzte niečo zábavné!</item>
+        <item>Povedzte niečo pekné o fotkách</item>
+        <item>Povedzte niečo milé!</item>
+        <item>Povedzte niečo vtipné!</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Prečo ste nepovedali ahoj?</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+        <item>Chatujte so svojím spojením</item>
+    </string-array>
+    <string-array name="ordinals">
+        <item>0.</item>
+        <item>1.</item>
+        <item>2.</item>
+        <item>3.</item>
+    </string-array>
+</resources>

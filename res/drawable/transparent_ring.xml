@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="1">
+    <stroke android:width="@dimen/ping_stroke_width" android:color="@c1470c/red" />
+    <corners android:radius="@dimen/indicator_bg_radius" />
+    <solid android:color="@c1470c/red" />
+</shape>

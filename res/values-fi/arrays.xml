@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compass_directions">
+        <item>N</item>
+        <item>NE</item>
+        <item>E</item>
+        <item>SE</item>
+        <item>S</item>
+        <item>SW</item>
+        <item>W</item>
+        <item>NW</item>
+    </string-array>
+    <string-array name="full_compass_directions">
+        <item>pohjoinen</item>
+        <item>koillinen</item>
+        <item>itä</item>
+        <item>kaakko</item>
+        <item>etelä</item>
+        <item>lounas</item>
+        <item>länsi</item>
+        <item>luode</item>
+    </string-array>
+    <string-array name="empty_message_suggestions">
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Kysy henkilöltä yhteisistä kavereistanne.</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Crickets…</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Rohkeasti vaan!</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Kaikki pitävät huomaavaisista henkilöistä.</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Kirjoita kohteliaisuus ja katso, mihin se johtaa.</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Ole kohtelias ja sano jotain!</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Ole kohtelias ja sano jotain!</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Kuinka montaa kieltä osaat kirjoittaa?</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Kirjoita kohteliaisuus alla olevaan kenttään.</item>
+        <item>Lisää hauska viesti alla olevaan kenttään.</item>
+        <item>Lisää huomaavainen viesti alla olevaan kenttään.</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Tee tämä henkilö iloiseksi.</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Sano jotain!</item>
+        <item>Sano jotain hauskaa!</item>
+        <item>Sano jotain kivaa hänen valokuvistaan</item>
+        <item>Sano jotain mukavaa!</item>
+        <item>Sano jotain nokkelaa!</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Miksi et ole vielä ottanut yhteyttä?</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+        <item>Keskustele Tinder-parisi kanssa</item>
+    </string-array>
+    <string-array name="ordinals">
+        <item>0.</item>
+        <item>1.</item>
+        <item>2.</item>
+        <item>3.</item>
+    </string-array>
+</resources>

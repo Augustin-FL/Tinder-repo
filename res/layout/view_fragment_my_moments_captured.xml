@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:layout_width="-1" app:layout_height="-2">
+    <uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout app:id="@id/pullToRefreshLayout_my_moments" app:layout_width="-1" app:layout_height="-1">
+        <GridView app:id="@id/gridView_moments" app:paddingLeft="@dimen/my_moments_grid_left_padding" app:paddingTop="@dimen/padding_med" app:paddingRight="@dimen/padding_med" app:paddingBottom="@dimen/padding_med" app:clipToPadding="false" app:layout_width="-1" app:layout_height="-1" app:horizontalSpacing="@dimen/margin_med" app:verticalSpacing="@dimen/margin_xsmall" app:numColumns="3" app:layout_centerHorizontal="true" />
+    </uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout>
+    <LinearLayout app:gravity="11" app:orientation="1" app:id="@id/linear_my_moments_no_moments" app:background="@drawable/white_gradient_bg" app:paddingBottom="@dimen/margin_xxlarge" app:clickable="true" app:layout_width="-1" app:layout_height="-1" app:layout_centerInParent="true">
+        <com.tinder.views.CustomTextView app:textSize="@dimen/text_large" app:textColor="@color/moments_no_moments_title_text" app:gravity="1" app:background="@c1470c/white" app:layout_width="-1" app:layout_height="-2" app:text="@string/my_moments" app:font="2" />
+        <com.tinder.views.CustomTextView app:textSize="@dimen/text_med" app:textColor="@color/another_freaking_grey" app:gravity="1" app:background="@c1470c/white" app:layout_width="-1" app:layout_height="-2" app:text="@string/my_moments_no_moments" app:font="2" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView app:background="@c1470c/white" app:layout_width="-1" app:layout_height="-1">
+    <RelativeLayout app:paddingBottom="@dimen/verification_screen_padding" app:layout_width="-1" app:layout_height="-1">
+        <com.tinder.views.CustomTextView app:textSize="@dimen/verification_title_size" app:textColor="@color/gray_dark" app:gravity="3" app:id="@id/textView_prompt" app:padding="@dimen/verification_screen_padding" app:layout_width="-1" app:layout_height="-2" app:text="@string/enter_code_prompt" app:font="2" />
+        <com.tinder.views.CustomTextView app:textSize="@dimen/text_large" app:textColor="@color/text_light" app:id="@id/textView_details" app:paddingLeft="@dimen/verification_screen_padding" app:paddingRight="@dimen/verification_screen_padding" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@dimen/margin_med" app:text="@string/enter_code_details" app:layout_below="@id/textView_prompt" app:font="2" />
+        <RelativeLayout app:id="@id/layout_enter_code" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@dimen/margin_xlarge" app:layout_below="@id/textView_details" app:layout_centerInParent="true">
+            <com.tinder.views.CustomEditText app:textSize="@dimen/text_xxlarge" app:textColor="@color/text_dark" app:textColorHint="@color/text_light" app:gravity="11" app:id="@id/editText_code" app:background="@c3374b/SmoothProgressBar_spbStyle" app:layout_width="-2" app:layout_height="-2" app:hint="@string/enter_code_prompt" app:maxEms="6" app:maxLength="6" app:inputType="2" app:imeOptions="2" />
+            <ImageView app:id="@id/imageView_validity_indicator" app:visibility="1" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@dimen/margin_med" app:src="@drawable/phoneverification_error_icon" app:layout_toRightOf="@id/editText_code" app:layout_centerVertical="true" />
+            <ImageView app:id="@id/edittext_code_underline" app:background="@drawable/passport_search_underline_inactive" app:layout_width="-2" app:layout_height="@dimen/edittext_underline_height" app:layout_below="@id/editText_code" app:layout_alignLeft="@id/editText_code" app:layout_alignRight="@id/editText_code" />
+        </RelativeLayout>
+        <LinearLayout app:id="@id/layout_code_buttons" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@dimen/margin_xxlarge" app:layout_below="@id/layout_enter_code">
+            <com.tinder.views.CustomTextView app:id="@id/textView_resend_code" app:layout_width="-1" app:layout_height="-2" app:text="@string/resend_code" app:layout_weight="1.0" app:layout_below="@id/layout_enter_code" app:font="2" style="@style/grey_rect_button" />
+            <com.tinder.views.CustomTextView app:enabled="false" app:id="@id/textView_confirm" app:layout_width="-1" app:layout_height="-2" app:text="@string/confirm" app:layout_weight="1.0" app:layout_below="@id/layout_enter_code" app:font="2" style="@style/orange_rect_button" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

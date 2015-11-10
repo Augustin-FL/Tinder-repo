@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/gray_very_very_light" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:id="@id/imageView_icon" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/loadingscreen_tinderlogo" android:layout_centerInParent="true" />
+</RelativeLayout>

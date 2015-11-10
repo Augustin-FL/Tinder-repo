@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="common_connections_plural">
+        <item quantity="other">%d명의 공통으로 연결된 사람</item>
+    </plurals>
+    <plurals name="distance_units_away_km">
+        <item quantity="other">%d 킬로미터 떨어져있음</item>
+    </plurals>
+    <plurals name="distance_units_away_mi">
+        <item quantity="other">%d 마일 떨어져있음</item>
+    </plurals>
+    <plurals name="friends_for_common_connections_plural">
+        <item quantity="other">공통으로 연결된 사람들을 찾을 %d명의 친구</item>
+    </plurals>
+    <plurals name="hours_left_plural">
+        <item quantity="other">%d시간 남음</item>
+    </plurals>
+    <plurals name="instagram_photos_plural">
+        <item quantity="other">%d장의 Instagram 사진</item>
+    </plurals>
+    <plurals name="interests_plural">
+        <item quantity="other">%d개의 관심 분야</item>
+    </plurals>
+    <plurals name="likes_plural">
+        <item quantity="other">%d개의 좋아요</item>
+    </plurals>
+    <plurals name="minutes_left_plural">
+        <item quantity="other">%d분 남음</item>
+    </plurals>
+    <plurals name="num_moments">
+        <item quantity="other">%d개의 순간</item>
+    </plurals>
+    <plurals name="photo_count_plural">
+        <item quantity="other">%d장의 사진</item>
+    </plurals>
+    <plurals name="plus_paywall_option_text">
+        <item quantity="other">%1$s개월 (%2$s/월)</item>
+    </plurals>
+</resources>

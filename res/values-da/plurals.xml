@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="common_connections_plural">
+        <item quantity="other">%d fælles kontakter</item>
+        <item quantity="one">%d fælles kontakt</item>
+    </plurals>
+    <plurals name="distance_units_away_km">
+        <item quantity="other">%d kilometer væk</item>
+        <item quantity="one">%d kilometer væk</item>
+    </plurals>
+    <plurals name="distance_units_away_mi">
+        <item quantity="other">%d mil væk</item>
+        <item quantity="one">%d mil væk</item>
+    </plurals>
+    <plurals name="friends_for_common_connections_plural">
+        <item quantity="other">%d venner for fælles kontakter</item>
+        <item quantity="one">%d ven for fælles kontakter</item>
+    </plurals>
+    <plurals name="hours_left_plural">
+        <item quantity="other">%d timer tilbage</item>
+        <item quantity="one">%d time tilbage</item>
+    </plurals>
+    <plurals name="instagram_photos_plural">
+        <item quantity="other">%d Instagram-billeder</item>
+        <item quantity="one">%d Instagram-billede</item>
+    </plurals>
+    <plurals name="interests_plural">
+        <item quantity="other">%d interesser</item>
+        <item quantity="one">%d interesse</item>
+    </plurals>
+    <plurals name="likes_plural">
+        <item quantity="other">%d synes godt om</item>
+        <item quantity="one">%d synes godt om</item>
+    </plurals>
+    <plurals name="minutes_left_plural">
+        <item quantity="other">%d minutter tilbage</item>
+        <item quantity="one">%d minut tilbage</item>
+    </plurals>
+    <plurals name="num_moments">
+        <item quantity="other">%d øjeblikke</item>
+        <item quantity="one">%d øjeblik</item>
+    </plurals>
+    <plurals name="photo_count_plural">
+        <item quantity="other">%d billeder</item>
+        <item quantity="one">%d billede</item>
+    </plurals>
+    <plurals name="plus_paywall_option_text">
+        <item quantity="other">%1$s MÅNEDER FOR %2$s/md</item>
+        <item quantity="one">%1$s MÅNED FOR %2$s/md</item>
+    </plurals>
+</resources>
